@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>{% if page.title %}{{ page.title }}{% else %}Myles Braithwaite{% endif %}</title>
+    <meta name="author" content="Myles Braithwaite <me@mylesbraithwaite.com>">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="generator" content="Jekyll">
+    <meta name="generated" content="{% render_time %}">
+    
+    <link rel="shortcut icon" href="/media/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/media/img/apple-touch-icon.png">
+    
+    <!-- CSS : implied media="all" -->
+    <link rel="stylesheet" href="/media/css/all.css">
+    <link rel="stylesheet" href="/media/css/pygments.css">
+    
+    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+    <script type="text/javascript" charset="utf-8" src="media/js/libs/modernizr-1.6.min.js"></script>
+    
+    {% if page.shorturl %}<link rel="shorturl" href="{{ page.shorturl }}">{% endif %}
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1><a href="/">Myles Braithwaite</a></h1>
+        </header>
+        
+        <div id="main">
+            {{ content }}
+        </div>
+        
+        <footer></footer>
+    </div>
+    
+    <script type="text/javascript" charset="utf-8" src="/media/js/libs/jquery-1.4.4.js"></script>
+</body>
+</html>

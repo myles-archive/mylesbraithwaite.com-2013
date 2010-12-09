@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<article class="link">
+    <header><h1><a href="{{ page.link }}">{{ page.title }}</a></h1></header>
+    <section>
+        {{ content }}
+    </section>
+    <footer>
+        <p>{{ page.date | date: "%A, %d %B %Y at %I:%M %p" }}</p>
+    </footer>
+</article>
