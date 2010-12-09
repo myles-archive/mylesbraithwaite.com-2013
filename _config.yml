@@ -3,4 +3,8 @@ markdown: rdiscount
 permalink: /:categories/:year/:title
 pagination: 5
 
-exclude: ['Rakefile', 'README.mdown']
+exclude: [
+    'Rakefile',
+    'README.mdown',
+    'MylesBraithwaite.com.tmproj'
+]
