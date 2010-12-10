@@ -30,31 +30,36 @@
 </head>
 <body>
     <div id="container">
-        <div id="inner">
-            <header id="top">
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/archive/">Archive</a>
-                    <a href="/about/">About</a>
-                    <a href="/subscribe/">Subscribe</a>
-                </nav>
-                <h1><a href="/">Myles Braithwaite</a></h1>
-            </header>
-
-            <div id="main">
-                {{ content }}
-            </div>
-            
-            
-            <div id="sidebar">
-                <aside>
-                    <h1>About</h1>
-                    <p>Myles Braithwaite is a twenty two year old computer programmer living in Toronto, Canada &amp; works for Monkey in your Soul. He has been told he is a new-age renaissance man. Like most web developers who have a personal page he likes talking about himself in the third person.</p>
-                </aside>
-            </div>
-            
-            <footer id="bottom"></footer>
+        <header id="top">
+            <nav>
+                <a href="/">Home</a>
+                <a href="/archive/">Archive</a>
+                <a href="/about/">About</a>
+                <a href="/subscribe/">Subscribe</a>
+            </nav>
+            <h1><a href="/">Myles Braithwaite</a></h1>
+        </header>
+        
+        <div id="main">
+            {{ content }}
         </div>
+        
+        
+        <div id="sidebar">
+            <aside>
+                <h1>About</h1>
+                <p>Myles Braithwaite is a twenty two year old computer programmer living in Toronto, Canada &amp; works for Monkey in your Soul. He has been told he is a new-age renaissance man. Like most web developers who have a personal page he likes talking about himself in the third person.</p>
+            </aside>
+            
+            <aside>
+                <h1>Blogroll</h1>
+                <ul></ul>
+            </aside>
+        </div>
+        
+        <footer id="bottom">
+            <p>Copyright &copy; 2006-2010 <strong>Myles Braithwaite</strong>.</p>
+        </footer>
     </div>
     
     <script type="text/javascript" charset="utf-8" src="/media/js/libs/jquery-1.4.4.js"></script>
