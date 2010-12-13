@@ -1,43 +1,33 @@
-=begin
-  TODO Use the Ruby gem instaed of the command line app.
-=end
-
 module Jekyll
-  
-# Expects a lessc: key in your _config.yml file with the path to a local less.js/bin/lessc
-# Less.js will require node.js to be installed
-  class LessJsGenerator < Generator
-    safe true
-    priority :low
+  class LessConverter < Converter
+    pygments_prefix "\n"
+    pygments_suffix "\n"
     
-    def generate(site)
-      src_root = site.config['source']
-      dest_root = site.config['destination']
-      less_ext = /\.less$/i
-      
-      raise "Missing 'lessc' path in site configuration" if !site.config['lessc']
-      
-      # static_files have already been filtered against excludes, etc.
-      site.static_files.each do |sf|
-        next if not sf.path =~ less_ext
-        
-        less_path = sf.path
-        css_path = less_path.gsub(less_ext, '.css').gsub(src_root, dest_root)
-        
-        FileUtils.mkdir_p(File.dirname(css_path))
-
-        begin
-          command = [site.config['lessc'], 
-                     less_path, 
-                     css_path
-                     ].join(' ')
-                     
-          puts 'Compiling LESS: ' + command
-                     
-          `#{command}`
-        end
-      end
+    def setup
+      return if @setup
+      require 'less'
+      @setup= true
+    rescue LoadError
+      STDERR.puts 'You are missing a library required for less. Please run:'
+      STDERR.puts '  $ [sudo] gem install less'
+      raise FatalException.new("Missing dependency: less")
     end
     
+    def matches(ext)
+      ext =~ /less/i
+    end
+    
+    def output_ext(ext)
+      ".css"
+    end
+    
+    def convert(content)
+      setup
+      begin
+        Less::Engine.new(content).to_css
+      rescue => e
+        puts "Less Exception: #{e.message}."
+      end
+    end
   end
 end
