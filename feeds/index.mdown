@@ -9,7 +9,7 @@ You can subscribe to this website in your [feed reader](http://en.wikipedia.org/
 
 ## Subscribe to the Main Feed
 
-* [RSS](http://mylesbraithwaite.com/feeds/rss.xml) or [Atom](http://mylesbraithwaite.com/feeds/atom.xml)
+* [RSS](/feeds/rss.xml) or [Atom](/feeds/atom.xml)
 
 ## Journal-Only Feed
 
