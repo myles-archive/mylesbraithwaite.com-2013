@@ -1,0 +1,54 @@
+---
+layout: post
+title: Tornado at PyGTA
+tags: PyGTA, Tornado, Python, Toronto
+date: 2010-01-20T11:48:46
+category: journal
+---
+
+Last night at [PyGTA][1], [Mike][2] gave a short talk/demo about his
+findings using [Tornado][3] and [CouchDB][4] to write a
+real time chat and voting application for [his PyCon talk][5].
+
+Tornado is a lightweight non-blocking web server created by
+[FriendFeed][6] and Open Source by [Facebook][7]. The API is similar
+to [web.py][8] and App Engine's [webapp framework][7]. Mike's ending comments was that Tornado can out perform Twisted. But
+he found he had to write a lot of code to do things that were built
+into Twisted (or any other modern web framework) already.
+
+His thoughts on CouchDB:
+
+> I'm really beginning to regret the choice of CouchDB for the
+> back-end.  It's working perfectly well, but I have literally dozens
+> of pieces of code hanging around for doing SQL-based paging... none
+> of which are applicable to CouchDB.
+
+
+*Referenced: [Things I'd like to play with (given enough time)][10]*
+
+This website (and a few other sites I manage) will be moving from
+[Apache 2][11] and [WSGI][12] to Tornado and [Nginx][13] [#][14]. It
+will still be built on top of [Django][15] thought so most of the
+issues Mike was talking about wouldn't apply to me.
+
+**Other people who wrote about this event**:
+
+* [Tom Low-Shang][16] -- [Tornado][17]
+
+[1]: http://pygta.org/2010-01/tornado/ "PyGTA - Tornado Hacking"
+[2]: http://blog.vrplumber.com/index.php?/archives/2418-Tornado-PyGTA-this-month,-PyCon-Dress-Rehearsal-next.html "Tornado @ PyGTA this month, PyCon Dress Rehearsal next"
+[3]: http://tornadoweb.org
+[4]: http://couchdb.apache.org
+[5]: http://us.pycon.org/2010/conference/talks/
+[6]: http://bret.appspot.com/entry/tornado-web-server "The technology behind Tornado, FriendFeed's web server"
+[7]: http://developers.facebook.com/news.php?blog=1&story=301 "Tornado: Facebook's Real-Time Web Framework for Python"
+[8]: http://webpy.org/
+[9]: http://code.google.com/appengine/docs/python/tools/webapp/ "Google App Engine webapp Framework"
+[10]: http://blog.vrplumber.com/index.php?/archives/2419-Things-Id-like-to-play-with-given-enough-time.html "Things I'd like to play with (given enough time)"
+[11]: http://httpd.apache.org "Apache HTTPD"
+[12]: http://code.google.com/p/modwsgi/ "mod_wsgi"
+[13]: http://nginx.net
+[14]: http://twitter.com/mylesb/status/7772733185 "Working on a new backend for my website (Tornado, Supervisord, & Nginx). My current setup is Apache2 and WSGI. -- on Twitter at 14th Jan 6:56 PM"
+[15]: http://djangoproject.org
+[16]: http://tomlowshang.blogspot.com
+[17]: http://tomlowshang.blogspot.com/2010/01/tornado.html

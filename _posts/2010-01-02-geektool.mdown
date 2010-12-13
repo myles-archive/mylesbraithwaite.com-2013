@@ -1,0 +1,45 @@
+---
+layout: post
+title: Geektool Setup
+tags: GeekTool, Mac OS X, Apple, Desktop
+date: 2010-01-02T17:45:00
+category: journal
+---
+
+I recently installed [Geektool](http://projects.tynsoe.org/en/geektool/) on my MacBook Pro. I used so many sources to set it up that I thought it would be a good idea that I write a blog post about some of the more complicated configurations.
+
+[![My Geektool Setup](http://farm5.static.flickr.com/4051/4237928127_d2e13648c1_m.jpg)](http://www.flickr.com/photos/mylesbraithwaite/4237928127/)
+
+### Sunrise & Sunset
+
+![Sunrise & Sunset](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/01-sunrise-and-sunset.png)
+
+I am getting the sunrise & sunset data from [weather undergroup](http://wund.com/) [mobile website](http://m.wund.com).
+
+#### Sunrise
+	
+	curl --silent http://m.wund.com/global/stations/71265.html | grep 'Sunrise' | sed -e :a -e 's/]*&gt;//g;/&lt;/N;//ba' | sed -e 's/Sunrise/Sunrise: /g' | sed -e 's/EST//g'
+
+#### Sunset
+
+	curl --silent http://m.wund.com/global/stations/71265.html | grep 'Sunset' | sed -e :a -e 's/]*&gt;//g;/&lt;/N;//ba' | sed -e 's/Sunset/Sunset: /g' | sed -e 's/EST//g'
+
+### IP Addresses
+
+![IP Addresses](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/02-ip-addresses.png)
+
+<script src="http://gist.github.com/267698.js?file=ip_addresses.sh"></script>
+
+### Weather Image
+
+![Weather Image](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/03-weather-image.png)
+
+<script src="http://gist.github.com/267702.js?file=get_weather_image.sh"></script>
+
+### Weather Forecast
+
+![Weather Forecast](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/04-weather-forecast.png)
+
+I am using [Yahoo Weather](http://ca.weather.yahoo.com/) to get the weather image.
+
+	curl --silent "http://weather.yahooapis.com/forecastrss?p=CAXX0504&u=c" | grep -E '(Current Conditions:|C<BR)' | sed -e 's/Current Conditions://' -e 's///' -e 's/<b>//' -e 's///' -e 's///' -e 's///' -e 's///'</b>

@@ -1,0 +1,10 @@
+---
+layout: link
+title: North Americans needn't worry about vitamin D
+category: linked
+tags: North Americans, Vitamin D, Calcium, Health
+date: 2010-12-01T11:34:33
+link: http://www.newscientist.com/article/mg20827892.600-north-americans-neednt-worry-about-vitamin-d.html?DCMP=OTC-rss&nsref=online-news
+---
+
+> The report confirmed the importance of calcium and vitamin D in maintaining bone health, but said other claims, such as those suggesting massive doses of vitamin D can prevent cancer, cardiovascular disease and diabetes, remain unproven.

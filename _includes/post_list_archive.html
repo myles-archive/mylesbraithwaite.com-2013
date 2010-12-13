@@ -1,5 +1,5 @@
 <ul class="archive">
-    {% for post in page.posts %}
+    {% for post in page.posts reversed %}
         {% capture old_month %}{{ previous_post.date | date:"%m" }}{% endcapture %}
         {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
         {% capture old_year %}{{ previous_post.date | date:"%Y" }}{% endcapture %}
