@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+<rss xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com"/>
+		<title>Myles Braithwaite</title>
+		<lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+		<pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+		
+		{% for post in site.categories.journal limit: 5 %}
+		<item>
+			<title>{{ post.title }}</title>
+			{% if post.link %}
+			<link href="{{ post.link }}"/>
+			{% else %}
+			<link href="http://mylesbraithwaite.com{{ post.url }}"/>
+			{% endif %}
+			<pubDate>{{ post.date | date_to_xmlschema }}</updated>
+			<guid>http://mylesbraithwaite.com{{ post.id }}</guid>
+			<description>{{ post.content | xml_escape }}</description>
+		</entry>
+		{% endfor %}
+	</item>
+</rss>

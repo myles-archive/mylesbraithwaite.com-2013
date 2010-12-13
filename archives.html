@@ -1,5 +1,12 @@
+---
+layout: archive
+title: Archives
+---
+
+<p><a href="/linked/index.html" title="Linked archive list">Linked</a> and <a href="/journal/index.html" title="Journal archive list">Journal</a> archive post list.</p>
+
 <ul class="archive">
-    {% for post in page.posts %}
+    {% for post in site.posts %}
         {% capture old_month %}{{ previous_post.date | date:"%m" }}{% endcapture %}
         {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
         {% capture old_year %}{{ previous_post.date | date:"%Y" }}{% endcapture %}

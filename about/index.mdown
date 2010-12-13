@@ -2,3 +2,18 @@
 layout: about
 title: About
 ---
+
+## About Me
+
+Not really sure what I should write here right now so I will put a big TODO so I can remember to update this section soon.
+
+## About This Site
+
+This site is powered by [Jekyll](http://jekyllrb.com/ "Jekyll - Transform your text into a monster") and is currently be severed with the awesome, amazing, and beautiful [Apache HTTP Server](http://httpd.apache.org/ "Apache HTTP Server - The Number One HTTP Server On The Internet"). You might be able to view the source of this site on [my GitHub account](http://github.com/myles "Myles Braithwaite's GitHub Profile") at [myles/mylesbraithwaite.com](http://github.com/myles/mylesbraithwaite.com) (if I have made it public).
+
+This site was created with TextMate, VIM, and Git.
+
+I am trying to mirror with site across the internet on many different servers and services. Current mirrors:
+
+* [www.mylesbraithwaite.com](http://www.mylesbraithwaite.com/) - The main website hosted on a [Linode](http://linode.com/) in Newark.
+* [mylesb.nfshost.com](http://mylesb.nfshost.com/) - Hosted on  [NearlyFreeSpeech.Net](https://www.nearlyfreespeech.net/).
