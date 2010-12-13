@@ -1,0 +1,5 @@
+---
+layout: about
+title: Curriculum Vit&aelig;
+---
+

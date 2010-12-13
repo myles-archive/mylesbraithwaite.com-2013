@@ -2,4 +2,24 @@
 layout: base
 ---
 
-Welcome to my website.
+## Who am I?
+
+I am a computer programmer living in Toronto, Ontario.
+
+## Recent journal posts
+
+<dl>
+	{% for post in site.categories.journal limit: 5 %}
+	<dt>{{ post.date | date: "%d %B" }}</dt>
+	<dd><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></dd>
+	{% endfor %}
+</dl>
+
+## Recent linked post
+
+<dl>
+	{% for post in site.categories.linked limit: 5 %}
+	<dt>{{ post.date | date: "%d %B" }}</dt>
+	<dd><a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ post.url }}" title="{{ post.title }}">#</a></dd>
+	{% endfor %}
+</dl>

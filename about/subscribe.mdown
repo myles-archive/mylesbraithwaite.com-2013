@@ -1,0 +1,6 @@
+---
+layout: about
+title: Subscribe
+---
+
+* [RSS](/feeds/rss.xml) or [Atom](/feeds/atom.xml)

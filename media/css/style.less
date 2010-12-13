@@ -4,11 +4,11 @@ layout: nil
 @import "media/css/fonts.css";
 @import "media/css/pygments.css";
 
-@red_colour: rgb(204, 57, 16);
-@yellow_colour: rgb(241, 242, 192);
-@brown_colour: rgb(204, 197, 158);
-@green_colour: rgb(143, 166, 142);
-@drak_colour: rgb(51, 47, 41);
+@brand_colour: rgb(2, 73, 89);
+@light_brand_colour: rgb(0, 146, 149);
+@teal_colour: rgb(3, 166, 136);
+@sand_colour: rgb(240, 242, 223);
+@teal_green_colour: rgb(159, 208, 162);
 
 body { font-family: "Helvetica Neue", Helvetica, Arial, "MS Trebuchet", sans-serif; }
 
@@ -16,32 +16,44 @@ h1, h2, h3, h4, h5, h6 { font-size: 1em; }
 
 div#container { margin: 0 auto; max-width: 750px; min-width: 700px; }
 
+a {
+    color: @brand_colour;
+    :hover {
+        color: @light_brand_colour;
+    }
+}
+
 header#top {
     font-size: 1em;
+    margin: 0 0 2em;
     
     a {
         text-decoration: none;
-        color: @drak_colour;
-    }
-    a:hover {
-        color: @red_colour;
+        color: @light_brand_colour;
+        
+        :hover {
+            color: @brand_colour;
+        }
     }
     
     h1 {
         font-size: 1em;
         display: inline;
+        margin-right: 1em;
         
         a {
-            color: @red_colour;
-        }
-        a:hover {
-            color: @drak_colour;
+            color: @brand_colour;
+            
+            :hover {
+                color: @light_brand_colour;
+            }
         }
     }
     nav {
         display: inline;
         a {
             font-weight: lighter;
+            margin-right: .5em;
         }
     }
 }
@@ -50,7 +62,43 @@ div#main {
     
 }
 
+article {
+    blockquote {
+        border-left: 1px solid @sand_colour;
+        padding: 0 .5em;
+        margin: 0 1em;
+    }
+    
+    header {
+        * {
+            display: inline
+        }
+    }
+    
+    footer {
+        display: none;
+    }
+    
+    section {
+        margin: 0 1em;
+        padding: 0 .5em;
+    }
+    
+    pre {
+        background: @sand_colour;
+        padding: 1em;
+    }
+}
+
+article.link {
+    
+}
+
 footer#bottom {
+    border-top: 2px solid @sand_colour;
+    padding: 1em 0;
+    margin: 1em 0;
+    
     font-weight: lighter;
     
     p { margin: 0; padding: 0; }

@@ -12,7 +12,10 @@ end
 
 desc 'Build and deploy'
 task :publish => :build do
-    sh "rsync -rtzh --progress --delete --delete _site/ myles@fox:/srv/www/com_mylesbraithwaite_www/html"
+  command = "rsync -rtzh --progress --delete --delete _site/ "
+  
+  sh command + "myles@fox:/srv/www/com_mylesbraithwaite_www/html"
+  sh command + "nfs-myles-myles:/home/public"
 end
 
 def jekyll(opts='')
