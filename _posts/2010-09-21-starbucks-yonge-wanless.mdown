@@ -3,6 +3,7 @@ layout: post
 title: My Mayoral Race for the Starbucks at Yonge and Wanless
 tags: Foursquare, Mayoral , Starbucks
 date: 2010-09-21T09:16:56
+category: journal
 ---
 
 <a href="http://www.flickr.com/photos/aubreyarenas/1400570914/" title="Two shots of espresso please by Aubrey Arenas" style="float:left;margin:.5em;"><img src="http://farm2.static.flickr.com/1422/1400570914_a76b9bf9c9_s_d.jpg" alt="Two shots of espresso please by Aubrey Arenas"></a>

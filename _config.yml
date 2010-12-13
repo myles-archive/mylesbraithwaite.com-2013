@@ -1,6 +1,6 @@
 pygments: true
 markdown: rdiscount
-permalink: /:categories/:year/:title
+permalink: /:categories/:year/:month/:title
 pagination: 5
 
 exclude: [
@@ -8,3 +8,5 @@ exclude: [
     'README.mdown',
     'MylesBraithwaite.com.tmproj'
 ]
+
+lessc: /usr/bin/lessc
