@@ -20,67 +20,6 @@ def jekyll(opts='')
     sh 'jekyll ' + opts
 end
 
-JOURNAL_TEMPLATE = <<-EOS
----
-layout: post
-title: #{args.title}
-tags: 
-date: #{ Time.now.strftime('%Y-%m-%dT%X') }
-category: journal
----
-
-EOS
-
-LINKED_TEMPLATE = <<-EOS
----
-layout: link
-title: #{args.title}
-tags: 
-date: #{ Time.now.strftime('%Y-%m-%dT%X') }
-category: linked
-link: #{args.link}
----
-
-EOS
-
-namespace "create" do
-  desc "New journal post."
-  task :journal, [:title, :slug] do |t, args|
-    args.with_defaults(:title => "Untitled", :slug => "untitled")
-    
-    filename = "#{ Time.now.strftime('%Y-%m-%d') }-#{args.slug}.mdown"
-    filepath = File.join('_posts/', filename)
-    
-    if File.exist?(filepath)
-      raise "Post already exists."
-    end
-    
-    post = File.open(filepath, 'w')
-    post.puts JOURNAL_TEMPLATE
-    post.close
-    
-    sh "$EDITOR #{filepath}"
-  end
-  
-  desc "New linked post."
-  task :linked, [:title, :slug, :link] do |t, args|
-    args.with_defaults(:title => "Untitled", :slug => "untitled", :link => "http://example.com/")
-    
-    filename = "#{ Time.now.strftime('%Y-%m-%d') }-#{args.slug}.mdown"
-    filepath = File.join('_posts/', filename)
-    
-    if File.exist?(filepath)
-      raise "Post already exists."
-    end
-    
-    post = File.open(filepath, 'w')
-    post.puts LINKED_TEMPLATE
-    post.close
-    
-    sh "$EDITOR #{filepath}"
-  end
-end
-
 desc 'Ping PubSubHubBub server.'
 task :ping do
   require 'cgi'

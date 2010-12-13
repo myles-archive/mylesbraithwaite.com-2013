@@ -6,7 +6,8 @@ pagination: 5
 exclude: [
     'Rakefile',
     'README.mdown',
-    'MylesBraithwaite.com.tmproj'
+    'MylesBraithwaite.com.tmproj',
+    'config.ru'
 ]
 
 lessc: /usr/bin/lessc
