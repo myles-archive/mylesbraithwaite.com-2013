@@ -1,3 +1,7 @@
+=begin
+  TODO Use the Ruby gem instaed of the command line app.
+=end
+
 module Jekyll
   
 # Expects a lessc: key in your _config.yml file with the path to a local less.js/bin/lessc
