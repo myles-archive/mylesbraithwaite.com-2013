@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 5
+# rev 6
 
 /media/css/style.css
 /media/css/screen.css
@@ -12,3 +12,19 @@ CACHE MANIFEST
 
 /media/js/libs/jquery-1.4.4.js
 /media/js/libs/modernizr-1.6.js
+
+/media/fonts/Cantarell-Bold.ttf
+/media/fonts/Cantarell-BoldOblique.ttf
+/media/fonts/Cantarell-Oblique.ttf
+/media/fonts/Cantarell-Regular.ttf
+/media/fonts/JosefinSlab-Bold.ttf
+/media/fonts/JosefinSlab-BoldItalic.ttf
+/media/fonts/JosefinSlab-Italic.ttf
+/media/fonts/JosefinSlab-Light.ttf
+/media/fonts/JosefinSlab-LightItalic.ttf
+/media/fonts/JosefinSlab-Regular.ttf
+/media/fonts/JosefinSlab-SemiBold.ttf
+/media/fonts/JosefinSlab-SemiBoldItalic.ttf
+/media/fonts/JosefinSlab-Thin.ttf
+/media/fonts/JosefinSlab-ThinItalic.ttf
+/media/fonts/Molengo-Regular.ttf
