@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>feeds/atom.xml</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,10 +20,29 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>228</integer>
 	<key>metaData</key>
-	<dict/>
+	<dict>
+		<key>feeds/atom.xml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>36</integer>
+				<key>line</key>
+				<integer>16</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>feeds/atom.xml</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{1001, 177}, {728, 797}}</string>
+	<string>{{1079, 181}, {728, 797}}</string>
 </dict>
 </plist>

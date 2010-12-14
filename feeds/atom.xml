@@ -14,7 +14,7 @@ layout: nil
 		<email>me@mylesbraithwaite.com</email>
 	</author>
 	
-	{% for post in site.posts %}
+	{% for post in site.posts limit: 20 %}
 	<entry>
 		<title>{{ post.title | xml_escape }}</title>
 		{% if post.link %}
