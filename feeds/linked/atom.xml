@@ -22,7 +22,7 @@ layout: nil
 		<id>http://mylesbraithwaite.com{{ post.id }}</id>
 		<content type="html">
 		    {{ post.content | xml_escape }}
-		    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }} {{ '">#</a>.</p>' | xml_escape }}
+		    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }} {{ '">#</a></p>' | xml_escape }}
 		</content>
 	</entry>
 	{% endfor %}

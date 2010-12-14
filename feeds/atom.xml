@@ -23,7 +23,7 @@ layout: nil
 		<link href="{{ post.link }}"/>
 		<content type="html">
 		    {{ post.content | xml_escape }}
-		    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }} {{ '">#</a>.</p>' | xml_escape }}
+		    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }} {{ '">#</a></p>' | xml_escape }}
 		</content>
 		{% else %}
 		<link href="http://mylesbraithwaite.com{{ post.url }}"/>
