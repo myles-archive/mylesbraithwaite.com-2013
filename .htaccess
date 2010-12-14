@@ -43,8 +43,3 @@ ErrorDocument 404 /404.html
 AddDefaultCharset utf-8
 # force utf-8 for a number of file formats
 AddCharset utf-8 .html .css .js .xml .json .rss
- 
- 
- 
-# We don't need to tell everyone we're apache.
-ServerSignature Off
