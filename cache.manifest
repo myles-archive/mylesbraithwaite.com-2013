@@ -1,0 +1,22 @@
+CACHE MANIFEST
+# rev 2
+
+/media/css/style.css
+/media/css/screen.css
+
+/media/img/favicon.ico
+/media/img/apple-touch-icon-ipad.png
+/media/img/apple-touch-icon-iphone.png
+/media/img/apple-touch-icon-iphone4.png
+/media/img/apple-touch-startup.png
+
+/media/js/libs/jquery-1.4.4.js
+/media/js/libs/modernizr-1.6.js
+
+FALLBACK:
+/ /offline.html
+/about/ /about/index.html
+/about/index.html /about/index.html
+/about/cv.html /about/cv.html
+NETWORK:
+*
