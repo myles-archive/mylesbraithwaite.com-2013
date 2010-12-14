@@ -16,7 +16,7 @@ layout: nil
 	
 	{% for post in site.posts %}
 	<entry>
-		<title>{{ post.title }}</title>
+		<title>{{ post.title | xml_escape }}</title>
 		{% if post.link %}
 		<link href="{{ post.link }}"/>
 		{% else %}

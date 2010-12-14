@@ -9,5 +9,3 @@ exclude: [
     'MylesBraithwaite.com.tmproj',
     'config.ru'
 ]
-
-lessc: /usr/bin/lessc
