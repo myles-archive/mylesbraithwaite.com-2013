@@ -10,18 +10,21 @@ task :build do
     jekyll('--no-future')
 end
 
-desc "Upload media files to Amazon S3"
-task :media_publish => :build do
-  bucket = 'media.mylesbraithwaite.com'
-  sh 's3cmd put --recursive _site/media/ s3:// ' + bucket
+command = "rsync -rtzh --progress --delete --delete _site/ "
+
+desc 'Build and deploy to master'
+task :publish => :build do
+  sh command + "myles@fox:/srv/www/com_mylesbraithwaite_www/html"
 end
 
-desc 'Build and deploy'
-task :publish => :build do
-  command = "rsync -rtzh --progress --delete --delete _site/ "
-  
-  sh command + "myles@fox:/srv/www/com_mylesbraithwaite_www/html"
+desc 'Build and deploy to master and mirrors'
+task :publish_mirrors => :publish do
+  # rsync mirrors
   sh command + "nfs-myles-myles:/home/public"
+  sh command + "webfaction:~/webapps/myles"
+  
+  # s3 mirror
+  sh "s3cmd sync --acl-public _site/ s3://mylesbraithwaite.com"
 end
 
 def jekyll(opts='')
@@ -33,7 +36,6 @@ desc 'Ping PubSubHubBub server.'
 task :ping do
   require 'cgi'
   require 'net/http'
-  printHeader 'Pinging pubsubhubbub server'
   data = 'hub.mode=publish&hub.url=' + CGI::escape("http://mylesbraithwaite.com/atom.xml")
   http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
   resp, data = http.post('http://pubsubhubbub.appspot.com/publish', data, { 'Content-Type' => 'application/x-www-form-urlencoded' })
@@ -45,8 +47,7 @@ task :pingomatic do
   require 'rubygems'
   require 'cgi'
   require 'net/http'
-  printHeader 'Pinging Pingomatic server'
-  http = Net::HTTP.nwe('pingomatic.com', 80)
+  http = Net::HTTP.new('pingomatic.com', 80)
   data = 'title=' + CGI::escape("Myles Braithwaite") + "&blogurl=" + CGI::escape("http://mylesbraithwaite.com/") + "&rssurl=" + CGI::escape("http://mylesbraithwaite.com/atom.xml") + "&chk_blogs=on&chk_technorati=on&chk_feedburner=on&chk_google=on&chk_bloglines=on"
   resp, data = http.get('http://pingomatic.com/ping/?' + data)
   puts "Ping error: #{resp}, #{data}" unless resp.code == "200"

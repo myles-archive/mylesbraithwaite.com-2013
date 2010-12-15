@@ -44,6 +44,11 @@ AddDefaultCharset utf-8
 # force utf-8 for a number of file formats
 AddCharset utf-8 .html .css .js .xml .json .rss
 
+# Rewrite static files to the CDN
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^media/(.*) http://d3olrcfpp6yl2k.cloudfront.net/media/$1
+</IfModule>
 
 # Redirects
 Redirect /feeds/blog-posts/ /feeds/journal/atom.xml

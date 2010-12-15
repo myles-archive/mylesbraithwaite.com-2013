@@ -1,14 +1,14 @@
 {
-    "name": "Myles Braithwaite",
+    "name": "Myles B.",
     "description": "Myles Braithwaite's personal website.",
-    "version": "8",
+    "version": "9",
     "app": {
         "urls": [
             "*://mylesbraithwaite.com/",
             "*://myles.nfshost.com/"
         ],
         "launch": {
-            "web_url": "http://myles.nfshost.com/"
+            "web_url": "http://mylesbraithwaite.com/"
         }
     },
     "icons": {

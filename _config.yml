@@ -7,5 +7,6 @@ exclude: [
     'Rakefile',
     'README.mdown',
     'MylesBraithwaite.com.tmproj',
-    'config.ru'
+    'config.ru',
+    'TODO.txt'
 ]

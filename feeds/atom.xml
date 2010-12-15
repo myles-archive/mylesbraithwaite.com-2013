@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
 	<title>Myles Braithwaite</title>
-	<link href="http://mylesbraithwaite.com/atom.xml" rel="self"/>
+	<link href="http://mylesbraithwaite.com/feeds/atom.xml" rel="self"/>
 	<link href="http://mylesbraithwaite.com/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://mylesbraithwaite.com/</id>
