@@ -10,6 +10,12 @@ task :build do
     jekyll('--no-future')
 end
 
+desc "Upload media files to Amazon S3"
+task :media_publish => :build do
+  bucket = 'media.mylesbraithwaite.com'
+  sh 's3cmd put --recursive _site/media/ s3:// ' + bucket
+end
+
 desc 'Build and deploy'
 task :publish => :build do
   command = "rsync -rtzh --progress --delete --delete _site/ "

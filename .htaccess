@@ -43,3 +43,19 @@ ErrorDocument 404 /404.html
 AddDefaultCharset utf-8
 # force utf-8 for a number of file formats
 AddCharset utf-8 .html .css .js .xml .json .rss
+
+
+# Redirects
+Redirect /feeds/blog-posts/ /feeds/journal/atom.xml
+Redirect /feeds/tumblelog/ /feeds/atom.xml
+
+Redirect /blog/2009/jun/9/django-intranet/ /jounral/2009/06/django-intranet/
+Redirect /blog/2009/oct/20/evernote-ubuntu/ /journal/2009/10/evernote-ubuntu/
+Redirect /blog/2010/nov/24/how-find-if-directory-or-file-exists-bash/ /journal/2010/11/how-find-if-directory-or-file-exists-bash/
+Redirect /blog/2010/sep/21/starbucks-yonge-wanless/ /journal/2010/09/starbucks-yonge-wanless/
+Redirect /blog/2010/sep/17/flamingo-brandon-flowers/ /journal/2010/09/flamingo-brandon-flowers
+
+Redirect /snippets/17/ /journal/2007/10/secret-key/
+
+Redirect /blog/ /journal/index.html
+Redirect /bookmarks/ /linked/index.html

@@ -1,7 +1,7 @@
 {
     "name": "Myles Braithwaite",
     "description": "Myles Braithwaite's personal website.",
-    "version": "6",
+    "version": "8",
     "app": {
         "urls": [
             "*://mylesbraithwaite.com/",
