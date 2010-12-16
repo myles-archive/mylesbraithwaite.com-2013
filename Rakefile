@@ -32,8 +32,13 @@ def jekyll(opts='')
     sh 'jekyll ' + opts
 end
 
+desc 'Ping'
+task :ping => [:ping_pubsubhubbub, :ping_pingomatic] do
+  puts "Pinged"
+end
+
 desc 'Ping PubSubHubBub server.'
-task :ping do
+task :ping_pubsubhubbub do
   require 'cgi'
   require 'net/http'
   data = 'hub.mode=publish&hub.url=' + CGI::escape("http://mylesbraithwaite.com/atom.xml")
@@ -43,7 +48,7 @@ task :ping do
 end
 
 desc "Ping Pingomatic server."
-task :pingomatic do
+task :ping_pingomatic do
   require 'rubygems'
   require 'cgi'
   require 'net/http'
