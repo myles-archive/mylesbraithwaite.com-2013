@@ -50,6 +50,9 @@ AddCharset utf-8 .html .css .js .xml .json .rss
     RewriteRule ^media/(.*) http://d3olrcfpp6yl2k.cloudfront.net/media/$1
 </IfModule>
 
+Redirect /favicon.ico http://d3olrcfpp6yl2k.cloudfront.net/media/img/favicon.ico
+Redirect /apple-touch-icon.png  http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon.png
+
 # Redirects
 Redirect /feeds/blog-posts/ /feeds/journal/atom.xml
 Redirect /feeds/tumblelog/ /feeds/atom.xml
