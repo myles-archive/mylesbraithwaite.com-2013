@@ -13,6 +13,8 @@ layout: nil
 		<name>Myles Braithwaite</name>
 		<email>me@mylesbraithwaite.com</email>
 	</author>
+	<icon>http://d3olrcfpp6yl2k.cloudfront.net/media/img/favicon.ico</icon>
+	<logo>http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon-ipad.png</logo>
 	
 	{% for post in site.categories.linked limit: 10 %}
 	<entry>
