@@ -32,6 +32,11 @@ def jekyll(opts='')
     sh 'jekyll ' + opts
 end
 
+desc 'Validate the ATOM feeds.'
+task :validate_atom => :build do
+  sh 'find _site/feeds -name "atom.xml" | xargs xmllint --valid --noout'
+end
+
 desc 'Ping'
 task :ping => [:ping_pubsubhubbub, :ping_pingomatic] do
   puts "Pinged"

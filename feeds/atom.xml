@@ -2,7 +2,7 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xml:lang="en" xml:base="http://mylesbraithwaite.com/atom.xml" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
 	<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
 	<title>Myles Braithwaite</title>
 	<link href="http://mylesbraithwaite.com/feeds/atom.xml" rel="self"/>
