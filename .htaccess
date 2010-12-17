@@ -56,6 +56,8 @@ Redirect /apple-touch-icon.png  http://d3olrcfpp6yl2k.cloudfront.net/media/img/a
 # Redirects
 Redirect /feeds/blog-posts/ /feeds/journal/atom.xml
 Redirect /feeds/tumblelog/ /feeds/atom.xml
+Redirect /feeds/blog/ /feeds/journal/atom.xml
+Redirect /blog/feeds/atom/latest/ /feeds/journal/atom.xml
 
 Redirect /blog/2009/jun/9/django-intranet/ /jounral/2009/06/django-intranet/
 Redirect /blog/2009/oct/20/evernote-ubuntu/ /journal/2009/10/evernote-ubuntu/

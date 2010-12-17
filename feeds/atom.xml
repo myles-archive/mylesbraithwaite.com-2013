@@ -22,7 +22,7 @@ layout: nil
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://mylesbraithwaite.com{{ post.id }}</id>
 		{% if post.link %}
-		<link href="{{ post.link }}"/>
+		<link href="{{ post.link | xml_escape }}"/>
 		<content type="html">
 		    {{ post.content | xml_escape }}
 		    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '">#</a></p>' | xml_escape }}

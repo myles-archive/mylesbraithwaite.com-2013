@@ -20,7 +20,7 @@ layout: nil
 	<entry>
 		<title>{{ post.title | xml_escape }}</title>
 		{% if post.link %}
-		<link href="{{ post.link }}"/>
+		<link href="{{ post.link | xml_escape }}"/>
 		{% else %}
 		<link href="http://mylesbraithwaite.com{{ post.url }}"/>
 		{% endif %}
