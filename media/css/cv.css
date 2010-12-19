@@ -1,0 +1,63 @@
+/* @override http://0.0.0.0:4000/media/css/cv.css */
+
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Futura, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+div#container header {
+	clear: both;
+}
+
+div#container header div {
+	width: 300px;
+	height: 100px;
+}
+
+div#container header h1,
+div#container header h2 {
+	margin: 0;
+}
+
+div#container header div.left {
+	float: left;
+}
+
+div#container header div.right {
+	float: right;
+}
+
+div#container header div.right ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	text-align: right;
+}
+
+div#container section {}
+
+div#container section header {
+	width: 150px;
+	float: left;
+}
+
+div#container section article {
+	width: 450px;
+	float: right;
+}
+
+div#container section article p {
+	margin-top: 0;
+}
+
+footer {
+	clear: both;
+}
