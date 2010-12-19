@@ -1,7 +1,7 @@
 ---
 category: linked
 layout: link
-date: TODO
+date: 2010-12-19-T15:50:00
 link: https://bitbucket.org/benad/delicious_to_evernote_mac
 title: Delicious to Evernote
 tags: Evernote, Delicious, AppleScript, Mac OS X
