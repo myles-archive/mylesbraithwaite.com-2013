@@ -1,0 +1,10 @@
+---
+category: linked
+title: Amazon Receipt Generator
+tags: Amazon, Social Engineering, Windows
+layout: link
+link: http://sunbeltblog.blogspot.com/2010/12/taking-look-at-fake-amazon-receipt.html
+date: TODO
+---
+
+TODO
