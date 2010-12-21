@@ -1,0 +1,14 @@
+---
+title: Software I Loved and Hated in 2010
+tags: Software, Applications, Linux, Windows, Mac OS X, 2010
+layout: post
+category: journal
+---
+
+## Dropbox
+
+## Evernote
+
+## Omni{Focus,Graffle,Outliner}
+
+## 

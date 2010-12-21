@@ -44,6 +44,10 @@ AddDefaultCharset utf-8
 # force utf-8 for a number of file formats
 AddCharset utf-8 .html .css .js .xml .json .rss
 
+# Disable auto-adding slashes because a slash at the end look so
+# 1990s. Like come on dude.
+# DirectorySlash Off
+
 # Rewrite static files to the CDN
 <IfModule mod_rewrite.c>
     RewriteEngine On
