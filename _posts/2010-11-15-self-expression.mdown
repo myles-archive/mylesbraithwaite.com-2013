@@ -2,7 +2,7 @@
 layout: link
 title: Self Expression Matters
 category: linked
-tags: Tumblr, Facebook
+tags: [Tumblr, Facebook]
 link: http://www.avc.com/a_vc/2010/11/self-expression-matters.html
 ---
 

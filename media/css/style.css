@@ -1,13 +1,21 @@
-div#container { margin: 0 auto; max-width: 750px; min-width: 700px; }
+/* @override http://0.0.0.0:4000/media/css/style.css */
+
+div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
 
 @media (max-width: 600px) {
-    div#container { margin: 0 .5em; max-width: 600px; min-width: 500px; }
+    div#container { margin: 0 .5em; max-width: 590px; min-width: 500px; }
+    
+    div.inline.illustration { display: none; }
 }
 
 @media (max-width: 500px) {
-    div#container { margin: 0 .5em; max-width: 500px; min-width: 400px; }
+    div#container { margin: 0 .5em; max-width: 490px; min-width: 400px; }
+    
+    div.inline.illustration { display: none; }
 }
 
 @media (max-width: 400px) {
-    div#container { margin: 0 .5em; max-width: 400px; min-width: 300px; }
+    div#container { margin: 0 .5em; max-width: 390px; min-width: 300px; }
+    
+    div.side.illustration, div.inline.illustration { display: none; }
 }

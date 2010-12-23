@@ -2,7 +2,7 @@
 layout: link
 title: Starbucks CIO shows why next version of Windows is "risky business" for Microsoft
 category: linked
-tags: Starbucks, iOS, iPhone, iPad
+tags: [Starbucks, iOS, iPhone, iPad]
 link: http://scobleizer.com/2010/10/22/starbucks-cio-shows-why-next-version-of-windows-is-risky/
 ---
 

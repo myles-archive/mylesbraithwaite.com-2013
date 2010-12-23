@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Django Basic Tumblelog 0.6
-tags: Spam, Email, Funny
+tags: [Spam, Email, Funny]
 date: 2009-06-21T03:13:24
 category: linked
 link: http://myles.github.com/django-basic-tumblelog/

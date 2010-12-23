@@ -2,7 +2,7 @@
 layout: link
 title: Google Denies Infringing Oracle Patents
 category: linked
-tags: Google, Android, Oracle
+tags: [Google, Android, Oracle]
 link: http://www.wired.com/epicenter/2010/10/google-oracle-android
 ---
 

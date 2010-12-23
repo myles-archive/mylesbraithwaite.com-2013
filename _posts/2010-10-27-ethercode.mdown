@@ -2,7 +2,7 @@
 layout: link
 title: EtherCode
 category: linked
-tags: EtherCode, EtherPad, Bespin, Editor, Programming, Real Time Collaboration
+tags: [EtherCode, EtherPad, Bespin, Editor, Programming, Real Time Collaboration]
 link: http://ethercodes.com/
 ---
 

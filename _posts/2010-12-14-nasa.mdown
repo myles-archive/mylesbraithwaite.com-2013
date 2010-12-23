@@ -2,7 +2,7 @@
 layout: link
 category: linked
 title: NASA Helps Create a More Silent Night
-tags: NASA, Engineering, Airplane
+tags: [NASA, Engineering, Airplane]
 date: 2010-12-14T12:38
 link: http://www.nasa.gov/topics/aeronautics/features/bridges_chevron_events.html
 ---

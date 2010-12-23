@@ -2,7 +2,7 @@
 layout: link
 title: Habitable Hotspots on Mars? Volcano Vents May Be Signs
 category: linked
-tags: Mars, Space, Life, Volcano
+tags: [Mars, Space, Life, Volcano]
 link: http://www.space.com/scienceastronomy/mars-volcano-vents-habitability-101031.html
 ---
 

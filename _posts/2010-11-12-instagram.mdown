@@ -2,7 +2,7 @@
 layout: link
 title: Why Google can’t build Instagram
 category: linked
-tags: Google, Startup, Innovation, Microsoft
+tags: [Google, Startup, Innovation, Microsoft]
 link: http://scobleizer.com/2010/11/12/why-google-cant-build-instagram/
 ---
 

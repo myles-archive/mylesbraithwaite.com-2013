@@ -1,7 +1,7 @@
 ---
 layout: link
 title: The State of The Music Industry & The Delegitimization of Artists
-tags: Music, Musicians, Industry, Business
+tags: [Music, Musicians, Industry, Business]
 date: 2010-12-02T10:42:21
 link: http://blog.tunecore.com/2010/10/music-purchases-and-net-revenue-for-artists-are-up-gross-revenue-for-labels-is-down.html
 category: linked

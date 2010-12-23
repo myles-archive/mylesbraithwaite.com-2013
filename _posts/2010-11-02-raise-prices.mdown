@@ -2,7 +2,7 @@
 layout: link
 title: Go Ahead, Raise Your Business's Prices
 category: linked
-tags: 37signals, Pricing, Business
+tags: [37signals, Pricing, Business]
 link: http://www.inc.com/magazine/20101101/go-ahead-raise-your-businesss-prices.html
 ---
 

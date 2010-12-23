@@ -2,7 +2,7 @@
 layout: link
 title: Yeti Highway
 category: linked
-tags: Yeti, India
+tags: [Yeti, India]
 date: 2010-12-12T12:59:01
 link: http://www.cryptomundo.com/cryptozoo-news/yeti-hiway/
 ---

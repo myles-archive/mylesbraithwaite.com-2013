@@ -2,7 +2,7 @@
 layout: link
 title: New Rails-like Framework from 37signals for HTML5 Mobile Apps
 category: linked
-tags: 37signals, HTML5, Mobile, JavaScript, CoffeeScript
+tags: [37signals, HTML5, Mobile, JavaScript, CoffeeScript]
 link: http://thinkvitamin.com/mobile/new-rails-like-framework-from-37signals-for-html5-mobile-apps/
 ---
 

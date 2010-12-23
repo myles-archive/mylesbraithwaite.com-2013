@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tornado at PyGTA
-tags: PyGTA, Tornado, Python, Toronto
+tags: [PyGTA, Tornado, Python, Toronto]
 date: 2010-01-20T11:48:46
 category: journal
 ---

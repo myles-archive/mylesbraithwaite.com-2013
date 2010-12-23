@@ -1,7 +1,7 @@
 ---
 layout: link
 title: GTALUG Talk about HTML5 Tomorrow at 7:30pm
-tags: GTALUG, HTML5, Toronto
+tags: [GTALUG, HTML5, Toronto]
 date: 2010-07-12T10:13:34
 link: http://gtalug.org/wiki/Meetings:2010-07
 category: linked

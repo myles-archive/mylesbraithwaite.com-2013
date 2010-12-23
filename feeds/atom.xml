@@ -21,6 +21,7 @@ layout: nil
 		<title>{{ post.title | xml_escape }}</title>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://mylesbraithwaite.com{{ post.id }}</id>
+		{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
 		{% if post.link %}
 		<link href="{{ post.link | xml_escape }}"/>
 		<content type="html">

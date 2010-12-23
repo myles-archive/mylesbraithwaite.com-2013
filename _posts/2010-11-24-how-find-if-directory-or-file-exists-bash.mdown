@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to find if a directory or file exists in Bash
-tags: Bash, Snippet, Code
-date: 2010-11-24T14:40:51
+tags: [ Bash, Snippet, Code ]
+date: [2010-11-24T14:40:51]
 category: journal
 ---
 

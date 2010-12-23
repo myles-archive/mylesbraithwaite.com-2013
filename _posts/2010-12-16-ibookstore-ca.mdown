@@ -4,7 +4,7 @@ link: http://www.pch.gc.ca/pc-ch/infoCntr/cdm-mc/index-eng.cfm?action=doc&DocIDC
 layout: link
 category: linked
 date: 2010-12-16T13:40:00
-tags: Apple, iOS, iBook, iPad, iPhone
+tags: [Apple, iOS, iBook, iPad, iPhone]
 ---
 
 It's going to be nice to actually be able to buy books on the [iBook Store](http://www.apple.com/ipad/features/ibooks.html).

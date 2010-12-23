@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Email and a Strange UI
-tags: Screenshot, User Interface, Email
+tags: [Screenshot, User Interface, Email]
 date: 2010-01-22T10:33:01
 category: journal
 ---

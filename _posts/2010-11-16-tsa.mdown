@@ -2,7 +2,7 @@
 layout: link
 title: TSA Opt-Out Day, Now with a Superfantastic New Twist!
 category: linked
-tags: TSA, Security, Airport
+tags: [TSA, Security, Airport]
 link: http://www.theatlantic.com/national/archive/2010/11/tsa-opt-out-day-now-with-a-superfantastic-new-twist/66545/
 ---
 

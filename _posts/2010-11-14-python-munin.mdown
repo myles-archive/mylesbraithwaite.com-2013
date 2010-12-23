@@ -2,7 +2,7 @@
 layout: link
 title: python-munin
 category: linked
-tags: Munin, Python, Library
+tags: [Munin, Python, Library]
 link: http://samuelks.com/python-munin/
 ---
 

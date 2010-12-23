@@ -2,7 +2,7 @@
 layout: link
 title: Las Vegas tunnel people - How 1,000 people live under shimmering strip
 category: linked
-tags: Culture, Poverty, Tunnel, Las Vegas
+tags: [Culture, Poverty, Tunnel, Las Vegas]
 link: http://www.dailymail.co.uk/news/article-1326187/Las-Vegas-tunnel-people-How-1-000-people-live-shimmering-strip.html
 ---
 

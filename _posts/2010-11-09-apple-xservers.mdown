@@ -2,7 +2,7 @@
 layout: link
 title: An Open Letter to Apple on Server Technologies
 category: linked
-tags: Apple, XServers, Server, Education
+tags: [Apple, XServers, Server, Education]
 link: http://appleopenletter.com/
 ---
 

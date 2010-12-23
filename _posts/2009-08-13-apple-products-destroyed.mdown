@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apple Products Destroyed
-tags: Apple, G4, iPhone, PowerMac, Destruction
+tags: [Apple, G4, iPhone, PowerMac, Destruction]
 date: 2009-08-13T13:59:48
 category: journal
 ---

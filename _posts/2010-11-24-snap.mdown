@@ -2,7 +2,7 @@
 layout: link
 title: SNAP Developer Program
 category: linked
-tags: Programming, Object Oriented Programming, Objective-C, GNUstep, Cocoa
+tags: [Programming, Object Oriented Programming, Objective-C, GNUstep, Cocoa]
 date: 2010-11-24T17:02:53
 link: http://snap.sonydeveloper.com/pages/about/
 ---

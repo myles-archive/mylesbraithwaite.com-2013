@@ -2,7 +2,7 @@
 layout: link
 title: Steve Jobs 'raged at Microsoft' over game studio sale
 category: linked
-tags: Apple, Microsoft, Steve Jobs, Bungie
+tags: [Apple, Microsoft, Steve Jobs, Bungie]
 link: http://www.develop-online.net/news/36173/Steve-Jobs-raged-at-Microsoft-over-game-studio-sale
 ---
 

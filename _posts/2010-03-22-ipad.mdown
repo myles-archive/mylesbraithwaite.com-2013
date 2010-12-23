@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Thoughts on the iPad
-tags: iPad, Apple, Netbook, Tablet
+tags: [iPad, Apple, Netbook, Tablet]
 date: 2010-03-22T11:04:35
 category: journal
 ---

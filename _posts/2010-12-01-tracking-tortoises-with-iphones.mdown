@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Extinction Countdown - Tracking a rare tortoise? There's an app for that.
-tags: iPhone, Tortoise, Extinction
+tags: [iPhone, Tortoise, Extinction]
 date: 2010-12-01T11:41:15
 link: http://www.scientificamerican.com/blog/post.cfm?id=tracking-a-rare-tortoise-theres-an-2010-11-30
 category: linked

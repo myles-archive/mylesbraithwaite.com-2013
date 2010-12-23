@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Talking about XMPP at the next PyGTA
-tags: PyGTA, Toronto, Python, XMPP, Jabber
+tags: [PyGTA, Toronto, Python, XMPP, Jabber]
 date: 2010-04-19T10:42:28
 link: http://pygta.org/2010-04/jabber/
 category: linked

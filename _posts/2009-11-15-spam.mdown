@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Spam Email Message I Got Today
-tags: Spam, Email, Funny
+tags: [Spam, Email, Funny]
 date: 2009-11-15T11:00:28
 category: journal
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I Secure My Portable Devices
-tags: Laptop, Phone, Stolen, Lost, Portable Device, Security
+tags: [Laptop, Phone, Stolen, Lost, Portable Device, Security]
 date: 2010-08-11T09:37:17
 category: journal
 ---

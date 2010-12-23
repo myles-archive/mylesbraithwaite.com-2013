@@ -2,7 +2,7 @@
 layout: link
 title: OLPC gets $5.6 million from Marvell to build Android tablet
 category: linked
-tags: OLPC, Android, Tablet, Marvell
+tags: [OLPC, Android, Tablet, Marvell]
 link: http://arstechnica.com/open-source/news/2010/10/olpc-gets-56-million-from-marvell-to-build-android-tablet.ars
 ---
 

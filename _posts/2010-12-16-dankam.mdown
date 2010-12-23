@@ -4,7 +4,7 @@ link: http://dankaminsky.com/2010/12/15/dankam/
 layout: link
 category: linked
 date: 2010-12-16T08:53:40
-tags: Colour Blind, Augmented Reality, iPhone, iOS, Android
+tags: [Colour Blind, Augmented Reality, iPhone, iOS, Android]
 ---
 
 > DanKam, a $3 app being released today on iPhone and Android (the latter as soon as some mild issue with Checkout are resolved). DanKam is an augmented reality application, designed to one of several unique and configurable filters to images and video such that colors — and differences between colors — are more visible to the color blind.

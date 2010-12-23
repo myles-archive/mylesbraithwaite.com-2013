@@ -2,7 +2,7 @@
 layout: link
 title: 2600 Magazine Condemns Denial of Server (DDOS) Attackers
 category: linked
-tags: Wikileaks, 2600, Hackers, DDOS
+tags: [Wikileaks, 2600, Hackers, DDOS]
 date: 2010-12-10T09:05:22
 link: http://www.2600.com/news/view/article/12037/
 ---

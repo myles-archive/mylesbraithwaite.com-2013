@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Geektool Setup
-tags: GeekTool, Mac OS X, Apple, Desktop
+tags: [GeekTool, Mac OS X, Apple, Desktop]
 date: 2010-01-02T17:45:00
 category: journal
 ---

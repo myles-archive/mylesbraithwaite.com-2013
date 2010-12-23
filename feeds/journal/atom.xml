@@ -19,6 +19,7 @@ layout: nil
 	{% for post in site.categories.journal limit: 5 %}
 	<entry>
 		<title>{{ post.title | xml_escape }}</title>
+		{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
 		{% if post.link %}
 		<link href="{{ post.link | xml_escape }}"/>
 		{% else %}

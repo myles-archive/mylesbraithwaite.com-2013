@@ -2,7 +2,7 @@
 layout: link
 title: Background noise affects taste of foods, research shows
 category: linked
-tags: Airplane, Food, Noise
+tags: [Airplane, Food, Noise]
 link: http://www.bbc.co.uk/news/science-environment-11525897
 ---
 

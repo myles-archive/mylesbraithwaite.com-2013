@@ -1,7 +1,7 @@
 ---
 layout: link
 title: PyGTA - PyCon Dress Rehearsal
-tags: PyGTA, Toronto, Python, PyCon
+tags: [PyGTA, Toronto, Python, PyCon]
 date: 2010-02-03T11:00:05
 link: http://pygta.org/2010-02/pycondress/
 category: linked

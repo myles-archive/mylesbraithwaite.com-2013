@@ -2,7 +2,7 @@
 layout: link
 title: Making Wine colours match Ubuntu themes
 category: linked
-tags: Ubuntu, Wine, GTK, Python, Theme, Colour
+tags: [Ubuntu, Wine, GTK, Python, Theme, Colour]
 link: http://www.endolith.com/wordpress/2008/08/03/wine-colors/
 ---
 

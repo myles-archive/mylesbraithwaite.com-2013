@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Django Intranet
-tags: Django, Intranet, Projects, APplications
+tags: [Django, Intranet, Projects, APplications]
 date: 2009-06-09T10:03:56
 category: journal
 ---

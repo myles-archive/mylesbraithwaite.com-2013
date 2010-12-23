@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Mayoral Race for the Starbucks at Yonge and Wanless
-tags: Foursquare, Mayoral , Starbucks
+tags: [Foursquare, Mayoral, Starbucks]
 date: 2010-09-21T09:16:56
 category: journal
 ---

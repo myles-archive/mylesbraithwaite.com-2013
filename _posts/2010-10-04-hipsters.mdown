@@ -2,7 +2,7 @@
 layout: link
 title: How Did Hipsters Become So Uncool?
 category: linked
-tags: Hipster, Culture
+tags: [Hipster, Culture]
 link: http://www.good.is/post/how-did-hipsters-become-so-uncool/
 ---
 

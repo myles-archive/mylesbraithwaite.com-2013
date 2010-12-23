@@ -1,7 +1,7 @@
 ---
 category: linked
 layout: link
-tags: MonoDroid, Mono, .NET, C#
+tags: [MonoDroid, Mono, .NET, C#]
 title: MonoDriod
 link: http://monodroid.net/
 ---

@@ -2,7 +2,7 @@
 layout: link
 title: Homemade Document Imager
 category: linked
-tags: Projector, DIY, Document Scanner, Scanner
+tags: [Projector, DIY, Document Scanner, Scanner]
 date: 2010-11-21T19:30:38
 link: http://www.andrewhazelden.com/blog/2010/06/homemade-document-imager/
 ---

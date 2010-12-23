@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Chrome Frame
-tags: Google Chrome Frame, Microsoft, Internet Explore
+tags: [Google Chrome Frame, Microsoft, Internet Explore]
 date: 2009-09-30T10:35:00
 category: journal
 ---

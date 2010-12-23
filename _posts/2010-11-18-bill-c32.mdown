@@ -2,7 +2,7 @@
 layout: link
 title: Four reasons to care about the new Canadian copyright bill
 category: linked
-tags: Bill C32, Canada, Copyright
+tags: [Bill C32, Canada, Copyright]
 date: 2010-11-18T13:37:02
 link: http://www.torontolife.com/daily/hype/cinemania-hype/2010/11/18/four-reasons-to-care-about-the-new-canadian-copyright-bill/
 ---
