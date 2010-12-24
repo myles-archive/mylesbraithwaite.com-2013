@@ -1,11 +1,15 @@
 {
     "name": "Myles B.",
     "description": "Myles Braithwaite's personal website.",
-    "version": "9",
+    "version": "10",
     "app": {
         "urls": [
             "*://mylesbraithwaite.com/",
-            "*://myles.nfshost.com/"
+            "*://myles.nfshost.com/",
+            "*://d3olrcfpp6yl2k.cloudfront.net/",
+            "*://myles.webfactional.com/",
+            "*://mylesbraithwaite.com.nyud.net/",
+            "*://myles.github.com/"
         ],
         "launch": {
             "web_url": "http://mylesbraithwaite.com/"
