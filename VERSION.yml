@@ -1,0 +1,5 @@
+---
+layout: nil
+---
+edit: {% git_date %}
+render: {% render_time %}

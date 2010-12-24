@@ -1,5 +1,8 @@
+---
+layout: nil
+---
 CACHE MANIFEST
-# rev 8
+# rev {% git_revision_hash %}
 
 /media/css/style.css
 /media/css/screen.css
@@ -28,3 +31,8 @@ CACHE MANIFEST
 /media/fonts/JosefinSlab-Thin.ttf
 /media/fonts/JosefinSlab-ThinItalic.ttf
 /media/fonts/Molengo-Regular.ttf
+
+FALLBACK:
+/ /offline.html
+NETWORK:
+*

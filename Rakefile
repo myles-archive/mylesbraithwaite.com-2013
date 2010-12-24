@@ -27,6 +27,17 @@ task :publish_mirrors => :publish do
   sh "s3cmd sync --acl-public _site/ s3://mylesbraithwaite.com"
 end
 
+desc 'Build and deploy to GitHub pages'
+task :publish_github => :build do
+  require 'grit'
+  repo = Grit::Repo.init('./_site')
+  repo.clone({ :quite => false, :verbose => true, :progress => true, :branch => 'master' }, "git@github.com:myles/myles.github.com.git")
+  
+  files = Dir.glob(File.join(Dir.getwd, "_site/**"))
+  repo.add(files)
+  repo.commit_all("#{Time.now}")
+end
+
 def jekyll(opts='')
     sh 'rm -fr _site/*'
     sh 'jekyll ' + opts
