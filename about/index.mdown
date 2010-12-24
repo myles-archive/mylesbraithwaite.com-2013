@@ -15,8 +15,6 @@ This site was created with TextMate, VIM, and Git.
 
 This sites colour schema is [Retro Blues](http://kuler.adobe.com/#themeID/1153379) by [Andrezx](http://kuler.adobe.com/#themes/search?term=userId%3A411194).
 
-This site was last edited on {% git_recent_activity %} and last rendered on {% render_time | date: "%A,&nbsp;%d&nbsp;%B&nbsp;%Y&nbsp;at&nbsp;%I:%M %p" %}.
-
 ### Mirrors
 
 I am trying to mirror with site across the internet on many different servers and services. Current mirrors:
