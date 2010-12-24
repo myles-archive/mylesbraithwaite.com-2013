@@ -73,3 +73,30 @@ task :ping_pingomatic do
   resp, data = http.get('http://pingomatic.com/ping/?' + data)
   puts "Ping error: #{resp}, #{data}" unless resp.code == "200"
 end
+
+desc "See if the mirrors are out of date."
+task :check_mirrors do
+  require 'net/http'
+  require 'yaml'
+  http = Net::HTTP.new('mylesbraithwaite.com', 80)
+  resp, data = http.get('http://mylesbraithwaite.com/VERSION.yml')
+  master_version = YAML::load(data)
+  
+  mirrors = [
+    'myles.nfshost.com',
+    'myles.webfactional.com',
+    # 'myles.github.com', <- Disabled because haven't got it working yet.
+    'mylesbraithwaite.com.nyud.net'
+  ]
+  
+  for mirror in mirrors do
+    http = Net::HTTP.new(mirror, 80)
+    resp, data = http.get('http://#{mirror}/VERSION.yml')
+    version = YAML::load(data)
+    if version['git_reversion'] == master_version['git_reversion']
+      puts "#{mirror} is up to date."
+    else
+      puts "#{mirror} is out of date."
+    end
+  end
+end
