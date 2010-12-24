@@ -1,5 +1,5 @@
 ---
 layout: nil
 ---
-edit: {% git_date %}
+git_reversion: {% git_revision_hash %}
 render: {% render_time %}
