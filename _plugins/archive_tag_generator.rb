@@ -1,3 +1,5 @@
+require 'slugify'
+
 module Jekyll
   class ArchiveTagGenerator < Generator
     safe true
@@ -12,18 +14,14 @@ module Jekyll
     private
     
     def collate_by_tag(posts)
-      require 'slugify'
-      
       collated = {}
       
       posts.each do |post|
         post.tags.each do |tag|
-          tag_slug = tag.to_s().slugify
-          key = "tags/#{tag_slug}"
-          if collated.has_key? key
-            collated[key] << post
+          if collated.has_key? tag
+            collated[tag] << post
           else
-            collated[key] = [post]
+            collated[tag] = [post]
           end
         end
       end
@@ -70,7 +68,7 @@ module Jekyll
     end
     
     def url
-      File.join("/", @tag, "index.html")
+      File.join("/tags/", @tag.to_s().slugify, "index.html")
     end
     
     def to_liquid
