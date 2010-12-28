@@ -10,32 +10,109 @@ task :build do
     jekyll('--no-future')
 end
 
-command = "rsync -rtzh --progress --delete --delete _site/ "
+desc "Deploy to Master"
+task :deploy => :"deploy:master"
 
-desc 'Build and deploy to master'
-task :publish => :build do
-  sh command + "myles@fox:/srv/www/com_mylesbraithwaite_www/html"
+namespace :deploy do
+  
+  desc "Deploy to Master"
+  task :master => :build do
+    rsync "myles@fox:/srv/www/com_mylesbraithwaite_www/html"
+  end
+  
+  desc "Deploy to NearlyFreeSpeech.Net"
+  task :nfs => :build do
+    rsync "nfs-myles-myles:/home/public"
+  end
+  
+  desc "Deploy to Webfaction"
+  task :webfaction => :build do
+    rsync "webfaction:~/webapps/myles"
+  end
+  
+  desc "Deploy to S3"
+  task :s3 => :build do
+    s3cmd "s3://mylesbraithwaite.com"
+  end
+  
+  desc 'Build and deploy to GitHub pages'
+  task :github => :build do
+    git "git@github.com:myles/myles.github.com.git"
+  end
+  
+  desc "Deploy to Mirrors"
+  task :mirrors => [:nfs, :webfaction, :s3, :github]
+  
+  desc "Deploy to All"
+  task :all => [:master, :mirrors]
+  
+  def rsync(location)
+    sh "rsync -rtzh --progress --delete --delete _site/ #{location}/"
+  end
+  
+  def s3cmd(location)
+    sh "s3cmd sync --acl-public _site/ #{location}/"
+  end
+  
+  def git(loation)
+    require 'grit'
+    repo = Grit::Repo.init('./_site')
+    repo.clone({ :quite => false, :verbose => true, :progress => true, :branch => 'master' }, location)
+
+    files = Dir.glob(File.join(Dir.getwd, "_site/**"))
+    repo.add(files)
+    repo.commit_all("#{Time.now}")
+  end
 end
 
-desc 'Build and deploy to master and mirrors'
-task :publish_mirrors => :publish do
-  # rsync mirrors
-  sh command + "nfs-myles-myles:/home/public"
-  sh command + "webfaction:~/webapps/myles"
+desc "Create a new post"
+namespace :create do
+  desc "Create a new blog post"
+  task :blog do
+    print "Please enter in the title of the blog post: "
+    title = $stdin.gets.chomp.strip
+    name = title.gsub(/\s+/, '-')
+    name = name.gsub(/[^a-zA-Z0-9_-]/, "").downcase
+    time = Time.now.strftime("%Y-%m-%d")
+    date = Time.now.strftime("%Y-%m-%dT%H:%M")
+    File.open("_posts/#{time}-#{name}.markdown", "w+") do |file|
+      file.puts <<-EOF
+---
+title: #{title}
+layout: post
+category: journal
+tags: [  ]
+date: #{date}
+---
+      EOF
+    end
+    puts "Created '_posts/#{time}-#{name}.mdown'"
+  end
   
-  # s3 mirror
-  sh "s3cmd sync --acl-public _site/ s3://mylesbraithwaite.com"
-end
-
-desc 'Build and deploy to GitHub pages'
-task :publish_github => :build do
-  require 'grit'
-  repo = Grit::Repo.init('./_site')
-  repo.clone({ :quite => false, :verbose => true, :progress => true, :branch => 'master' }, "git@github.com:myles/myles.github.com.git")
-  
-  files = Dir.glob(File.join(Dir.getwd, "_site/**"))
-  repo.add(files)
-  repo.commit_all("#{Time.now}")
+  desc "Create a new link post"
+  task :link do
+    print "Please enter in the title of the link post: "
+    title = $stdin.gets.chomp.strip
+    print "Please enter in the link to the link post: "
+    link = $stdin.gets.chomp.strip
+    name = title.gsub(/\s+/, '-')
+    name = name.gsub(/[^a-zA-Z0-9_-]/, "").downcase
+    time = Time.now.strftime("%Y-%m-%d")
+    date = Time.now.strftime("%Y-%m-%dT%H:%M")
+    File.open("_posts/#{time}-#{name}.markdown", "w+") do |file|
+      file.puts <<-EOF
+---
+title: #{title}
+layout: link
+category: linked
+tags: [  ]
+date: #{date}
+link: #{link}
+---
+      EOF
+    end
+    puts "Created '_posts/#{time}-#{name}.mdown'"
+  end
 end
 
 def jekyll(opts='')
