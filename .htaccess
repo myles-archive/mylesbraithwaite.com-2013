@@ -56,14 +56,16 @@ AddCharset utf-8 .html .css .js .xml .json .rss
 
 Redirect /favicon.ico http://d3olrcfpp6yl2k.cloudfront.net/media/img/favicon.ico
 Redirect /apple-touch-icon.png  http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon.png
+Redirect /apple-touch-icon-precomposed.png http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon.png
 
 # Redirects
 Redirect /feeds/blog-posts/ /feeds/journal/atom.xml
+Redirect /feeds/blog-posts /feeds/journal/atom.xml
 Redirect /feeds/tumblelog/ /feeds/atom.xml
 Redirect /feeds/blog/ /feeds/journal/atom.xml
 Redirect /blog/feeds/atom/latest/ /feeds/journal/atom.xml
 
-Redirect /blog/2009/jun/9/django-intranet/ /jounral/2009/06/django-intranet/
+Redirect /blog/2009/jun/9/django-intranet/ /journal/2009/06/django-intranet/
 Redirect /blog/2009/oct/20/evernote-ubuntu/ /journal/2009/10/evernote-ubuntu/
 Redirect /blog/2010/nov/24/how-find-if-directory-or-file-exists-bash/ /journal/2010/11/how-find-if-directory-or-file-exists-bash/
 Redirect /blog/2010/sep/21/starbucks-yonge-wanless/ /journal/2010/09/starbucks-yonge-wanless/

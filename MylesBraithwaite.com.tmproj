@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_drafts/Things I Loved in 2010/television.mdown</string>
+	<string>_posts/2010-12-27-zsh.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,24 +21,84 @@
 	<integer>228</integer>
 	<key>metaData</key>
 	<dict>
-		<key>_drafts/Things I Loved in 2010/television.mdown</key>
+		<key>_posts/2010-12-20-notion-ink-adam.mdown</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>337</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>30</integer>
+				<integer>3</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>28</integer>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2010-12-24-comic-sans-criminal.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2010-12-24-red-hat-vs-windows-server.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2010-12-27-uptime-blogging-services.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2010-12-27-zsh.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>122</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>_drafts/Things I Loved in 2010/television.mdown</string>
+		<string>_posts/2010-12-27-zsh.mdown</string>
+		<string>_posts/2010-12-27-uptime-blogging-services.mdown</string>
+		<string>_posts/2010-12-24-red-hat-vs-windows-server.mdown</string>
+		<string>_posts/2010-12-24-comic-sans-criminal.mdown</string>
+		<string>_posts/2010-12-20-notion-ink-adam.mdown</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
