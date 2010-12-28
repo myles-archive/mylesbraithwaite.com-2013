@@ -41,7 +41,7 @@ namespace :deploy do
   end
   
   desc "Deploy to Mirrors"
-  task :mirrors => [:nfs, :webfaction, :s3, :github]
+  task :mirrors => [:nfs, :webfaction, :s3]
   
   desc "Deploy to All"
   task :all => [:master, :mirrors]
@@ -54,7 +54,7 @@ namespace :deploy do
     sh "s3cmd sync --acl-public _site/ #{location}/"
   end
   
-  def git(loation)
+  def git(location)
     require 'grit'
     repo = Grit::Repo.init('./_site')
     repo.clone({ :quite => false, :verbose => true, :progress => true, :branch => 'master' }, location)
