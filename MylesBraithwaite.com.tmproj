@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>_posts/2010-12-28-benddesk.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -20,104 +18,10 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>221</integer>
 	<key>metaData</key>
-	<dict>
-		<key>Rakefile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>42</integer>
-				<key>line</key>
-				<integer>43</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>26</integer>
-		</dict>
-		<key>_posts/2010-12-28-benddesk.mdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>26</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>6</integer>
-		</dict>
-		<key>_posts/2010-12-28-saturns-rings-made-by-giant-lost-moon-study-hints.markdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>8</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_posts/2010-12-28-the-open-internet.mdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>160</integer>
-				<key>line</key>
-				<integer>13</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>media/css/screen.less</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>23</integer>
-				<key>line</key>
-				<integer>99</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>80</integer>
-		</dict>
-		<key>media/css/style.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>27</integer>
-				<key>line</key>
-				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>Rakefile</string>
-		<string>_posts/2010-12-28-the-open-internet.mdown</string>
-		<string>_posts/2010-12-28-saturns-rings-made-by-giant-lost-moon-study-hints.markdown</string>
-		<string>_posts/2010-12-28-benddesk.mdown</string>
-		<string>media/css/style.css</string>
-		<string>media/css/screen.less</string>
-	</array>
+	<dict/>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{764, 57}, {808, 821}}</string>
+	<string>{{632, 56}, {808, 821}}</string>
 </dict>
 </plist>
