@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_posts/2010-12-27-zsh.mdown</string>
+	<string>_posts/2010-12-28-benddesk.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,73 +18,87 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>228</integer>
+	<integer>221</integer>
 	<key>metaData</key>
 	<dict>
-		<key>_posts/2010-12-20-notion-ink-adam.mdown</key>
+		<key>Rakefile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>43</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>26</integer>
+		</dict>
+		<key>_posts/2010-12-28-benddesk.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>26</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>6</integer>
+		</dict>
+		<key>_posts/2010-12-28-saturns-rings-made-by-giant-lost-moon-study-hints.markdown</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>8</integer>
 				<key>line</key>
-				<integer>3</integer>
+				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_posts/2010-12-24-comic-sans-criminal.mdown</key>
+		<key>_posts/2010-12-28-the-open-internet.mdown</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>160</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>media/css/screen.less</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>23</integer>
+				<key>line</key>
+				<integer>99</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>80</integer>
+		</dict>
+		<key>media/css/style.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>27</integer>
 				<key>line</key>
 				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_posts/2010-12-24-red-hat-vs-windows-server.mdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>7</integer>
-				<key>line</key>
-				<integer>9</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_posts/2010-12-27-uptime-blogging-services.mdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_posts/2010-12-27-zsh.mdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>122</integer>
-				<key>line</key>
-				<integer>14</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -94,15 +108,16 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>_posts/2010-12-27-zsh.mdown</string>
-		<string>_posts/2010-12-27-uptime-blogging-services.mdown</string>
-		<string>_posts/2010-12-24-red-hat-vs-windows-server.mdown</string>
-		<string>_posts/2010-12-24-comic-sans-criminal.mdown</string>
-		<string>_posts/2010-12-20-notion-ink-adam.mdown</string>
+		<string>Rakefile</string>
+		<string>_posts/2010-12-28-the-open-internet.mdown</string>
+		<string>_posts/2010-12-28-saturns-rings-made-by-giant-lost-moon-study-hints.markdown</string>
+		<string>_posts/2010-12-28-benddesk.mdown</string>
+		<string>media/css/style.css</string>
+		<string>media/css/screen.less</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{572, 57}, {808, 821}}</string>
+	<string>{{764, 57}, {808, 821}}</string>
 </dict>
 </plist>

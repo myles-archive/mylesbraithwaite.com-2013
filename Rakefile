@@ -75,7 +75,7 @@ namespace :create do
     name = name.gsub(/[^a-zA-Z0-9_-]/, "").downcase
     time = Time.now.strftime("%Y-%m-%d")
     date = Time.now.strftime("%Y-%m-%dT%H:%M")
-    File.open("_posts/#{time}-#{name}.markdown", "w+") do |file|
+    File.open("_posts/#{time}-#{name}.mdown", "w+") do |file|
       file.puts <<-EOF
 ---
 title: #{title}
@@ -99,7 +99,7 @@ date: #{date}
     name = name.gsub(/[^a-zA-Z0-9_-]/, "").downcase
     time = Time.now.strftime("%Y-%m-%d")
     date = Time.now.strftime("%Y-%m-%dT%H:%M")
-    File.open("_posts/#{time}-#{name}.markdown", "w+") do |file|
+    File.open("_posts/#{time}-#{name}.mdown", "w+") do |file|
       file.puts <<-EOF
 ---
 title: #{title}
