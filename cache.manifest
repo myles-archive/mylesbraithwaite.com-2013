@@ -34,5 +34,6 @@ CACHE MANIFEST
 
 FALLBACK:
 / /offline.html
+/about/index.html /about/index.html
 NETWORK:
 *
