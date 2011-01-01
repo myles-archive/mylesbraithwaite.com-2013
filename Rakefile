@@ -51,7 +51,7 @@ namespace :deploy do
   end
   
   def s3cmd(location)
-    sh "s3cmd sync --acl-public _site/ #{location}/"
+    sh "s3cmd sync --acl-public --delete-removed _site/ #{location}/"
   end
   
   def git(location)
