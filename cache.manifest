@@ -4,33 +4,33 @@ layout: nil
 CACHE MANIFEST
 # rev {% git_revision_hash %}
 
-http://d3olrcfpp6yl2k.cloudfront.net/media/css/style.css
-http://d3olrcfpp6yl2k.cloudfront.net/media/css/screen.css
+/media/css/style.css
+/media/css/screen.css
 
-http://d3olrcfpp6yl2k.cloudfront.net/media/img/favicon.ico
-http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon-ipad.png
-http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon-iphone.png
-http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon-iphone4.png
-http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-startup.png
+/media/img/favicon.ico
+/media/img/apple-touch-icon-ipad.png
+/media/img/apple-touch-icon-iphone.png
+/media/img/apple-touch-icon-iphone4.png
+/media/img/apple-touch-startup.png
 
-http://d3olrcfpp6yl2k.cloudfront.net/media/js/libs/jquery-1.4.4.js
-http://d3olrcfpp6yl2k.cloudfront.net/media/js/libs/modernizr-1.6.js
+/media/js/libs/jquery-1.4.4.js
+/media/js/libs/modernizr-1.6.js
 
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/Cantarell-Bold.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/Cantarell-BoldOblique.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/Cantarell-Oblique.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/Cantarell-Regular.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-Bold.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-BoldItalic.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-Italic.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-Light.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-LightItalic.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-Regular.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-SemiBold.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-SemiBoldItalic.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-Thin.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/JosefinSlab-ThinItalic.ttf
-http://d3olrcfpp6yl2k.cloudfront.net/media/fonts/Molengo-Regular.ttf
+/media/fonts/Cantarell-Bold.ttf
+/media/fonts/Cantarell-BoldOblique.ttf
+/media/fonts/Cantarell-Oblique.ttf
+/media/fonts/Cantarell-Regular.ttf
+/media/fonts/JosefinSlab-Bold.ttf
+/media/fonts/JosefinSlab-BoldItalic.ttf
+/media/fonts/JosefinSlab-Italic.ttf
+/media/fonts/JosefinSlab-Light.ttf
+/media/fonts/JosefinSlab-LightItalic.ttf
+/media/fonts/JosefinSlab-Regular.ttf
+/media/fonts/JosefinSlab-SemiBold.ttf
+/media/fonts/JosefinSlab-SemiBoldItalic.ttf
+/media/fonts/JosefinSlab-Thin.ttf
+/media/fonts/JosefinSlab-ThinItalic.ttf
+/media/fonts/Molengo-Regular.ttf
 
 FALLBACK:
 / /offline.html
