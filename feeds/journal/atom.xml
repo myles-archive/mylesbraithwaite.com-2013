@@ -1,33 +1,23 @@
 ---
-layout: nil
+layout: atom
+title: Journal Posts
+location: "http://mylesbraithwaite.com/feeds/journal/atom.xml"
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-	<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-	<title>Myles Braithwaite's Journal Posts</title>
-	<link href="http://mylesbraithwaite.com/feeds/journal/atom.xml" rel="self"/>
-	<link href="http://mylesbraithwaite.com/"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://mylesbraithwaite.com/</id>
-	<author>
-		<name>Myles Braithwaite</name>
-		<email>me@mylesbraithwaite.com</email>
-	</author>
-	<icon>http://d3olrcfpp6yl2k.cloudfront.net/media/img/favicon.ico</icon>
-	<logo>http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon-ipad.png</logo>
-	
-	{% for post in site.categories.journal limit: 5 %}
-	<entry>
-		<title>{{ post.title | xml_escape }}</title>
-		{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
-		{% if post.link %}
+
+{% for post in site.categories.journal limit: 5 %}
+<entry>
+	<title>{{ post.title | xml_escape }}</title>
+	{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
+	{% if post.link %}
 		<link href="{{ post.link | xml_escape }}"/>
-		{% else %}
+	{% else %}
 		<link href="http://mylesbraithwaite.com{{ post.url }}"/>
-		{% endif %}
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://mylesbraithwaite.com{{ post.id }}</id>
-		<content type="html">{{ post.content | xml_escape }}</content>
-	</entry>
-	{% endfor %}
-</feed>
+	{% endif %}
+	<updated>{{ post.date | date_to_xmlschema }}</updated>
+	<id>http://mylesbraithwaite.com{{ post.id }}</id>
+	<content type="html">{{ post.content | xml_escape }}</content>
+	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">
+		http://activitystrea.ms/schema/1.0/article
+	</activity:object-type>
+</entry>
+{% endfor %}

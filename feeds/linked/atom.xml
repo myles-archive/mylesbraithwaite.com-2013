@@ -1,32 +1,23 @@
 ---
-layout: nil
+layout: atom
+title: Link Posts
+location: "http://mylesbraithwaite.com/feeds/linked/atom.xml"
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-	<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-	<title>Myles Braithwaite's Linked Posts</title>
-	<link href="http://mylesbraithwaite.com/feeds/linked/atom.xml" rel="self"/>
-	<link href="http://mylesbraithwaite.com/"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://mylesbraithwaite.com/</id>
-	<author>
-		<name>Myles Braithwaite</name>
-		<email>me@mylesbraithwaite.com</email>
-	</author>
-	<icon>http://d3olrcfpp6yl2k.cloudfront.net/media/img/favicon.ico</icon>
-	<logo>http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon-ipad.png</logo>
-	
-	{% for post in site.categories.linked limit: 10 %}
-	<entry>
-		<title>{{ post.title | xml_escape }}</title>
-		<link href="{{ post.link | xml_escape }}"/>
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://mylesbraithwaite.com{{ post.id }}</id>
-		{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
-		<content type="html">
-		    {{ post.content | xml_escape }}
-		    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '">#</a></p>' | xml_escape }}
-		</content>
-	</entry>
-	{% endfor %}
-</feed>
+
+{% for post in site.categories.linked limit: 10 %}
+<entry>
+	<title>{{ post.title | xml_escape }}</title>
+	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">
+		http://activitystrea.ms/schema/1.0/bookmark
+	</activity:object-type>
+	<link href="{{ post.link | xml_escape }}" rel="alternate" />
+	<link href="{{ post.link | xml_escape }}" rel="related" />
+	<updated>{{ post.date | date_to_xmlschema }}</updated>
+	<id>http://mylesbraithwaite.com{{ post.id }}</id>
+	{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
+	<content type="html">
+	    {{ post.content | xml_escape }}
+	    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '">#</a></p>' | xml_escape }}
+	</content>
+</entry>
+{% endfor %}

@@ -1,39 +1,30 @@
 ---
-layout: nil
+layout: atom
+location: "http://mylesbraithwaite.com/feeds/atom.xml"
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xml:lang="en" xml:base="http://mylesbraithwaite.com/atom.xml" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
-	<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-	<title>Myles Braithwaite</title>
-	<link href="http://mylesbraithwaite.com/feeds/atom.xml" rel="self"/>
-	<link href="http://mylesbraithwaite.com/"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://mylesbraithwaite.com/</id>
-	<author>
-		<name>Myles Braithwaite</name>
-		<email>me@mylesbraithwaite.com</email>
-	</author>
-	<icon>http://d3olrcfpp6yl2k.cloudfront.net/media/img/favicon.ico</icon>
-	<logo>http://d3olrcfpp6yl2k.cloudfront.net/media/img/apple-touch-icon-ipad.png</logo>
-	
-	{% for post in site.posts limit: 20 %}
-	<entry>
-		<title>{{ post.title | xml_escape }}</title>
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://mylesbraithwaite.com{{ post.id }}</id>
-		{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
-		{% if post.link %}
-		<link href="{{ post.link | xml_escape }}"/>
-		<content type="html">
-		    {{ post.content | xml_escape }}
-		    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '">#</a></p>' | xml_escape }}
-		</content>
-		{% else %}
-		<link href="http://mylesbraithwaite.com{{ post.url }}"/>
-		<content type="html">
-            {{ post.content | xml_escape }}
-		</content>
-		{% endif %}
-	</entry>
-	{% endfor %}
-</feed>
+
+{% for post in site.posts limit: 20 %}
+<entry>
+	<title>{{ post.title | xml_escape }}</title>
+	<updated>{{ post.date | date_to_xmlschema }}</updated>
+	<id>http://mylesbraithwaite.com{{ post.id }}</id>
+	{% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
+	{% if post.link %}
+	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/bookmark</activity:object-type>
+	<link href="{{ post.link | xml_escape }}" rel="alternate" />
+	<link href="{{ post.link | xml_escape }}" rel="related" />
+	<content type="html">
+	    {{ post.content | xml_escape }}
+	    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '">#</a></p>' | xml_escape }}
+	</content>
+	{% else %}
+	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">
+		http://activitystrea.ms/schema/1.0/article
+	</activity:object-type>
+	<link href="http://mylesbraithwaite.com{{ post.url }}" rel="alternate" />
+	<content type="html">
+        {{ post.content | xml_escape }}
+	</content>
+	{% endif %}
+</entry>
+{% endfor %}

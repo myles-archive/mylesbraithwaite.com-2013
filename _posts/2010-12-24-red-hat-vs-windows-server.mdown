@@ -9,6 +9,7 @@ tags:
 - Operating System
 - Linux
 date: 2010-12-24T12:40
+link: http://www.zdnet.com/blog/btl/red-hat-vs-windows-for-server-share-the-battle-just-heating-up/42997
 ---
 
 It looks like more companies are buying new computers with Linux installed than installing Linux on old computers. This is really important because it shows that Linux has become more of a "testing" operating system. Companies are actually planing to have their servers running Linux.
