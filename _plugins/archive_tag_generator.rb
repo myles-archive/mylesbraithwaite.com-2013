@@ -6,7 +6,7 @@ module Jekyll
     
     def generate(site)
       collate_by_tag(site.posts).each do |tag, posts|
-        page = ArchivePage.new(site, tag, posts)
+        page = ArchiveTagPage.new(site, tag, posts)
         site.pages << page
       end
     end
@@ -29,7 +29,7 @@ module Jekyll
     end
   end
   
-  class ArchivePage
+  class ArchiveTagPage
     include Convertible
     
     attr_accessor :site, :pager, :name, :ext, :basename, :dir, :data, :content, :output

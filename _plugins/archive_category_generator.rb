@@ -4,7 +4,7 @@ module Jekyll
     
     def generate(site)
       collate_by_category(site.posts).each do |category, posts|
-        page = ArchivePage.new(site, category, posts)
+        page = ArchiveCategoryPage.new(site, category, posts)
         site.pages << page
       end
     end
@@ -28,7 +28,7 @@ module Jekyll
     end
   end
   
-  class ArchivePage
+  class ArchiveCategoryPage
     include Convertible
     
     attr_accessor :site, :pager, :name, :ext, :basename, :dir, :data, :content, :output
