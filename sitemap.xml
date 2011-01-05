@@ -10,7 +10,7 @@ layout: nil
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://mylesbraithwaite.com/about/index.html</loc>
+		<loc>http://mylesbraithwaite.com/about/</loc>
 		<lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>

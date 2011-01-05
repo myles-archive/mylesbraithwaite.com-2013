@@ -48,6 +48,13 @@ AddCharset utf-8 .html .css .js .xml .json .rss
 # 1990s. Like come on dude.
 # DirectorySlash Off
 
+<IfModule mod_expires.c>
+    <Files cache.manifest>
+        ExpiresActive On
+        ExpiresDefault "access"
+    </Files>
+</IfModule>
+
 # Rewrite static files to the CDN
 <IfModule mod_rewrite.c>
     RewriteEngine On
@@ -73,5 +80,5 @@ Redirect /blog/2010/sep/17/flamingo-brandon-flowers/ /journal/2010/09/flamingo-b
 
 Redirect /snippets/17/ /journal/2007/10/secret-key/
 
-Redirect /blog/ /journal/index.html
-Redirect /bookmarks/ /linked/index.html
+Redirect /blog/ /journal/
+Redirect /bookmarks/ /linked/

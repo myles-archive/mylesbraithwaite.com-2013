@@ -4,7 +4,7 @@ layout: base
 
 <h2>Who am I?</h2>
 
-<p>I am <a href="/about/index.html" title="More information about Myles Braithwaite">Myles&nbsp;Braithwaite</a>, a 20-something, Canadian, programmer, <a href="http://github.com/myles" title="Myles Braithwaite's GitHub Profile">open&nbsp;source</a> <a href="http://bitbucket.org/myles" title="Myles Braithwaite's BitBucket Profile">code&nbsp;releasing</a>, <a href="http://flickr.com/photos/mylesbraithwaite" title="Myles Braithwaite's Flickr Profile">amateur&nbsp;photographer</a>, subway taker, <a href="http://monkeyinyoursoul.com/" title="Monkey in your Soul" rel="external">monkey&nbsp;in&nbsp;my&nbsp;soul</a>, and comic book reader. I am also <a href="#journal_posts" title="Journal Posts">a&nbsp;sometimes&nbsp;blogger</a> but I mostly <a href="#linked_posts" title="Linked Posts">link&nbsp;to&nbsp;other</a> people's interesting articles. If you want daily activity <a href="http://twitter.com/mylesb" title="Myles Braithwaite's Twitter Profile" rel="external">you&nbsp;should&nbsp;follow&nbsp;me&nbsp;on&nbsp;Twitter</a> where I post things that pop into my head or <a href="http://tumblr.mylesbraithwaite.com/" rel="external">on&nbsp;my&nbsp;tumblr&nbsp;account</a> where I post things that I find interesting on the internet.</p>
+<p>I am <a href="/about/" title="More information about Myles Braithwaite">Myles&nbsp;Braithwaite</a>, a 20-something, Canadian, programmer, <a href="http://github.com/myles" title="Myles Braithwaite's GitHub Profile">open&nbsp;source</a> <a href="http://bitbucket.org/myles" title="Myles Braithwaite's BitBucket Profile">code&nbsp;releasing</a>, <a href="http://flickr.com/photos/mylesbraithwaite" title="Myles Braithwaite's Flickr Profile">amateur&nbsp;photographer</a>, subway taker, <a href="http://monkeyinyoursoul.com/" title="Monkey in your Soul" rel="external">monkey&nbsp;in&nbsp;my&nbsp;soul</a>, and comic book reader. I am also <a href="#journal_posts" title="Journal Posts">a&nbsp;sometimes&nbsp;blogger</a> but I mostly <a href="#linked_posts" title="Linked Posts">link&nbsp;to&nbsp;other</a> people's interesting articles. If you want daily activity <a href="http://twitter.com/mylesb" title="Myles Braithwaite's Twitter Profile" rel="external">you&nbsp;should&nbsp;follow&nbsp;me&nbsp;on&nbsp;Twitter</a> where I post things that pop into my head or <a href="http://tumblr.mylesbraithwaite.com/" rel="external">on&nbsp;my&nbsp;tumblr&nbsp;account</a> where I post things that I find interesting on the internet.</p>
 
 <div id="posts">
     <div id="journal_posts">
@@ -24,7 +24,7 @@ layout: base
         <dl>
         	{% for post in site.categories.linked limit: 5 %}
         	<dt>{{ post.date | date: "%d %B, %Y" }}</dt>
-        	<dd><a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ post.url }}" title="{{ post.title }}">#</a></dd>
+        	<dd><a href="{{ post.link }}" rel="external">{{ post.title }}</a> <a href="{{ post.url }}" title="{{ post.title }}">#</a></dd>
         	{% endfor %}
         </dl>
     </div>

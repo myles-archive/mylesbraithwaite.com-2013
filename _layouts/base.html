@@ -19,7 +19,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mylesbraithwaite.com/feeds/linked/atom.xml" title="All of Myles Braithwaite Linked Posts">
     
     <link rel="archives" href="/archives.html">
-    <link rel="author" href="/about/index.html">
+    <link rel="author" href="/about/">
     <link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
     
     <meta name="generator" content="Jekyll">
@@ -31,9 +31,9 @@
     
     <!-- Internet Explore 9 Stuff -->
     <meta name="application-name" content="Myles Braithwaite">
-    <meta name="msapplication-starturl" content="http://mylesbraithwaite.com/index.html">
+    <meta name="msapplication-starturl" content="http://mylesbraithwaite.com/">
     <meta name="msapplication-task" content="name=Home;action-uri=http://mylesbraithwaite.com/">
-    <meta name="msapplication-task" content="name=About;action-uri=http://mylesbraithwaite.com/about/index.html">
+    <meta name="msapplication-task" content="name=About;action-uri=http://mylesbraithwaite.com/about/">
     
     <!-- iOS Stuff -->
     <link rel="apple-touch-icon" href="/media/img/apple-touch-icon-iphone.png">
@@ -53,8 +53,10 @@
     
     <script type="text/javascript" charset="utf-8">
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-1642439-2']);
-        _gaq.push(['_trackPageview']);
+        _gaq.push(
+            ['_setAccount', 'UA-1642439-2'],
+            ['_trackPageview']
+        );
         
         (function() {
             var ga = document.createElement('script');
@@ -74,10 +76,10 @@
         <header id="top">
             <h1><a href="/">Myles Braithwaite</a></h1>
             <nav>
-                <a href="/">Home</a>
-                <a href="/archives.html">Archive</a>
-                <a href="/about/index.html">About</a>
-                <a href="/feeds/index.html">Subscribe</a>
+                <a href="/" title="Home">Home</a>
+                <a href="/archives.html" title="Archive">Archive</a>
+                <a href="/about/" title="About">About</a>
+                <a href="/feeds/" title="Subsribe">Subscribe</a>
             </nav>
         </header>
         
@@ -101,5 +103,12 @@
     </div>
     
     <script type="text/javascript" charset="utf-8" src="/media/js/libs/jquery-1.4.4.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            $("a[rel*='external']").click(function() {
+                _gaq.push(['_trackPageview', '/outgoing/' + $(this).attr('href')]);
+            });
+        })
+    </script>
 </body>
 </html>
