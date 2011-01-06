@@ -23,7 +23,6 @@ I am getting the sunrise & sunset data from [weather underground](http://wund.co
 #### Sunset
 
 	curl --silent http://m.wund.com/global/stations/71265.html | grep 'Sunset' | sed -e :a -e 's/]*&gt;//g;/&lt;/N;//ba' | sed -e 's/Sunset/Sunset: /g' | sed -e 's/EST//g'
-{% endhighlight %}
 
 ### IP Addresses
 

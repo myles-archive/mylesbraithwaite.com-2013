@@ -31,5 +31,3 @@ Hate
 ----
 
 **What about the software I already have a license to**. I already own OmniFocus, OmniGraffle, OmniOutliner, Billings, Transmit, Delicious Library 2, 1Password, MarsEdits, the iWork Suite, and the iLife Suite; why do I have to buy them again? I understand that Apple doesn't want to have to support anyone that didn't buy the application from them (because they didn't make any money off you). And to be fair some developers are doing a transition program.
-
-**
