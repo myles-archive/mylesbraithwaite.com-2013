@@ -1,0 +1,35 @@
+---
+title: What I Like and Hate about the Mac App Store
+layout: post
+category: journal
+tags:
+- Apple
+- Mac OS X
+- Mac App Store
+- App Tore
+date: 2011-01-06T09:30
+---
+
+The [Mac App Store](http://www.apple.com/mac/app-store/ "Apple - App Store") came out today and I have been window shopping for the past twenty minutes (I currently can't download any of the apps). Apple designed the application to look more like a Mac OS X application than an iOS application so I cam quite happy about that.
+
+<div class="inline illustration">
+	<a href="http://mylesbraithwaite.com/media/uploads/posts/2011-01-06-map-app-store/app-store-large.png" title="Mac App Store">
+		<img src="http://mylesbraithwaite.com/media/uploads/posts/2011-01-06-map-app-store/app-store-small.png" alt="Mac App Store">
+	</a>
+</div>
+
+Like
+----
+
+**I will never have to use [PayPal](http://www.paypal.com/) again**. The one large issue with buying software in the Macintosh world is most of the application you are buying are not from large companies. So you have to buy most of the software though small ones (like [The Omni Group](http://www.omnigroup.com/), [Panic](http://www.panic.com/), and [Market Circle](http://www.marketcircle.com/index.html)), the internet is a scare place with identity theft happening very often and I don't feel comfortable giving away my Credit Card to a company I just found on Google. So I have been using PayPal for most of the last couple of purchase. Now that Apple is taking care of the Credit Card transaction I don't feel scared to buy software from small companies.
+
+**Not having to update software**. When ever I need to quickly edit a photo I don't use PhotoShop but [Pixelmator](http://www.pixelmator.com/) (a great graphic editor tool). I don't have to use it that often so every time I do it tells me it has to download an update. Now with the Mac App Store my application will be keep up to date.
+
+**One user many systems**. I love the fact that the I can buy an application and use it on all my computers.
+
+Hate
+----
+
+**What about the software I already have a license to**. I already own OmniFocus, OmniGraffle, OmniOutliner, Billings, Transmit, Delicious Library 2, 1Password, MarsEdits, the iWork Suite, and the iLife Suite; why do I have to buy them again? I understand that Apple doesn't want to have to support anyone that didn't buy the application from them (because they didn't make any money off you). And to be fair some developers are doing a transition program.
+
+**

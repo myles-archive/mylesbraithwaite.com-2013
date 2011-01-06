@@ -12,33 +12,75 @@ I recently installed [Geektool](http://projects.tynsoe.org/en/geektool/) on my M
 
 ### Sunrise & Sunset
 
-![Sunrise & Sunset](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/01-sunrise-and-sunset.png)
+![Sunrise & Sunset](/media/uploads/posts/2010-01-02-geektool/01-sunrise-and-sunset.png)
 
-I am getting the sunrise & sunset data from [weather undergroup](http://wund.com/) [mobile website](http://m.wund.com).
+I am getting the sunrise & sunset data from [weather underground](http://wund.com/) [mobile website](http://m.wund.com).
 
 #### Sunrise
-	
+
 	curl --silent http://m.wund.com/global/stations/71265.html | grep 'Sunrise' | sed -e :a -e 's/]*&gt;//g;/&lt;/N;//ba' | sed -e 's/Sunrise/Sunrise: /g' | sed -e 's/EST//g'
 
 #### Sunset
 
 	curl --silent http://m.wund.com/global/stations/71265.html | grep 'Sunset' | sed -e :a -e 's/]*&gt;//g;/&lt;/N;//ba' | sed -e 's/Sunset/Sunset: /g' | sed -e 's/EST//g'
+{% endhighlight %}
 
 ### IP Addresses
 
-![IP Addresses](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/02-ip-addresses.png)
+![IP Addresses](/media/uploads/posts/2010-01-02-geektool/02-ip-addresses.png)
 
-<script src="http://gist.github.com/267698.js?file=ip_addresses.sh"></script>
+{% highlight bash %}
+#!/bin/sh
+myen0=`ifconfig en0 | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}'`
+myen1=`ifconfig en1 | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}'`
+wip=`/usr/bin/curl --silent http://checkip.dyndns.org | awk '{print $6}' | cut -f 1 -d "<"`
+INACTIVE='INACTIVE'
+
+if [ "$myen0" != "" ]
+then
+	echo "Ethernet:	$myen0"
+else
+	echo "Ethernet:	$INACTIVE"
+fi
+
+if [ "$myen1" != "" ]
+then
+	echo "Wireless:	$myen1"
+else
+	echo "Wireless:	$INACTIVE"
+fi
+
+if [ "$wip" != "" ]
+then
+	echo "External:	$wip"
+else
+	echo "External: $INAVTIVE"
+fi
+{% endhighlight %}
 
 ### Weather Image
 
-![Weather Image](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/03-weather-image.png)
+![Weather Image](/media/uploads/posts/2010-01-02-geektool/03-weather-image.png)
 
-<script src="http://gist.github.com/267702.js?file=get_weather_image.sh"></script>
+{% highlight bash %}
+#!/bin/sh
+# Get weather image
+# Add this to your crontab.
+
+YAHOO_WEATHER_HTML=`curl --silent "http://weather.yahoo.com/canada/ontario/toron
+to-4118/?unit=c"`
+curl --silent -o /tmp/weather.html "http://weather.yahoo.com/canada/ontario/toro
+nto-4118/?unit=c"
+
+if [[ $YAHOO_WEATHER_HTML ]]; then
+        curl --silent -o /tmp/weather.png $(grep 'div class="forecast-icon" styl
+e="background:url' /tmp/weather.html | awk -F"'" '{ printf $2 }')
+fi
+{% endhighlight %}
 
 ### Weather Forecast
 
-![Weather Forecast](http://uploads.mylesbraithwaite.com/blog_posts/geektool-setup/04-weather-forecast.png)
+![Weather Forecast](/media/uploads/posts/2010-01-02-geektool/04-weather-forecast.png)
 
 I am using [Yahoo Weather](http://ca.weather.yahoo.com/) to get the weather image.
 
