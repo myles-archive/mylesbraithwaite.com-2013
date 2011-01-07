@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_posts/2011-01-06-map-app-store.mdown</string>
+	<string>_posts/2011-01-07-the-facebook-microsoft-parallels.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,24 +21,69 @@
 	<integer>220</integer>
 	<key>metaData</key>
 	<dict>
-		<key>_posts/2011-01-06-map-app-store.mdown</key>
+		<key>Rakefile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>456</integer>
+				<integer>34</integer>
 				<key>line</key>
-				<integer>32</integer>
+				<integer>96</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>14</integer>
+			<integer>81</integer>
+		</dict>
+		<key>_config.yml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>14</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2011-01-07-apple-is-becoming-microsoft.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>410</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2011-01-07-the-facebook-microsoft-parallels.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>416</integer>
+				<key>line</key>
+				<integer>12</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>_posts/2011-01-06-map-app-store.mdown</string>
+		<string>_config.yml</string>
+		<string>_posts/2011-01-07-apple-is-becoming-microsoft.mdown</string>
+		<string>Rakefile</string>
+		<string>_posts/2011-01-07-the-facebook-microsoft-parallels.mdown</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>

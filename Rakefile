@@ -122,7 +122,7 @@ end
 
 desc 'Validate the ATOM feeds.'
 task :validate_atom => :build do
-  sh 'find _site/feeds -name "atom.xml" | xargs xmllint --valid --noout'
+  sh 'find _site/feeds -name "*.xml" | xargs xmllint --valid --noout'
 end
 
 desc 'Ping'
