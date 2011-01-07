@@ -1,5 +1,5 @@
 pygments: true
-markdown: rdiscount
+markdown: kramdown
 permalink: /:categories/:year/:month/:title
 pagination: 5
 
