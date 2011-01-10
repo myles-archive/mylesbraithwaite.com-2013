@@ -1,6 +1,6 @@
 pygments: true
 markdown: kramdown
-permalink: /:categories/:year/:month/:title
+permalink: /:categories/:year/:month/:title/
 pagination: 5
 
 exclude: [
