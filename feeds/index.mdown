@@ -22,3 +22,9 @@ This feed isn't updated frequently but contains longer articles.
 This feed only has my linked posts which is updated more frequently but contains shorter articles.
 
 * <http://mylesbraithwaite.com/feeds/linked/atom.xml>
+
+## PlanetPlanet Feed
+
+This feed is special designed for [Planet aggregators](http://en.wikipedia.org/wiki/Planet_(software) "Wikipedia article about PlanetPlanet").
+
+* <http://mylesbraithwaite.com/feeds/planetplanet.xml>
