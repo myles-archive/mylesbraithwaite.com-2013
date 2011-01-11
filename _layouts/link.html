@@ -2,13 +2,13 @@
 layout: base
 ---
 
-<article class="link">
+<article class="link hentry">
     <header>
-        <h1><a href="{{ page.link }}" rel="external" title="{{ page.title }}">{{ page.title }}</a></h1>
-        <p>{{ page.date | date: "%A,&nbsp;%d&nbsp;%B&nbsp;%Y&nbsp;at&nbsp;%I:%M&nbsp;%p" }}</p>
+        <h1><a href="{{ page.link }}" rel="external bookmark" title="{{ page.title }}" class="entry-title">{{ page.title }}</a></h1>
+        <p class="updated" title="{{ page.date | date_to_xmlschema }}Z">{{ page.date | date: "%A,&nbsp;%d&nbsp;%B&nbsp;%Y&nbsp;at&nbsp;%I:%M&nbsp;%p" }}</p>
     </header>
     
-    <section>
+    <section class="entry-content">
         {{ content }}
     </section>
     
