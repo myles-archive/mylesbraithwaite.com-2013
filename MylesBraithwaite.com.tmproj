@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>feeds/atom.xml</string>
+	<string>index.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -82,37 +82,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>85</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>15</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_layouts/post.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>85</integer>
-				<key>line</key>
-				<integer>15</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>feeds/atom.xml</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>32</integer>
-				<key>line</key>
-				<integer>10</integer>
+				<integer>6</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
@@ -123,32 +95,133 @@
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>28</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>6</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>36</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>6</integer>
 			</dict>
+		</dict>
+		<key>_layouts/post.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>32</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>32</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+		</dict>
+		<key>feeds/atom.xml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>200</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>200</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+		</dict>
+		<key>feeds/linked/atom.xml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>203</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>feeds/planetplanet.xml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>203</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>24</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>239</integer>
+			<key>firstVisibleLine</key>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>_layouts/about.html</string>
-		<string>_layouts/archive.html</string>
-		<string>_layouts/atom.xml</string>
-		<string>_layouts/base.html</string>
+		<string>feeds/atom.xml</string>
+		<string>feeds/planetplanet.xml</string>
 		<string>_layouts/link.html</string>
 		<string>_layouts/post.html</string>
-		<string>feeds/atom.xml</string>
+		<string>index.html</string>
+		<string>feeds/linked/atom.xml</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{709, 193}, {808, 820}}</string>
+	<string>{{839, 97}, {808, 820}}</string>
 </dict>
 </plist>

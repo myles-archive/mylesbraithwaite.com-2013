@@ -14,7 +14,7 @@ layout: nil
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
 
 	<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-	<title>Myles Braithwaite's {{ page.title }}</title>
+	<title>{% if page.title %}Myles Braithwaite's {{ page.title }}{% else %}Myles Braithwaite{% endif %}</title>
 	<link href="{{ page.location }}" rel="self"/>
 	<link href="http://mylesbraithwaite.com/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
