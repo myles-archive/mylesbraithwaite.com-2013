@@ -14,8 +14,8 @@ location: "http://mylesbraithwaite.com/feeds/atom.xml"
 	<link href="{{ post.link | xml_escape }}" rel="alternate" />
 	<link href="{{ post.link | xml_escape }}" rel="related" />
 	<content type="html">
-	    {{ post.content | xml_escape }}
-	    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '">#</a></p>' | xml_escape }}
+		{{ post.content | xml_escape }}
+		{{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '" title="Myles Braithwaite - ' | xml_excape }}{{ post.title | xml_escape }}{{ '">#</a></p>' | xml_escape }}
 	</content>
 	{% else %}
 	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">
