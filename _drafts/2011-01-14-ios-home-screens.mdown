@@ -1,0 +1,123 @@
+---
+title: iOS Home Screens
+layout: post
+category: journal
+tags:
+- iOS
+- iPhone
+- iPad
+- Apple
+date: 2011-01-14T13:26
+---
+
+I use the same background for each device (you can download the [iPhone](/media/uploads/posts/2011-01-14-ios-homescreens/iphone_wallpaper.jpg) and [iPad](/media/uploads/posts/2011-01-14-ios-homescreens/ipad_wallpaper.jpg) versions), I found it on [iPad Wallpapers That Don't Suck](http://ipadwallpapersthatdontsuck.tumblr.com/post/654493975).
+
+## iPad
+
+* Calendar
+* Contacts
+* Photos
+* Videos
+* Maps
+ * Maps
+ * OffMap
+ * Google Earth
+ * Topo Maps
+* YouTube
+* iPod
+* Calcbot
+* Awaken
+* SysAdmin
+ * iSSH
+ * Jump Desktop
+ * Linode
+ * iNet
+ * FCC Test
+* Evernote
+* Elements
+* OmniGraffle
+* Notes
+ * Notes
+ * iA Writer
+ * PlainText
+ * MarkdownMail
+ * MobileOrg
+ * Outliner
+ * Catch Notes
+ * Notebook
+ * Note Taker HD
+ * Muji Notebook
+ * Simplenote
+ * Penulimate
+* Disk
+ * GoodReader
+ * Air Sharing
+ * iDisk
+ * Dropbox
+* Weather HD
+* iTunes
+* Game Center
+* iWork
+ * Pages
+ * Keynote
+ * Numbers
+* App Store
+
+### Dock
+
+* Safari
+* Mail
+* Reeder
+* Twitter
+* OmniFocus
+
+## iPhone
+
+<div class="side illustration">
+	<img src="/media/uploads/posts/2011-01-14-ios-homescreens/iphone.jpg" alt="Official Session 6 Lost Poster" title="The Final Season of LOST">
+</div>
+
+* Twitter
+* Camera+
+* OmniFocus
+* Maps
+ * Maps
+ * OffMaps
+ * Google Earth
+ * MotionX GPS
+* Reeder
+* Instapaper Pro
+* Articles
+* Notes
+ * Evernote
+ * Elements
+ * Notes
+ * Catch Notes
+ * MarkdownMail
+* Gowalla
+* Wolfram Alpha
+* Calcbot
+* Games
+ * Angry Birds
+ * Doddle Jump
+ * Canablat
+ * The Incident
+ * Planets vs. Zombies
+ * Cut the Rope
+ * Slice It!
+ * Astronut
+ * Spider
+ * Eliss
+ * Solipskier
+ * Drop7
+* Weather HD
+* iPod
+* Awaken
+* Settings
+
+### Dock
+
+* Phone
+* Mail
+* Calendar
+* Safari

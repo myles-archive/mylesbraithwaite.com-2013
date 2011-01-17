@@ -40,6 +40,11 @@ namespace :deploy do
     git "git@github.com:myles/myles.github.com.git"
   end
   
+  desc 'Deploy to MobileMe service.'
+  task :mobileme => :build do
+    rsync "/Volumes/iDisk/Sites/mylesbraithwaite.com/"
+  end
+  
   desc "Deploy to Mirrors"
   task :mirrors => [:nfs, :webfaction, :s3]
   
@@ -134,7 +139,7 @@ desc 'Ping PubSubHubBub server.'
 task :ping_pubsubhubbub do
   require 'cgi'
   require 'net/http'
-  data = 'hub.mode=publish&hub.url=' + CGI::escape("http://mylesbraithwaite.com/atom.xml")
+  data = 'hub.mode=publish&hub.url=' + CGI::escape("http://mylesbraithwaite.com/feeds/atom.xml")
   http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
   resp, data = http.post('http://pubsubhubbub.appspot.com/publish', data, { 'Content-Type' => 'application/x-www-form-urlencoded' })
   puts "Ping error: #{resp}, #{data}" unless resp.code == "204"
@@ -146,7 +151,7 @@ task :ping_pingomatic do
   require 'cgi'
   require 'net/http'
   http = Net::HTTP.new('pingomatic.com', 80)
-  data = 'title=' + CGI::escape("Myles Braithwaite") + "&blogurl=" + CGI::escape("http://mylesbraithwaite.com/") + "&rssurl=" + CGI::escape("http://mylesbraithwaite.com/atom.xml") + "&chk_blogs=on&chk_technorati=on&chk_feedburner=on&chk_google=on&chk_bloglines=on"
+  data = 'title=' + CGI::escape("Myles Braithwaite") + "&blogurl=" + CGI::escape("http://mylesbraithwaite.com/") + "&rssurl=" + CGI::escape("http://mylesbraithwaite.com/feeds/atom.xml") + "&chk_blogs=on&chk_technorati=on&chk_feedburner=on&chk_google=on&chk_bloglines=on"
   resp, data = http.get('http://pingomatic.com/ping/?' + data)
   puts "Ping error: #{resp}, #{data}" unless resp.code == "200"
 end
