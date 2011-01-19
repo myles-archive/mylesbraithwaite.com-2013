@@ -63,7 +63,7 @@ namespace :deploy do
     require 'grit'
     repo = Grit::Repo.init('./_site')
     repo.clone({ :quite => false, :verbose => true, :progress => true, :branch => 'master' }, location)
-
+    
     files = Dir.glob(File.join(Dir.getwd, "_site/**"))
     repo.add(files)
     repo.commit_all("#{Time.now}")
@@ -157,14 +157,13 @@ task :ping_pingomatic do
 end
 
 desc "See if the mirrors are out of date."
-task :check_mirrors do
+task :check_mirrors => :build do
   require 'net/http'
   require 'yaml'
-  http = Net::HTTP.new('mylesbraithwaite.com', 80)
-  resp, data = http.get('http://mylesbraithwaite.com/VERSION.yml')
-  master_version = YAML::load(data)
+  master_version = File.open('_site/VERSION.yml') { |yf| YAML::load(yf) }
   
   mirrors = [
+    'mylesbraithwaite.com',
     'myles.nfshost.com',
     'myles.webfactional.com',
     # 'myles.github.com', <- Disabled because haven't got it working yet.
@@ -172,6 +171,7 @@ task :check_mirrors do
   ]
   
   for mirror in mirrors do
+    puts "Testing '#{mirror}'."
     http = Net::HTTP.new(mirror, 80)
     resp, data = http.get('http://#{mirror}/VERSION.yml')
     version = YAML::load(data)
