@@ -7,6 +7,7 @@ location: "http://mylesbraithwaite.com/feeds/atom.xml"
 <entry>
 	<title>{{ post.title | xml_escape }}</title>
 	<updated>{{ post.date | date_to_xmlschema }}</updated>
+	{% if post.date_modified %}<modified>{{ post.modified | date_to_xmlschema }}</modified>{% endif %}
 	<id>http://mylesbraithwaite.com{{ post.id }}</id>
 	{% for tag in post.tags %}<category term="{{ tag | xml_escape }}"/>{% endfor %}
 	{% if post.link %}
