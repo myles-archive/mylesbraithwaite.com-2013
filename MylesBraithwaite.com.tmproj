@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>_posts/linked/2011-01-25-37signals-dropping-support-for-openid-on-1st-may-2011.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -43,20 +41,6 @@
 				<integer>12</integer>
 				<key>line</key>
 				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_posts/linked/2011-01-25-37signals-dropping-support-for-openid-on-1st-may-2011.mdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>306</integer>
-				<key>line</key>
-				<integer>11</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -136,13 +120,9 @@
 			<integer>0</integer>
 		</dict>
 	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>_posts/linked/2011-01-25-37signals-dropping-support-for-openid-on-1st-may-2011.mdown</string>
-	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{1001, 105}, {808, 819}}</string>
+	<string>{{940, 182}, {808, 819}}</string>
 </dict>
 </plist>
