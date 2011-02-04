@@ -173,7 +173,7 @@ task :check_mirrors => :build do
   for mirror in mirrors do
     puts "Testing '#{mirror}'."
     http = Net::HTTP.new(mirror, 80)
-    resp, data = http.get('http://#{mirror}/VERSION.yml')
+    resp, data = http.get('/VERSION.yml')
     version = YAML::load(data)
     if version['git_reversion'] == master_version['git_reversion']
       puts "#{mirror} is up to date."
