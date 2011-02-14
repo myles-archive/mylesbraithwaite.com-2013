@@ -141,7 +141,7 @@ task :ping_pubsubhubbub do
   require 'net/http'
   data = 'hub.mode=publish&hub.url=' + CGI::escape("http://mylesbraithwaite.com/feeds/atom.xml")
   http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
-  resp, data = http.post('http://pubsubhubbub.appspot.com/publish', data, { 'Content-Type' => 'application/x-www-form-urlencoded' })
+  resp, data = http.post('/publish', data, { 'Content-Type' => 'application/x-www-form-urlencoded' })
   puts "Ping error: #{resp}, #{data}" unless resp.code == "204"
 end
 
@@ -152,7 +152,7 @@ task :ping_pingomatic do
   require 'net/http'
   http = Net::HTTP.new('pingomatic.com', 80)
   data = 'title=' + CGI::escape("Myles Braithwaite") + "&blogurl=" + CGI::escape("http://mylesbraithwaite.com/") + "&rssurl=" + CGI::escape("http://mylesbraithwaite.com/feeds/atom.xml") + "&chk_blogs=on&chk_technorati=on&chk_feedburner=on&chk_google=on&chk_bloglines=on"
-  resp, data = http.get('http://pingomatic.com/ping/?' + data)
+  resp, data = http.get('/ping/?' + data)
   puts "Ping error: #{resp}, #{data}" unless resp.code == "200"
 end
 
