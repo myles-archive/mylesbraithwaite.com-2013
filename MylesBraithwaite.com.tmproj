@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_config.yml</string>
+	<string>_posts/linked/2011-02-15-c-is-closing-the-gap-on-php.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -77,20 +77,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_config.yml</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>_layouts/about.html</key>
 		<dict>
 			<key>caret</key>
@@ -113,6 +99,20 @@
 				<integer>12</integer>
 				<key>line</key>
 				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/linked/2011-02-15-c-is-closing-the-gap-on-php.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>20</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -320,26 +320,11 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>Rakefile</string>
-		<string>README.mdown</string>
-		<string>projects.mdown</string>
-		<string>offline.html</string>
-		<string>index.html</string>
-		<string>humans.txt</string>
-		<string>feeds/atom.xml</string>
-		<string>config.ru</string>
-		<string>_config.yml</string>
-		<string>cache.manifest</string>
-		<string>archives.html</string>
-		<string>robots.txt</string>
-		<string>sitemap.xml</string>
-		<string>talks.mdown</string>
-		<string>TODO.txt</string>
-		<string>VERSION.yml</string>
+		<string>_posts/linked/2011-02-15-c-is-closing-the-gap-on-php.mdown</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{622, 239}, {808, 819}}</string>
+	<string>{{795, 184}, {808, 819}}</string>
 </dict>
 </plist>
