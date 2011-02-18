@@ -14,7 +14,7 @@ location: "http://mylesbraithwaite.com/feeds/journal/atom.xml"
 		<link href="http://mylesbraithwaite.com{{ post.url }}"/>
 	{% endif %}
 	<updated>{{ post.date | date_to_xmlschema }}</updated>
-	{% if post.date_modified %}<modified>{{ post.modified | date_to_xmlschema }}</modified>{% endif %}
+	{% if post.date_modified %}<modified>{{ post.date_modified | date_to_xmlschema }}</modified>{% endif %}
 	<id>http://mylesbraithwaite.com{{ post.id }}</id>
 	<content type="html">{{ post.content | xml_escape }}</content>
 	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">

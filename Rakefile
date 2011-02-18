@@ -29,6 +29,11 @@ namespace :deploy do
   task :webfaction => :build do
     rsync "webfaction:~/webapps/myles"
   end
+
+  desc "Deploy to SDF"
+  task :sdf => :build do
+    rsync "sdf.org:/udd/m/myles/html"
+  end
   
   desc "Deploy to S3"
   task :s3 => :build do
