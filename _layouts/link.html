@@ -6,6 +6,9 @@ layout: base
     <header>
         <h1><a href="{{ page.link }}" rel="external bookmark" title="{{ page.title }}" class="entry-title">{{ page.title }}</a></h1>
         <p class="updated" title="{{ page.date | date_to_xmlschema }}Z">{{ page.date | date: "%A,&nbsp;%d&nbsp;%B&nbsp;%Y&nbsp;at&nbsp;%I:%M&nbsp;%p" }}</p>
+        <p class="byline author vcard">
+            (via&nbsp;<span class="fn">Myles&nbsp;Braithwaite</span>)
+        </p>
     </header>
     
     <section class="entry-content">
