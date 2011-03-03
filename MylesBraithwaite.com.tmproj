@@ -54,53 +54,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>96</integer>
+				<integer>92</integer>
 				<key>line</key>
-				<integer>109</integer>
+				<integer>71</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>86</integer>
-		</dict>
-		<key>_layouts/post.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>477</integer>
-				<key>line</key>
-				<integer>19</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>media/js/mylesbraithwaite.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>39</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>46</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>_layouts/base.html</string>
-		<string>media/js/mylesbraithwaite.js</string>
-		<string>_layouts/post.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{894, 190}, {808, 819}}</string>
+	<string>{{757, 162}, {808, 819}}</string>
 </dict>
 </plist>
