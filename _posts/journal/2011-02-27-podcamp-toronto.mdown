@@ -8,6 +8,7 @@ tags:
 - PodCamp Toronto 2011
 - Conference
 date: 2011-02-27T10:55
+shorturl: http://myl.be/N98Q
 ---
 
 I attended [PodCamp Toronto 2011](http://2011.podcamptoronto.org/) this weekend here are some of the notes I took during the conference.
