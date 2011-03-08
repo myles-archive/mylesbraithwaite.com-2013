@@ -15,5 +15,5 @@ date: 2011-03-08T09:05
 	<img src="http://mylesbraithwaite.com/media/uploads/posts/2011-03-08-new-starbucks-coffee-cup-design/new-stackbucks-cup-design.jpg" alt="New Starbucks Coffee Cup Design">
 </div>
 
-* [Front](http://mylesbraithwaite.com/media/uploads/posts/2011-03-08-new-starbucks-coffee-cup-design/new-stackbucks-cup-design-front.jpg)
-* [Back](http://mylesbraithwaite.com/media/uploads/posts/2011-03-08-new-starbucks-coffee-cup-design/new-stackbucks-cup-design-back.jpg)
+* [Front](http://mylesbraithwaite.com/media/uploads/posts/2011-03-08-new-starbucks-coffee-cup-design/new-starbucks-cup-design-front.jpg)
+* [Back](http://mylesbraithwaite.com/media/uploads/posts/2011-03-08-new-starbucks-coffee-cup-design/new-starbucks-cup-design-back.jpg)
