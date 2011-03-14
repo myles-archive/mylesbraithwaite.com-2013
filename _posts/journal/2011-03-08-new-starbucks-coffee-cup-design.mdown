@@ -7,6 +7,7 @@ tags:
 - Design
 - Coffee
 date: 2011-03-08T09:05
+shorturl: http://c.myl.be/5EjZ
 ---
 
 [Starbucks](http://starbucks.com/) has changed the design of their coffee cups.

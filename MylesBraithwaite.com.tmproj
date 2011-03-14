@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>_posts/linked/2011-03-08-home-with-a-steel-slide-by-turett-collaborative-architects.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -79,28 +77,10 @@
 				<integer>15</integer>
 			</dict>
 		</dict>
-		<key>_posts/linked/2011-03-08-home-with-a-steel-slide-by-turett-collaborative-architects.mdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>254</integer>
-				<key>line</key>
-				<integer>23</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>5</integer>
-		</dict>
 	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>_posts/linked/2011-03-08-home-with-a-steel-slide-by-turett-collaborative-architects.mdown</string>
-	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{764, 80}, {808, 819}}</string>
+	<string>{{586, 108}, {808, 819}}</string>
 </dict>
 </plist>
