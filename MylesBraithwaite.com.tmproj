@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>_posts/linked/2011-03-16-deb-roy.mdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -77,7 +79,25 @@
 				<integer>15</integer>
 			</dict>
 		</dict>
+		<key>_posts/linked/2011-03-16-deb-roy.mdown</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>_posts/linked/2011-03-16-deb-roy.mdown</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
