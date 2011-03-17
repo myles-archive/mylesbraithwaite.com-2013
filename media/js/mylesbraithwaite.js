@@ -4,4 +4,5 @@ $(document).ready(function() {
     });
     
     $("div.illustration a").fancybox();
+    $("div.illustrations a").fancybox();
 })
