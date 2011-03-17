@@ -11,7 +11,7 @@ location: "http://mylesbraithwaite.com/feeds/journal/atom.xml"
 	{% if post.link %}
 		<link href="{{ post.link | xml_escape }}"/>
 	{% else %}
-		<link href="http://mylesbraithwaite.com{{ post.url }}"/>
+		<link href="http://mylesbraithwaite.com{{ post.url }}{{ '?utm_source=site&utm_medium=feed&utm_campaign=journal.xml' | xml_escape }}"/>
 	{% endif %}
 	<updated>{{ post.date | date_to_xmlschema }}</updated>
 	{% if post.date_modified %}<modified>{{ post.date_modified | date_to_xmlschema }}</modified>{% endif %}

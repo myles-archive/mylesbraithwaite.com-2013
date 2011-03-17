@@ -12,18 +12,18 @@ location: "http://mylesbraithwaite.com/feeds/atom.xml"
 	{% for tag in post.tags %}<category term="{{ tag | xml_escape }}"/>{% endfor %}
 	{% if post.link %}
 	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/bookmark</activity:object-type>
-	<link href="http://mylesbraithwaite.com{{ post.url }}" rel="alternate" />
+	<link href="http://mylesbraithwaite.com{{ post.url }}{{ '?utm_source=site&utm_medium=feed&utm_campaign=planetplanet.xml' | xml_escape }}" rel="alternate" />
 	<link href="{{ post.link | xml_escape }}" rel="related" />
 	<content type="html">
 		{{ '<h2><a href="' | xml_escape }}{{ post.link | xml_escape }}{{ '" rel="external">' | xml_escape }}{{ post.title | xml_escape }}{{ '</a></h2>' | xml_escape }}
 	    {{ post.content | xml_escape }}
-	    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '" title="Myles Braithwaite - ' | xml_excape }}{{ post.title | xml_escape }}{{ '">#</a></p>' | xml_escape }}
+	    {{ '<p><a href="http://mylesbraithwaite.com' | xml_escape }}{{ post.url | xml_escape }}{{ '?utm_source=site&utm_medium=feed&utm_campaign=planetplanet.xml' | xml_escape }}{{ '" title="Myles Braithwaite - ' | xml_excape }}{{ post.title | xml_escape }}{{ '">#</a></p>' | xml_escape }}
 	</content>
 	{% else %}
 	<activity:object-type xmlns="http://activitystrea.ms/spec/1.0/">
 		http://activitystrea.ms/schema/1.0/article
 	</activity:object-type>
-	<link href="http://mylesbraithwaite.com{{ post.url }}" rel="alternate" />
+	<link href="http://mylesbraithwaite.com{{ post.url }}{{ '?utm_source=site&utm_medium=feed&utm_campaign=planetplanet.xml' | xml_escape }}" rel="alternate" />
 	<content type="html">
         {{ post.content | xml_escape }}
 	</content>
