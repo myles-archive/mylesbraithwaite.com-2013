@@ -1,21 +1,42 @@
-/* @override http://0.0.0.0:4000/media/css/style.css */
+/* @override 
+	http://0.0.0.0:4000/media/css/style.css
+	http://mylesbraithwaite.com/media/css/style.css
+*/
 
 div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
 
 @media (max-width: 600px) {
     div#container { margin: 0 .5em; max-width: 590px; min-width: 500px; }
     
-    div.inline.illustration { display: none; }
+    header#top h1 { margin: 0; padding: 0; }
+    header#top h1 a { display: block; }
+    header#top h1, header#top h1 a { margin: 0; padding: 0; }
+    
+    div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe { max-width: 400px; }
+    div.inline.illustrations img { display: inline; }
+    div.inline.illustrations { max-width: 400px; margin: 0 auto; }
 }
 
 @media (max-width: 500px) {
     div#container { margin: 0 .5em; max-width: 490px; min-width: 400px; }
     
-    div.inline.illustration { display: none; }
+    header#top h1 { margin: 0; padding: 0; }
+    header#top h1 a { display: block; }
+    header#top h1, header#top h1 a { margin: 0; padding: 0; }
+        
+    div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe  { max-width: 300px; }
+    div.inline.illustrations img { display: inline; }
+    div.inline.illustrations { max-width: 300px; margin: 0 auto; }
 }
 
 @media (max-width: 400px) {
     div#container { margin: 0 .5em; max-width: 390px; min-width: 300px; }
     
-    div.side.illustration, div.inline.illustration { display: none; }
+    header#top h1 { margin: 0; padding: 0; }
+    header#top h1 a { display: block; }
+    header#top h1, header#top h1 a { margin: 0; padding: 0; }
+        
+    div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe { max-width: 250px; }
+    div.inline.illustrations img { display: inline; }
+    div.inline.illustrations { max-width: 250px; margin: 0 auto; }
 }
