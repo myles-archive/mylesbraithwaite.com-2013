@@ -19,6 +19,22 @@ module Jekyll
     
   end
   
+  class GitTagTag < Liquid::Tag
+    
+    def initialize(tag_name, text, tokens)
+      super
+    end
+    
+    def render(content)
+      repo = Repo.new(File.join(Dir.getwd))
+      
+      tag = repo.tags[-1]
+      
+      "#{tag.name}"
+    end
+    
+  end
+  
   class GitRevisionHashTag < Liquid::Tag
     
     def initialize(tag_name, text, tokens)
@@ -37,4 +53,5 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('git_date', Jekyll::GitDateTag)
+Liquid::Template.register_tag('git_tag', Jekyll::GitTagTag)
 Liquid::Template.register_tag('git_revision_hash', Jekyll::GitRevisionHashTag)

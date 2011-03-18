@@ -1,6 +1,7 @@
 /* @override 
 	http://0.0.0.0:4000/media/css/style.css
 	http://mylesbraithwaite.com/media/css/style.css
+	http://d3olrcfpp6yl2k.cloudfront.net/media/css/style.css
 */
 
 div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
@@ -15,6 +16,8 @@ div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
     div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe { max-width: 400px; }
     div.inline.illustrations img { display: inline; }
     div.inline.illustrations { max-width: 400px; margin: 0 auto; }
+    
+    footer#bottom div.right { display: none; }
 }
 
 @media (max-width: 500px) {
@@ -27,6 +30,8 @@ div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
     div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe  { max-width: 300px; }
     div.inline.illustrations img { display: inline; }
     div.inline.illustrations { max-width: 300px; margin: 0 auto; }
+    
+    footer#bottom div.right { display: none; }
 }
 
 @media (max-width: 400px) {
@@ -39,4 +44,6 @@ div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
     div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe { max-width: 250px; }
     div.inline.illustrations img { display: inline; }
     div.inline.illustrations { max-width: 250px; margin: 0 auto; }
+    
+    footer#bottom div.right { display: none; }
 }

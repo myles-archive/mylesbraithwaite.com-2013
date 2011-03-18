@@ -2,7 +2,7 @@
 layout: nil
 ---
 CACHE MANIFEST
-# rev {% git_revision_hash %}
+# rev {% git_tag %}
 
 /media/css/style.css
 /media/css/screen.css
