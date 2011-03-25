@@ -40,18 +40,35 @@ namespace :deploy do
     s3cmd "s3://mylesbraithwaite.com"
   end
   
-  desc 'Build and deploy to GitHub pages'
-  task :github => :build do
-    git "git@github.com:myles/myles.github.com.git"
-  end
-  
   desc 'Deploy to MobileMe service.'
   task :mobileme => :build do
     rsync "/Volumes/iDisk/Sites/mylesbraithwaite.com/"
   end
   
+  desc 'Deploy to Heroku.'
+  task :heroku => :build do
+    sh "git checkout heroku"
+    sh "git rebase master"
+    sh "git add -f _site/"
+    sh "git push heroku heroku:master"
+    sh "git checkout master"
+  end
+  
+  desc 'Deploy to GitHub page.'
+  task :github => :build do
+    sh "cd _site/"
+    sh "git init ."
+    sh "git pull git@github.com:myles/myles.github.com.git:master"
+    sh "git add ."
+    sh "git commit -m 'Hello, World!'"
+    sh "git push git@github.com:myles/myles.github.com.git:master"
+  end
+  
   desc "Deploy to Mirrors"
   task :mirrors => [:nfs, :webfaction, :s3]
+  
+  desc "Git based Mirrors"
+  task :git_mirrors => [:heroku, :github]
   
   desc "Deploy to All"
   task :all => [:master, :mirrors]
@@ -62,16 +79,6 @@ namespace :deploy do
   
   def s3cmd(location)
     sh "s3cmd sync --acl-public --delete-removed _site/ #{location}/"
-  end
-  
-  def git(location)
-    require 'grit'
-    repo = Grit::Repo.init('./_site')
-    repo.clone({ :quite => false, :verbose => true, :progress => true, :branch => 'master' }, location)
-    
-    files = Dir.glob(File.join(Dir.getwd, "_site/**"))
-    repo.add(files)
-    repo.commit_all("#{Time.now}")
   end
 end
 
