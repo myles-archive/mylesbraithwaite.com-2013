@@ -49,8 +49,10 @@ namespace :deploy do
   task :heroku do
     sh "rm -fr _site/"
     sh "mkdir _site/"
-    jekyll('--no-future')
     sh "git checkout heroku"
+    sh "git add -f _site/"
+    sh "git commit -a -m 'Hello, World'"
+    jekyll('--no-future')
     sh "git rebase master"
     sh "git add -f _site/"
     sh "git commit -a -m 'Hello, World'"
