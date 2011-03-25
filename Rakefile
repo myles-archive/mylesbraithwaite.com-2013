@@ -47,8 +47,11 @@ namespace :deploy do
   
   desc 'Deploy to Heroku.'
   task :heroku => :build do
+    sh "rm -fr _site/"
+    sh "mkdir -site/"
     sh "git checkout heroku"
     sh "git rebase master"
+    jekyll('--no-future')
     sh "git add -f _site/"
     sh "git push heroku heroku:master"
     sh "git checkout master"
