@@ -50,9 +50,9 @@ namespace :deploy do
     sh "rm -fr _site/"
     sh "mkdir _site/"
     sh "git checkout heroku"
-    sh "git add -f _site/"
-    sh "git commit -a -m 'Hello, World'"
     jekyll('--no-future')
+    sh "git add -f _site/"
+    sh "git commit -m 'Hello, World'"
     sh "git rebase master"
     sh "git add -f _site/"
     sh "git commit -a -m 'Hello, World'"
@@ -60,6 +60,7 @@ namespace :deploy do
     sh "git commit -a -m 'Hello, World'"
     sh "git push heroku heroku:master"
     sh "git checkout master"
+    sh "mkdir _site/"
   end
   
   desc 'Deploy to GitHub page.'
