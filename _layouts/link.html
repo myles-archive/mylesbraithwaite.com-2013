@@ -17,6 +17,6 @@ layout: base
     
     <footer>
         <p class="tags">{% for tag in page.tags %}<a href="/tags/{{ tag | slugify }}/" rel="tag" class="tag">{{ tag }}</a>{% if forloop.rindex0 > 1 %},{% endif %} {% if forloop.rindex0 == 1 %}and {% endif %}{% endfor %}</p>
-        <p class="license"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{{ page.title }}</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ post.url }}" property="cc:attributionName" rel="cc:attributionURL">Myles Braithwaite</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+        {% if page.next or page.previous %}<p class="pagination">{% if page.previous %}<a href="{{ page.previous.url }}" title="{{ page.previous.title }}" rel="prev">&#x2190;Previous post</a>{% endif %}{% if page.next and page.previous %} | {% endif %}{% if page.next %}<a href="{{ page.next.url }}" title="{{ page.next.title}}" rel="next">Next post&#x2192;</a></p>{% endif %}
     </footer>
 </article>
