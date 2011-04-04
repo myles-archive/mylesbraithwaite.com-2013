@@ -1,7 +1,7 @@
 /* @override 
-	http://0.0.0.0:4000/media/css/style.css
-	http://mylesbraithwaite.com/media/css/style.css
-	http://d3olrcfpp6yl2k.cloudfront.net/media/css/style.css
+	http://0.0.0.0:4000/media/css/style.css?v=v3
+	http://mylesbraithwaite.com/media/css/style.css?v=v3
+	http://d3olrcfpp6yl2k.cloudfront.net/media/css/style.css?v=v3
 */
 
 div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
@@ -9,7 +9,7 @@ div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
 @media (max-width: 600px) {
     div#container { margin: 0 .5em; max-width: 590px; min-width: 500px; }
     
-    header#top h1 { margin: 0; padding: 0; }
+    header#top h1 { margin: 0; padding: 0; line-height: 0; }
     header#top h1 a { display: block; }
     header#top h1, header#top h1 a { margin: 0; padding: 0; }
     
@@ -23,7 +23,7 @@ div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
 @media (max-width: 500px) {
     div#container { margin: 0 .5em; max-width: 490px; min-width: 400px; }
     
-    header#top h1 { margin: 0; padding: 0; }
+    header#top h1 { margin: 0; padding: 0; line-height: 0; }
     header#top h1 a { display: block; }
     header#top h1, header#top h1 a { margin: 0; padding: 0; }
         
@@ -37,7 +37,7 @@ div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
 @media (max-width: 400px) {
     div#container { margin: 0 .5em; max-width: 390px; min-width: 300px; }
     
-    header#top h1 { margin: 0; padding: 0; }
+    header#top h1 { margin: 0; padding: 0; line-height: 0; }
     header#top h1 a { display: block; }
     header#top h1, header#top h1 a { margin: 0; padding: 0; }
         
