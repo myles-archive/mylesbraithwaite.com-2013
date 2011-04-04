@@ -1,9 +1,3 @@
-/* @override 
-	http://0.0.0.0:4000/media/css/style.css?v=v3
-	http://mylesbraithwaite.com/media/css/style.css?v=v3
-	http://d3olrcfpp6yl2k.cloudfront.net/media/css/style.css?v=v3
-*/
-
 div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
 
 @media (max-width: 600px) {

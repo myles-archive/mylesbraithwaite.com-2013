@@ -129,13 +129,35 @@ article {
                 display: inline;
             }
         }
+        
+        div.highlight {
+            background-color: #202020;
+            color: #D0D0D0;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-top: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+            
+            pre {
+                margin: 0;
+                padding: 10px;
+                border: none;
+                overflow: auto;
+                
+                code {
+                    font-family: Menlo, "Courier New", Courier, monospace;
+                }
+            }
+        }
     }
     
+    /****************************
     pre {
         background: @sand_colour;
         padding: 1em;
         overflow: auto;
     }
+    ****************************/
 }
 
 article.link {
