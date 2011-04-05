@@ -7,9 +7,10 @@ exclude: [
     '.gems',
     '.gitignore',
     '.settings.xml',
-    'Rakefile',
-    'README.mdown',
+    '.slugignore',
     'MylesBraithwaite.com.tmproj',
-    'config.ru',
-    'TODO.txt'
+    'README.mdown',
+    'Rakefile',
+    'TODO.txt',
+    'config.ru'
 ]
