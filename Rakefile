@@ -203,3 +203,8 @@ task :check_mirrors => :build do
     end
   end
 end
+
+desc "Five Longest Posts"
+task :longest do
+  sh 'wc -w _posts/*/* | sort | tail -n6'
+end
