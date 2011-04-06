@@ -45,39 +45,8 @@ namespace :deploy do
     rsync "/Volumes/iDisk/Sites/mylesbraithwaite.com/"
   end
   
-  desc 'Deploy to Heroku.'
-  task :heroku do
-    sh "rm -fr _site/"
-    sh "mkdir _site/"
-    sh "git checkout heroku"
-    jekyll('--no-future')
-    sh "git add -f _site/"
-    sh "git commit -m 'Hello, World'"
-    sh "git rebase master"
-    sh "git add -f _site/"
-    sh "git commit -a -m 'Hello, World'"
-    sh "git pull heroku master"
-    sh "git commit -a -m 'Hello, World'"
-    sh "git push heroku heroku:master"
-    sh "git checkout master"
-    sh "mkdir _site/"
-  end
-  
-  desc 'Deploy to GitHub page.'
-  task :github => :build do
-    sh "cd _site/"
-    sh "git init ."
-    sh "git pull git@github.com:myles/myles.github.com.git:master"
-    sh "git add ."
-    sh "git commit -m 'Hello, World!'"
-    sh "git push git@github.com:myles/myles.github.com.git:master"
-  end
-  
   desc "Deploy to Mirrors"
   task :mirrors => [:nfs, :webfaction, :s3]
-  
-  desc "Git based Mirrors"
-  task :git_mirrors => [:heroku, :github]
   
   desc "Deploy to All"
   task :all => [:master, :mirrors]
@@ -187,8 +156,8 @@ task :check_mirrors => :build do
     'mylesbraithwaite.com',
     'myles.nfshost.com',
     'myles.webfactional.com',
-    # 'myles.github.com', <- Disabled because haven't got it working yet.
-    'mylesbraithwaite.com.nyud.net'
+    'mylesbraithwaite.com.nyud.net',
+    'cdn.mylesbraithwaite.com'
   ]
   
   for mirror in mirrors do
