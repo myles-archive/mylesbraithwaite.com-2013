@@ -1,0 +1,18 @@
+---
+title: Stuff I Use
+layout: about
+---
+
+Stuff I Use
+-----------
+
+### Services
+
+* Google Apps for my domain
+* 
+
+### Software
+
+### Computers
+
+### Hardware/Gadgets
