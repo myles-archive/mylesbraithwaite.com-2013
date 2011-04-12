@@ -7,7 +7,7 @@ end
 
 desc 'Build site with Jekyll'
 task :build do
-    jekyll('--no-future')
+    jekyll('--no-future --lsi')
 end
 
 desc "Deploy to Master"
