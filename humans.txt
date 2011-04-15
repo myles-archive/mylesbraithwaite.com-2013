@@ -10,6 +10,6 @@ layout: nil
 /* SITE */
     Last update: {% render_time %}
     Language: English
-    Doctype: HTML5 with CSS3
-    Tools: Jekyll, LESS CSS, and Git
-    IDE: TextMate, Notepad++, and gEdit
+    Standards: HTML5 with CSS3
+    Components: Jekyll, LESS CSS, Modernizer, jQuery, and jQuery Fancybox
+    Software: Git, TextMate, Notepad++, and VIM
