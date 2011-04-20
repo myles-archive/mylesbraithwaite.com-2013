@@ -14,3 +14,5 @@ exclude: [
     'TODO.txt',
     'config.ru'
 ]
+
+lessc: /usr/bin/lessc
