@@ -17,3 +17,5 @@ date: 2011-04-25T14:51
 		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-25-what-the-frigga/frigga-screenshot-small.png" alt="Frigga">
 	</a>
 </div>
+
+**Update**: Frigga is a character in *Journey into Mystery* (i.e. Thor).
