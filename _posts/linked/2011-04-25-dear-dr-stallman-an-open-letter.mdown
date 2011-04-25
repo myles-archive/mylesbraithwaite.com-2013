@@ -1,5 +1,5 @@
 ---
-title: Dear Dr. Stallman: An Open Letter
+title: Dear Dr. Stallman - An Open Letter
 layout: link
 category: linked
 tags:
