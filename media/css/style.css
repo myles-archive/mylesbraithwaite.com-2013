@@ -1,43 +1,278 @@
-div#container { margin: 0 auto; max-width: 750px; min-width: 600px; }
+/* @override http://0.0.0.0:4000/media/css/style.css?v=v1 */
 
-@media (max-width: 600px) {
-    div#container { margin: 0 .5em; max-width: 590px; min-width: 500px; }
-    
-    header#top h1 { margin: 0; padding: 0; line-height: 0; }
-    header#top h1 a { display: block; }
-    header#top h1, header#top h1 a { margin: 0; padding: 0; }
-    
-    div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe { max-width: 400px; }
-    div.inline.illustrations img { display: inline; }
-    div.inline.illustrations { max-width: 400px; margin: 0 auto; }
-    
-    footer#bottom div.right { display: none; }
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://creativecommons.org/licenses/MIT/	*/
+
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
-@media (max-width: 500px) {
-    div#container { margin: 0 .5em; max-width: 490px; min-width: 400px; }
-    
-    header#top h1 { margin: 0; padding: 0; line-height: 0; }
-    header#top h1 a { display: block; }
-    header#top h1, header#top h1 a { margin: 0; padding: 0; }
-        
-    div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe  { max-width: 300px; }
-    div.inline.illustrations img { display: inline; }
-    div.inline.illustrations { max-width: 300px; margin: 0 auto; }
-    
-    footer#bottom div.right { display: none; }
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
 }
 
-@media (max-width: 400px) {
-    div#container { margin: 0 .5em; max-width: 390px; min-width: 300px; }
-    
-    header#top h1 { margin: 0; padding: 0; line-height: 0; }
-    header#top h1 a { display: block; }
-    header#top h1, header#top h1 a { margin: 0; padding: 0; }
-        
-    div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe { max-width: 250px; }
-    div.inline.illustrations img { display: inline; }
-    div.inline.illustrations { max-width: 250px; margin: 0 auto; }
-    
-    footer#bottom div.right { display: none; }
+a img {border: 0;}
+
+
+
+/*	Typography presets
+	------------------	*/
+
+.gigantic {
+	font-size: 110px;
+	line-height: 120px;
+	letter-spacing: -2px;
 }
+
+.huge, h1 {
+	font-size: 68px;
+	line-height: 72px;
+	letter-spacing: -1px;
+}
+
+.large, h2 {
+	font-size: 42px;
+	line-height: 48px;
+}
+
+.bigger, h3 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.big, h4 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+body {
+	font: 16px/24px Georgia, serif;
+}
+
+.small, small {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body { width: 896px; padding: 72px 48px 84px; background: rgb(232,232,232); color: rgb(60,60,60); -webkit-text-size-adjust: 100%; font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+
+h1, h2, h3, h4 { font-family: Futura, inherent; }
+a { color: #024959; }
+a:hover { color: #009295; }
+
+header#top { }
+header#top a { text-decoration: none; color: #009295; }
+header#top a:hover { color: #024959; }
+header#top h1 { font-size: 2em; display: inline; line-height: 0; margin-right: 1em; }
+header#top h1 a { color: #024959; }
+header#top h1 a:hover { color: #009295; }
+header#top nav { display: inline; }
+header#top nav a { font-weight: lighter; margin-right: 0.5em; }
+
+div#main { padding: 2em 1em; background-color: #FFF; }
+div#main p, div#main ul, div#main ol, div#main dl, div#main pre, div#main img, div#main iframe, div#main embed, div#main object { margin-bottom: 1em; }
+div#main ul, div#main ol { margin-left: 2em; }
+div#main dl {  }
+div#main dl dt {  }
+div#main dl dd { margin-left: 1em; }
+div#main blockquote { padding: 0 .5em; margin: 0 1em; border: 1px solid #ccc; border-bottom: none; border-top: none; font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; }
+div#main code { font-family: Menlo, "Courier New", Courier, monospace; }
+
+div#main article {  }
+div#main article header { margin-bottom: 1em; }
+div#main article header h1 { display: inline; font-size: 1.5em; line-height: 1; }
+div#main article header p { display: inline; margin: 0; }
+
+article section h2 { font-size: 1.5em; line-height: 1; }
+
+article section div.illustration img, article section div.illustration object, article section div.illustration iframe, article section div.illustration embed { margin: 0 auto; display: block; }
+article section div.side.illustration { float: right; max-width: 160px; height: auto; }
+article section div.side.illustration img { max-width: 160px; }
+article section div.inline.illustration img { max-width: 528px; }
+article section div.inline.illustrations { margin: 0 auto; width: 500px; }
+article section div.inline.illustrations img { max-width: 160px; display: inline; }
+article section div.inline.illustration img, div.inline.illustration video, article section div.inline.illustration object, div.inline.illustration iframe { max-width: 436px; }
+article section div.inline.illustrations img { display: inline; }
+article section div.inline.illustrations { max-width: 436px; margin: 0 auto; }
+
+article section div.highlight { background-color: #202020; color: #d0d0d0; margin-top: 15px; margin-bottom: 10px; border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; }
+article section div.highlight pre { margin: 0; padding: 10px; border: none; overflow: auto; }
+
+div#main ul.archive { margin-left: 0; }
+div#main ul.archive li.year { width: 100px; }
+div#main ul.archive li.month { padding-left: 2em; }
+div#main ul.archive li.post { margin-left: 4em; }
+div#main ul.archive span.day { font-weight: bold; }
+div#main ul.archive li { list-style: none; }
+
+footer#bottom { margin-top: 1em; }
+footer#bottom strong { font-family: Futura, inherent; }
+footer#bottom div.left, footer#bottom div.right { width: 436px; }
+footer#bottom div.left { float: left; text-align: left; }
+footer#bottom div.right { float: right; text-align: right; }
+
+@media only screen and (min-width: 1450px) { 
+	div#container::before { content: "Awesome"; float: right; font-family: "Courier New", Courier, mono; }
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body { width: 712px; padding: 48px 28px 60px; }
+	
+	footer#bottom div.left, footer#bottom div.right { width: 344px; }
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	body { width: 320px; padding: 28px 0 60px; }
+	h1, h2 { font-size: 1.5em; line-height: 1; }
+	
+	header#top h1, header#top nav { display: block; }
+	header#top h1 { line-height: 1; }
+	
+	div#main { padding: .5em; }
+	
+	div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe { width: 160px; }
+    div.inline.illustrations img { display: inline; }
+    div.inline.illustrations { max-width: 160px; margin: 0 auto; }
+	
+	footer#bottom div.left { width: 160px; }
+	footer#bottom div.right { display: none; }
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body { width: 436px; padding: 36px 22px 48px; }
+	
+	header#top h1, header#top nav { display: block; }
+	
+	div.inline.illustration img, div.inline.illustration video, div.inline.illustration object, div.inline.illustration iframe  { width: 344px; }
+    div.inline.illustrations img { display: inline; }
+    div.inline.illustrations { width: 344px; }
+	
+	footer#bottom div.left { width: 160px; }
+	footer#bottom div.right { width: 252px; }
+}
+
+/*	Pygments
+	------	*/
+.hll { background-color: #49483e }
+.c { color: #75715e } /* Comment */
+.err { color: #960050; background-color: #1e0010 } /* Error */
+.k { color: #66d9ef } /* Keyword */
+.l { color: #ae81ff } /* Literal */
+.n { color: #f8f8f2 } /* Name */
+.o { color: #f92672 } /* Operator */
+.p { color: #f8f8f2 } /* Punctuation */
+.cm { color: #75715e } /* Comment.Multiline */
+.cp { color: #75715e } /* Comment.Preproc */
+.c1 { color: #75715e } /* Comment.Single */
+.cs { color: #75715e } /* Comment.Special */
+.ge { font-style: italic } /* Generic.Emph */
+.gs { font-weight: bold } /* Generic.Strong */
+.kc { color: #66d9ef } /* Keyword.Constant */
+.kd { color: #66d9ef } /* Keyword.Declaration */
+.kn { color: #f92672 } /* Keyword.Namespace */
+.kp { color: #66d9ef } /* Keyword.Pseudo */
+.kr { color: #66d9ef } /* Keyword.Reserved */
+.kt { color: #66d9ef } /* Keyword.Type */
+.ld { color: #e6db74 } /* Literal.Date */
+.m { color: #ae81ff } /* Literal.Number */
+.s { color: #e6db74 } /* Literal.String */
+.na { color: #a6e22e } /* Name.Attribute */
+.nb { color: #f8f8f2 } /* Name.Builtin */
+.nc { color: #a6e22e } /* Name.Class */
+.no { color: #66d9ef } /* Name.Constant */
+.nd { color: #a6e22e } /* Name.Decorator */
+.ni { color: #f8f8f2 } /* Name.Entity */
+.ne { color: #a6e22e } /* Name.Exception */
+.nf { color: #a6e22e } /* Name.Function */
+.nl { color: #f8f8f2 } /* Name.Label */
+.nn { color: #f8f8f2 } /* Name.Namespace */
+.nx { color: #a6e22e } /* Name.Other */
+.py { color: #f8f8f2 } /* Name.Property */
+.nt { color: #f92672 } /* Name.Tag */
+.nv { color: #f8f8f2 } /* Name.Variable */
+.ow { color: #f92672 } /* Operator.Word */
+.w { color: #f8f8f2 } /* Text.Whitespace */
+.mf { color: #ae81ff } /* Literal.Number.Float */
+.mh { color: #ae81ff } /* Literal.Number.Hex */
+.mi { color: #ae81ff } /* Literal.Number.Integer */
+.mo { color: #ae81ff } /* Literal.Number.Oct */
+.sb { color: #e6db74 } /* Literal.String.Backtick */
+.sc { color: #e6db74 } /* Literal.String.Char */
+.sd { color: #e6db74 } /* Literal.String.Doc */
+.s2 { color: #e6db74 } /* Literal.String.Double */
+.se { color: #ae81ff } /* Literal.String.Escape */
+.sh { color: #e6db74 } /* Literal.String.Heredoc */
+.si { color: #e6db74 } /* Literal.String.Interpol */
+.sx { color: #e6db74 } /* Literal.String.Other */
+.sr { color: #e6db74 } /* Literal.String.Regex */
+.s1 { color: #e6db74 } /* Literal.String.Single */
+.ss { color: #e6db74 } /* Literal.String.Symbol */
+.bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.vc { color: #f8f8f2 } /* Name.Variable.Class */
+.vg { color: #f8f8f2 } /* Name.Variable.Global */
+.vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.il { color: #ae81ff } /* Literal.Number.Integer.Long */
