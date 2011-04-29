@@ -1,6 +1,6 @@
 /* @override 
-	http://0.0.0.0:4000/media/css/style.css?v=v1
-	http://0.0.0.0:4000/media/css/style.css?v=43425
+	http://0.0.0.0:4000/media/css/style.css?v=0429
+	http://mylesbraithwaite.com/media/css/style.css?v=0429
 */
 
 /*	Less Framework 4
@@ -152,6 +152,7 @@ footer#bottom div.right { float: right; text-align: right; }
 
 @media only screen and (min-width: 1450px) { 
 	div#container::before { content: "Myles Loves You!"; float: right; font-family: "Courier New", Courier, mono; }
+	body { margin: 0 auto; }
 }
 
 /*		Tablet Layout: 768px.
