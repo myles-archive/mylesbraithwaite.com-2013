@@ -151,7 +151,7 @@ footer#bottom div.left { float: left; text-align: left; }
 footer#bottom div.right { float: right; text-align: right; }
 
 @media only screen and (min-width: 1450px) { 
-	div#container::before { content: "Awesome"; float: right; font-family: "Courier New", Courier, mono; }
+	div#container::before { content: "Myles Loves You!"; float: right; font-family: "Courier New", Courier, mono; }
 }
 
 /*		Tablet Layout: 768px.
