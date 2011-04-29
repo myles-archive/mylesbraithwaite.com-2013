@@ -1,10 +1,14 @@
 ---
 layout: post
 title: A Django Intranet
-tags: [Django, Intranet, Projects, APplications]
+tags: [Django, Intranet, Projects, Applications]
 date: 2009-06-09T10:03:56
 category: journal
 ---
+
+<div class="update">
+	<p><strong>29th April 2011</strong>: I have started working on a <a href="http://mylesbraithwaite.com/journal/2011/04/what-the-frigga/" title="What The Frigga">CRM application called Frigga</a>.</p>
+</div>
 
 At work I started developing a intranet, nothing to complicated just an address
 book, microblog, timesheet, and forum. I knew from the beginning of development

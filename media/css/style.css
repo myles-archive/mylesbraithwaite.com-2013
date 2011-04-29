@@ -1,4 +1,7 @@
-/* @override http://0.0.0.0:4000/media/css/style.css?v=v1 */
+/* @override 
+	http://0.0.0.0:4000/media/css/style.css?v=v1
+	http://0.0.0.0:4000/media/css/style.css?v=43425
+*/
 
 /*	Less Framework 4
 	http://lessframework.com
@@ -117,6 +120,8 @@ div#main article header h1 { display: inline; font-size: 1.5em; line-height: 1; 
 div#main article header p { display: inline; margin: 0; }
 
 article section h2 { font-size: 1.5em; line-height: 1; }
+
+article section div.update p { background-color: rgb(255,255,158); border: 1px solid #fffb00; padding: .5em 1em; }
 
 article section div.illustration img, article section div.illustration object, article section div.illustration iframe, article section div.illustration embed { margin: 0 auto; display: block; }
 article section div.side.illustration { float: right; max-width: 160px; height: auto; }
