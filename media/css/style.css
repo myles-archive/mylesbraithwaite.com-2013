@@ -1,7 +1,4 @@
-/* @override 
-	http://0.0.0.0:4000/media/css/style.css?v=v1
-	http://0.0.0.0:4000/media/css/style.css?v=43425
-*/
+/* @override http://mylesbraithwaite.com/media/css/style.css?v=0429 */
 
 /*	Less Framework 4
 	http://lessframework.com
@@ -90,9 +87,9 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
-body { width: 896px; padding: 72px 48px 84px; background: rgb(232,232,232); color: rgb(60,60,60); -webkit-text-size-adjust: 100%; font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+body { width: 896px; padding: 72px 48px 84px; background: rgb(232,232,232); color: rgb(60,60,60); -webkit-text-size-adjust: 100%; font-family: Menlo, "Courier New", Courier, monospace; }
 
-h1, h2, h3, h4 { font-family: Futura, inherent; }
+h1, h2, h3, h4 { font-family: Menlo, "Courier New", Courier, monospace; }
 a { color: #024959; }
 a:hover { color: #009295; }
 
@@ -122,7 +119,7 @@ div#main article header p { display: inline; margin: 0; }
 article section h2 { font-size: 1.5em; line-height: 1; }
 
 article section div.update p { background-color: rgb(255,255,158); border: 1px solid #fffb00; padding: .5em 1em; }
-article section div.update p strong { font-family: Futura, inherent; }
+article section div.update p strong { font-family: Menlo, "Courier New", Courier, monospace; }
 
 article section div.illustration img, article section div.illustration object, article section div.illustration iframe, article section div.illustration embed { margin: 0 auto; display: block; }
 article section div.side.illustration { float: right; max-width: 160px; height: auto; }
@@ -145,13 +142,13 @@ div#main ul.archive span.day { font-weight: bold; }
 div#main ul.archive li { list-style: none; }
 
 footer#bottom { margin-top: 1em; }
-footer#bottom strong { font-family: Futura, inherent; }
+footer#bottom strong { font-family: Menlo, "Courier New", Courier, monospace; }
 footer#bottom div.left, footer#bottom div.right { width: 436px; }
 footer#bottom div.left { float: left; text-align: left; }
 footer#bottom div.right { float: right; text-align: right; }
 
 @media only screen and (min-width: 1450px) { 
-	div#container::before { content: "Awesome"; float: right; font-family: "Courier New", Courier, mono; }
+	div#container::before { content: "Typewriter"; float: right; font-family: "Courier New", Courier, mono; }
 }
 
 /*		Tablet Layout: 768px.
@@ -315,7 +312,7 @@ px      68    160    252    344    436    */
 #fancybox-bg-sw { bottom: -20px; left: -20px; background-image: url('/media/img/fancybox/fancybox.png'); background-position: -40px -142px; }
 #fancybox-bg-w { top: 0; left: -20px; height: 100%; background-image: url('/media/img/fancybox/fancybox-y.png'); }
 #fancybox-bg-nw { top: -20px; left: -20px; background-image: url('/media/img/fancybox/fancybox.png'); background-position: -40px -122px; }
-#fancybox-title { font-family: Helvetica; font-size: 12px; z-index: 1102; }
+#fancybox-title { font-family: Menlo, "Courier New", Courier, monospace; font-size: 12px; z-index: 1102; }
 .fancybox-title-inside { padding-bottom: 10px; text-align: center; color: #333; background: #fff; position: relative; }
 .fancybox-title-outside { padding-top: 10px; color: #fff; }
 .fancybox-title-over { position: absolute; bottom: 0; left: 0; color: #FFF; text-align: left; }
