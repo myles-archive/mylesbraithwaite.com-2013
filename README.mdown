@@ -2,5 +2,3 @@ Myles Braithwaite Homepage
 ==========================
 
 Welcome to the source files for [my personal website](http://mylesbraithwaite.com/ "Myles Braithwaite").
-
-Everything here is relased under the Creative Commons License. All I ask is if you are going to be using the stylesheets please change the colours.
