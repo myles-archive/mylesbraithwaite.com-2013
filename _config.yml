@@ -12,7 +12,8 @@ exclude: [
     'README.mdown',
     'Rakefile',
     'TODO.txt',
-    'config.ru'
+    'config.ru',
+    'media/uploads'
 ]
 
 lessc: /usr/bin/lessc

@@ -52,11 +52,13 @@ namespace :deploy do
   task :all => [:master, :mirrors]
   
   def rsync(location)
-    sh "rsync -rtzh --progress --delete --delete _site/ #{location}/"
+    sh "rsync -rtzh --progress --delete _site/ #{location}/"
+    sh "rsync -rtzh --progress --delete media/uploads/ #{location}/media/uploads/"
   end
   
   def s3cmd(location)
     sh "s3cmd sync --acl-public --delete-removed _site/ #{location}/"
+    sh "s3cmd sync --acl-public --delete-removed  media/uploads/ #{location}/media/uploads/"
   end
 end
 
@@ -112,6 +114,8 @@ end
 
 def jekyll(opts='')
     sh 'rm -fr _site/*'
+    sh 'mkdir _site/media/'
+    sh 'ln -s ../../media/uploads _site/media/'
     sh 'jekyll ' + opts
 end
 
