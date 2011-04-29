@@ -33,8 +33,8 @@ layout: nil
 		 <pc:displayName>Myles Braithwaite</pc:displayName>
 		 <pc:preferredUsername>myles</pc:preferredUsername>
 	</author>
-	<icon>http://cdn.mylesbraithwaite.com/media/img/favicon.ico?v={% git_tag %}</icon>
-	<logo>http://cdn.mylesbraithwaite.com/media/img/apple-touch-icon-ipad.png?v={% git_tag %}</logo>
+	<icon>http://cdn.mylesbraithwaite.com/media/img/favicon.ico</icon>
+	<logo>http://cdn.mylesbraithwaite.com/media/img/apple-touch-icon-ipad.png</logo>
 	
 	{{ content }}
 </feed>

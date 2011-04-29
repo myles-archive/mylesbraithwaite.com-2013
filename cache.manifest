@@ -2,10 +2,9 @@
 layout: nil
 ---
 CACHE MANIFEST
-# rev {% git_tag %}
+# rev 20110429
 
 /media/css/style.css
-/media/css/screen.css
 
 /media/img/favicon.ico
 /media/img/apple-touch-icon-ipad.png
@@ -39,23 +38,7 @@ CACHE MANIFEST
 /media/js/libs/jquery.fancybox-1.3.4.js
 /media/js/libs/jquery.mobile-1.0a2.js
 /media/js/libs/jquery.mousewheel-3.0.4.js
-/media/js/libs/modernizr-1.6.js
-
-/media/fonts/Cantarell-Bold.ttf
-/media/fonts/Cantarell-BoldOblique.ttf
-/media/fonts/Cantarell-Oblique.ttf
-/media/fonts/Cantarell-Regular.ttf
-/media/fonts/JosefinSlab-Bold.ttf
-/media/fonts/JosefinSlab-BoldItalic.ttf
-/media/fonts/JosefinSlab-Italic.ttf
-/media/fonts/JosefinSlab-Light.ttf
-/media/fonts/JosefinSlab-LightItalic.ttf
-/media/fonts/JosefinSlab-Regular.ttf
-/media/fonts/JosefinSlab-SemiBold.ttf
-/media/fonts/JosefinSlab-SemiBoldItalic.ttf
-/media/fonts/JosefinSlab-Thin.ttf
-/media/fonts/JosefinSlab-ThinItalic.ttf
-/media/fonts/Molengo-Regular.ttf
+/media/js/libs/modernizr-1.7.js
 
 FALLBACK:
 / /offline.html
