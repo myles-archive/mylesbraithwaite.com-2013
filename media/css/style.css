@@ -122,6 +122,7 @@ div#main article header p { display: inline; margin: 0; }
 article section h2 { font-size: 1.5em; line-height: 1; }
 
 article section div.update p { background-color: rgb(255,255,158); border: 1px solid #fffb00; padding: .5em 1em; }
+article section div.update p strong { font-family: Futura, inherent; }
 
 article section div.illustration img, article section div.illustration object, article section div.illustration iframe, article section div.illustration embed { margin: 0 auto; display: block; }
 article section div.side.illustration { float: right; max-width: 160px; height: auto; }

@@ -3,6 +3,8 @@ task :default => :server
 desc 'Star server with --auto'
 task :server do
     jekyll('--server --auto')
+    sh 'mkdir _site/media/'
+    sh 'ln -s ../../media/uploads _site/media/'
 end
 
 desc 'Build site with Jekyll'
@@ -114,8 +116,6 @@ end
 
 def jekyll(opts='')
     sh 'rm -fr _site/*'
-    sh 'mkdir _site/media/'
-    sh 'ln -s ../../media/uploads _site/media/'
     sh 'jekyll ' + opts
 end
 
