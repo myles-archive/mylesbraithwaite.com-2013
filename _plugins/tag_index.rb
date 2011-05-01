@@ -38,7 +38,7 @@ module Jekyll
         write_tag_index(site, File.join('tags', "#{tag.to_s().slugify}"), tag)
       end
       
-      write_tag_list(site, File.join('tags'), tags)
+      write_tag_list(site, File.join('tags'), site.tags)
     end
   
     def write_tag_index(site, dir, tag)
@@ -49,7 +49,7 @@ module Jekyll
     end
     
     def write_tag_list(site, dir, tags)
-      index = TagList(site, site.source, dir, tags)
+      index = TagList.new(site, site.source, dir, tags)
       index.render(site.layouts, site.site_payload)
       index.write(site.dest)
       site.static_files << index
