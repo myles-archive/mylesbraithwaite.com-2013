@@ -17,3 +17,6 @@ exclude: [
 ]
 
 lessc: /usr/bin/lessc
+
+category_title_prefix: "Archive for "
+tag_title_prefix: "Archvie for "

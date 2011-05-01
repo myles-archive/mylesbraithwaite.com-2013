@@ -17,6 +17,19 @@ module Jekyll
     end
   end
   
+  class TagList < Page
+    def initialize(site, base, dir, tags)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      
+      self.process(@name)
+      self.read_yaml(File.join(base, "_layouts"), 'tag_list.html')
+      self.data['tags'] = tags
+    end
+  end
+  
   class TagGenerator < Generator
     safe true
     
@@ -24,6 +37,8 @@ module Jekyll
       site.tags.keys.each do |tag|
         write_tag_index(site, File.join('tags', "#{tag.to_s().slugify}"), tag)
       end
+      
+      write_tag_list(site, File.join('tags'), tags)
     end
   
     def write_tag_index(site, dir, tag)
@@ -31,6 +46,13 @@ module Jekyll
       index.render(site.layouts, site.site_payload)
       index.write(site.dest)
       site.pages << index
+    end
+    
+    def write_tag_list(site, dir, tags)
+      index = TagList(site, site.source, dir, tags)
+      index.render(site.layouts, site.site_payload)
+      index.write(site.dest)
+      site.static_files << index
     end
   end
 end
