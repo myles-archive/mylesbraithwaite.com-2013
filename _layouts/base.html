@@ -20,6 +20,11 @@
     
     <link rel="archives" href="/archives.html">
     <link rel="author" href="/about/">
+    {% if page.previous %}<link rel="previous" href="{{ page.previous.url }}" title="{{ page.previous.title }}">{% endif %}
+    {% if page.next %}<link rel="next" href="{{ page.previous.url }}" title="{{ page.previous.title }}">{% endif %}
+    {% if page.start %}<link rel="start" href="{{ page.start.url }}" title="{{ page.start.title }}">{% endif %}
+    {% if page.end %}<link rel="end" href="{{ page.end.url }}" title="{{ page.end.title }}">{% endif %}
+    
     <link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
     
     <meta name="generator" content="Jekyll">
