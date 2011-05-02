@@ -2,14 +2,16 @@ task :default => :server
 
 desc 'Star server with --auto'
 task :server do
-    jekyll('--server --auto')
+    jekyll('--server --auto --no-lsi')
+    
     sh 'mkdir _site/media/'
     sh 'ln -s ../../media/uploads _site/media/'
 end
 
 desc 'Build site with Jekyll'
 task :build do
-    jekyll('--no-future')
+  sh 'rm -fr _site/*'
+  jekyll('--no-future --no-lsi')
 end
 
 desc "Deploy to Master"
@@ -115,7 +117,6 @@ link: #{link}
 end
 
 def jekyll(opts='')
-    sh 'rm -fr _site/*'
     sh 'jekyll ' + opts
 end
 

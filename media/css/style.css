@@ -1,6 +1,7 @@
 /* @override 
 	http://0.0.0.0:4000/media/css/style.css?v=0429
 	http://mylesbraithwaite.com/media/css/style.css?v=0429
+	http://0.0.0.0:4000/media/css/style.css?v=20110429
 */
 
 /*	Less Framework 4
@@ -113,6 +114,9 @@ div#main dl dt {  }
 div#main dl dd { margin-left: 1em; }
 div#main blockquote { padding: 0 .5em; margin: 0 1em; border: 1px solid #ccc; border-bottom: none; border-top: none; font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; }
 div#main code { font-family: Menlo, "Courier New", Courier, monospace; }
+
+div#main ul.tags { margin: 0; padding: 0; list-style: none; }
+div#main ul.tags li { display: inline; }
 
 div#main article {  }
 div#main article header { margin-bottom: 1em; }

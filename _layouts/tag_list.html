@@ -5,8 +5,8 @@ title: Tags
 
 <h2>Tags</h2>
 
-<ul>
-{% for tag in page.tags %}
-    <li><a href="/tags/{{ tag | slugify }}" name="{{ tag }}">{{ tag }}</a></li>
-{% endfor %}
+<ul class="tags">
+    {% for tag in page.tags %}
+        <li><a href="/tags/{{ tag | slugify }}" name="{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
 </ul>
