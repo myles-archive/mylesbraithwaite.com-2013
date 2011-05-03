@@ -16,7 +16,7 @@ layout: base
     </section>
     
     <footer>
-        <p class="tags">{% for tag in page.tags %}<a href="/tags/{{ tag.to_s() | slugify }}/" rel="tag" class="tag">{{ tag }}</a>{% if forloop.rindex0 > 1 %},{% endif %} {% if forloop.rindex0 == 1 %}and {% endif %}{% endfor %}</p>
+        <p class="tags">{% for tag in page.tags %}<a href="/tags/{{ tag | slugify }}/" rel="tag" class="tag">{{ tag }}</a>{% if forloop.rindex0 > 1 %},{% endif %} {% if forloop.rindex0 == 1 %}and {% endif %}{% endfor %}</p>
         {% if page.next or page.previous %}<p class="pagination">{% if page.previous %}<a href="{{ page.previous.url }}" title="{{ page.previous.title }}" rel="prev">&#x2190;Previous post</a>{% endif %}{% if page.next and page.previous %} | {% endif %}{% if page.next %}<a href="{{ page.next.url }}" title="{{ page.next.title}}" rel="next">Next post&#x2192;</a>{% endif %}</p>{% endif %}
     </footer>
 </article>
