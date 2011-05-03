@@ -93,7 +93,8 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 body { width: 896px; padding: 72px 48px 84px; background: rgb(232,232,232); color: rgb(60,60,60); -webkit-text-size-adjust: 100%; font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
 
-h1, h2, h3, h4 { font-family: Futura, inherent; }
+h1, h2, h3, h4, article section div.update p strong, footer#bottom strong { font-family: Futura, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+
 a { color: #024959; }
 a:hover { color: #009295; }
 
@@ -126,7 +127,6 @@ div#main article header p { display: inline; margin: 0; }
 article section h2 { font-size: 1.5em; line-height: 1; }
 
 article section div.update p { background-color: rgb(255,255,158); border: 1px solid #fffb00; padding: .5em 1em; }
-article section div.update p strong { font-family: Futura, inherent; }
 
 article section div.illustration img, article section div.illustration object, article section div.illustration iframe, article section div.illustration embed { margin: 0 auto; display: block; }
 article section div.side.illustration { float: right; max-width: 160px; height: auto; }
@@ -149,7 +149,6 @@ div#main ul.archive span.day { font-weight: bold; }
 div#main ul.archive li { list-style: none; }
 
 footer#bottom { margin-top: 1em; }
-footer#bottom strong { font-family: Futura, inherent; }
 footer#bottom div.left, footer#bottom div.right { width: 436px; }
 footer#bottom div.left { float: left; text-align: left; }
 footer#bottom div.right { float: right; text-align: right; }
