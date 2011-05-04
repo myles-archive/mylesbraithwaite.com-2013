@@ -1,0 +1,23 @@
+/* @override http://0.0.0.0:4000/media/css/matrix.css */
+
+@font-face {
+  font-family: "Geo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/media/fonts/Geo-Regular.ttf");
+}
+
+body, h1, h2, h3, h4, article section div.update p strong, footer#bottom strong { font-family: "Geo"; }
+
+::selection 	 	{background: rgb(255,255,255);}
+::-moz-selection 	{background: rgb(255,255,255);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,255);}
+
+body, div#main { background-color: #000; color: #05f900; font-size: 1.2em; }
+
+a, header#top a, header#top h1 a { color: #05f900; }
+a:hover, header#top a:hover, header#top h1 a:hover { color: #9af900; }
+
+div#main { padding-left: 0; padding-right: 0; }

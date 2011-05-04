@@ -15,6 +15,15 @@ $(document).ready(function() {
         $("link[rel*='stylesheet']").after(link_css);
     };
     
+    // Still working on a Matrix style.
+    if (document.location.search.split('?')[1].lastIndexOf("matrix", 0) === 0) {
+        var link_css = document.createElement('link');
+        link_css.href = '/media/css/matrix.css';
+        link_css.rel = 'stylesheet';
+        $("link[rel*='stylesheet']").after(link_css);
+    };
+    
+    
     var d = new Date();
     
     // Add a little heart when it's Valentines Day.
