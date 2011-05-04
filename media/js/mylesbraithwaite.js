@@ -10,7 +10,7 @@ $(document).ready(function() {
     // font more suited to their OS.
     if (navigator.platform.lastIndexOf("Linux", 0) === 0) {
         var link_css = document.createElement('link');
-        link_css.href = '/media/css/font-ubuntu.css';
+        link_css.href = '/media/css/ubuntu.css';
         link_css.rel = 'stylesheet';
         $("link[rel*='stylesheet']").after(link_css);
     };

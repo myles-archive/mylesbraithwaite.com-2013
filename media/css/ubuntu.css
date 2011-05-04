@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    src: url('/media/fonts/ubuntu/Ubuntu-Regular.ttf');
+}
+
+h1, h2, h3, h4, article section div.update p strong, footer#bottom strong { font-family: "Ubuntu"; }
