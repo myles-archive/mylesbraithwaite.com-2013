@@ -6,7 +6,7 @@ $(document).ready(function() {
     $("div.illustration a").fancybox();
     $("div.illustrations a").fancybox();
     
-    // If the user is comeing from a Linux based OS they should get a
+    // If the user is coming from a Linux based OS they should get a
     // font more suited to their OS.
     if (navigator.platform.lastIndexOf("Linux", 0) === 0) {
         var link_css = document.createElement('link');
