@@ -1,0 +1,13 @@
+---
+title: Byron Sonne Granted Bail
+layout: link
+category: linked
+tags:
+- Byron Sonne
+- G20
+- Toronto
+date: 2011-05-17T09:40
+link: http://www.thestar.com/news/crime/article/992148--g20-geek-byron-sonne-granted-bail
+---
+
+[Byron Sonne](http://freebyron.org/index.php/Main_Page) has been granted bail.
