@@ -1,0 +1,15 @@
+---
+title: The Worst Internet Internship Interview Ever
+layout: link
+category: linked
+tags:
+- Internship
+- Job Interview
+- Internet Week
+date: 2011-05-19T10:04
+link: http://www.youtube.com/watch?v=d0H5sn1CkAc
+---
+
+<div class="inline illustration">
+	<iframe width="500" height="292" src="http://www.youtube.com/embed/d0H5sn1CkAc?hd=1" frameborder="0" allowfullscreen></iframe>
+</div>
