@@ -20,3 +20,7 @@ lessc: /usr/bin/lessc
 
 category_title_prefix: "Archive for "
 tag_title_prefix: "Archvie for "
+
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
