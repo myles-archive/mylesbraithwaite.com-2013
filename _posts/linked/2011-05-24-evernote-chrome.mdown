@@ -11,6 +11,6 @@ date: 2011-05-24T15:50
 link: http://mashable.com/2011/05/24/evernote-chrome-extension/
 ---
 
-Evernote has updated their [Evernote Chrome Extension](https://chrome.google.com/webstore/detail/pioclpoplcdbaefihamjohnefbikjilc) to have a lot more awesome.
+[Evernote](https://www.evernote.com) has updated their [Evernote Chrome Extension](https://chrome.google.com/webstore/detail/pioclpoplcdbaefihamjohnefbikjilc) to have a lot more awesome.
 
-I have a bunch of publicly shared Evernote notebooks like [Inspiration](http://www.evernote.com/pub/myles/inspiration "Evernote Shared Notebook for Inspiration") and [Recipes "Evernote Shared Notebook for Recipes"](http://www.evernote.com/pub/myles/recipes).
+I use Evernote for pretty much everything that is a document on my computer. From some stuff I find [inspirational](http://www.evernote.com/pub/myles/inspiration "Evernote Shared Notebook for Inspiration") to [recipes](http://www.evernote.com/pub/myles/recipes "Evernote Shared Notebook for Recipes").
