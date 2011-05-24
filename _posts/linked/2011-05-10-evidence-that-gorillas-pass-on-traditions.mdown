@@ -16,8 +16,8 @@ It looks like Chips and Orang-Utans (and humans of course) are not the only prim
 > "This fascinated us because, while wild gorillas in Rwanda also pick apart stinging nettles, they do so by removing stalks and folding, rather than squeezing, the nettles", says Byrne.
 
 <div class="inline illustration">
-	<a href="http://mylesbraithwaite.com/media/uploads/posts/2011-05-10-evidence-that-gorillas-pass-on-traditions/gorillas_large.jpg" title="Gorillas by Thomas Widmann">
-		<img src="http://mylesbraithwaite.com/media/uploads/posts/2011-05-10-evidence-that-gorillas-pass-on-traditions/gorillas_small.jpg" alt="Gorillas by Thomas Widmann">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-05-10-evidence-that-gorillas-pass-on-traditions/gorillas_large.jpg" title="Gorillas by Thomas Widmann">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-05-10-evidence-that-gorillas-pass-on-traditions/gorillas_small.jpg" alt="Gorillas by Thomas Widmann">
 	</a>
 </div>
 

@@ -13,8 +13,8 @@ date: 2011-01-06T09:30
 The [Mac App Store](http://www.apple.com/mac/app-store/ "Apple - App Store") came out today and I have been window shopping for the past twenty minutes (I currently can't download any of the apps). Apple designed the application to look more like a Mac OS X application than an iOS application so I cam quite happy about that.
 
 <div class="inline illustration">
-	<a href="http://mylesbraithwaite.com/media/uploads/posts/2011-01-06-map-app-store/app-store-large.png" title="Mac App Store">
-		<img src="http://mylesbraithwaite.com/media/uploads/posts/2011-01-06-map-app-store/app-store-small.png" alt="Mac App Store">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-01-06-map-app-store/app-store-large.png" title="Mac App Store">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-01-06-map-app-store/app-store-small.png" alt="Mac App Store">
 	</a>
 </div>
 

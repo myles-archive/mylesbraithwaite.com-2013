@@ -16,8 +16,8 @@ On the 10th March, 2011 at 7:29am I tweeted about having to download 4.24GB for 
 While Xcode 4.0.1 is out and I have to download another 4GB install file.
 
 <div class="inline illustration">
-    <a href="http://mylesbraithwaite.com/media/uploads/posts/2011-03-25-xcode-402/xcode-401-mac-app-store-large.png" title="Mac App Store downloading Xcode 4.0.1">
-	<img src="http://mylesbraithwaite.com/media/uploads/posts/2011-03-25-xcode-402/xcode-401-mac-app-store-small.png" alt="Mac App Store downloading Xcode 4.0.1">
+    <a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-03-25-xcode-402/xcode-401-mac-app-store-large.png" title="Mac App Store downloading Xcode 4.0.1">
+	<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-03-25-xcode-402/xcode-401-mac-app-store-small.png" alt="Mac App Store downloading Xcode 4.0.1">
     </a>
 </div>
 

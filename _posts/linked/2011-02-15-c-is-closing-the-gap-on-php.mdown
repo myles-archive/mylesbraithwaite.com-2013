@@ -16,6 +16,6 @@ The TIOBE Programming Community index, an indicator of the popularity of program
 
 <div class="inline illustration">
 	<a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html" title="TIOBE Programming Community Index for February 2011">
-		<img src="http://mylesbraithwaite.com/media/uploads/posts/2011-02-15-c-is-closing-the-gap-on-php/tiobe-index.png" alt="TIOBE Programming Community Index for February 2011">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-02-15-c-is-closing-the-gap-on-php/tiobe-index.png" alt="TIOBE Programming Community Index for February 2011">
 	</a>
 </div>

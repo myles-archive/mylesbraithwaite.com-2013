@@ -20,7 +20,7 @@ Currently my note taking process it pretty complicated, which I am trying to str
 It was also good to see that she, like me, use an Outliner for personal accounting.
 
 <div class="inline illustration">
-	<a href="http://mylesbraithwaite.com/media/uploads/posts/2011-03-09-emacs-and-org-mode/omnioutliner-ledger.png" title="Ledger in OmniOutliner">
-		<img src="http://mylesbraithwaite.com/media/uploads/posts/2011-03-09-emacs-and-org-mode/omnioutliner-ledger-small.png" alt="Ledger in OmniOutliner">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-03-09-emacs-and-org-mode/omnioutliner-ledger.png" title="Ledger in OmniOutliner">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-03-09-emacs-and-org-mode/omnioutliner-ledger-small.png" alt="Ledger in OmniOutliner">
 	</a>
 </div>
