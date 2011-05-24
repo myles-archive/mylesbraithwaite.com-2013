@@ -1,0 +1,16 @@
+---
+title: Evernote New Chrome Extension is The Coolest Thing Ever
+layout: link
+category: linked
+tags:
+- Evernote
+- Chrome
+- Chromium
+- Chrome Extension
+date: 2011-05-24T15:50
+link: http://mashable.com/2011/05/24/evernote-chrome-extension/
+---
+
+Evernote has updated their [Evernote Chrome Extension](https://chrome.google.com/webstore/detail/pioclpoplcdbaefihamjohnefbikjilc) to have a lot more awesome.
+
+I have a bunch of publicly shared Evernote notebooks like [Inspiration](http://www.evernote.com/pub/myles/inspiration "Evernote Shared Notebook for Inspiration") and [Recipes "Evernote Shared Notebook for Recipes"](http://www.evernote.com/pub/myles/recipes).
