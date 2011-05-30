@@ -1,5 +1,5 @@
 ---
-title: Annoying.js: How to Make Your Web Site an Asshole
+title: Annoying.js - How to Make Your Web Site an Asshole
 layout: link
 category: linked
 tags:
