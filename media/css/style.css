@@ -2,6 +2,7 @@
 	http://0.0.0.0:4000/media/css/style.css?v=0429
 	http://cdn.mylesbraithwaite.com/media/css/style.css?v=0429
 	http://0.0.0.0:4000/media/css/style.css?v=20110429
+	http://mylesbraithwaite.com/media/css/style.css?v=20110503
 */
 
 /*	Less Framework 4
@@ -136,7 +137,7 @@ article section div.inline.illustrations { margin: 0 auto; width: 500px; }
 article section div.inline.illustrations img { max-width: 160px; display: inline; }
 article section div.inline.illustration img, div.inline.illustration video, article section div.inline.illustration object, div.inline.illustration iframe { max-width: 436px; }
 article section div.inline.illustrations img { display: inline; }
-article section div.inline.illustrations { max-width: 436px; margin: 0 auto; }
+article section div.inline.illustrations { max-width: 436px; margin: 0 auto; border: 1px solid #e8e8e8; padding: 1px; margin: 1px; }
 
 article section div.highlight { background-color: #202020; color: #d0d0d0; margin-top: 15px; margin-bottom: 10px; border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; }
 article section div.highlight pre { margin: 0; padding: 10px; border: none; overflow: auto; }
