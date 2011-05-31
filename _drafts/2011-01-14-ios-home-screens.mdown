@@ -10,7 +10,7 @@ tags:
 date: 2011-01-14T13:26
 ---
 
-I use the same background for each device (you can download the [iPhone](/media/uploads/posts/2011-01-14-ios-homescreens/iphone_wallpaper.jpg) and [iPad](/media/uploads/posts/2011-01-14-ios-homescreens/ipad_wallpaper.jpg) versions), I found it on [iPad Wallpapers That Don't Suck](http://ipadwallpapersthatdontsuck.tumblr.com/post/654493975).
+I use the same background for each device (you can download the [iPhone](/media/uploads/journal/2011-01-14-ios-homescreens/iphone_wallpaper.jpg) and [iPad](/media/uploads/journal/2011-01-14-ios-homescreens/ipad_wallpaper.jpg) versions), I found it on [iPad Wallpapers That Don't Suck](http://ipadwallpapersthatdontsuck.tumblr.com/post/654493975).
 
 ## iPad
 
@@ -74,7 +74,7 @@ I use the same background for each device (you can download the [iPhone](/media/
 ## iPhone
 
 <div class="side illustration">
-	<img src="/media/uploads/posts/2011-01-14-ios-homescreens/iphone.jpg" alt="Official Session 6 Lost Poster" title="The Final Season of LOST">
+	<img src="/media/uploads/journal/2011-01-14-ios-homescreens/iphone.jpg" alt="Official Session 6 Lost Poster" title="The Final Season of LOST">
 </div>
 
 * Twitter

@@ -17,55 +17,55 @@ Less Framework provides four different layouts: Default, Tablet, Mobile, and Wid
 ## Default Layout
 
 <div class="inline illustration"> 
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/default_layout.png" title="Less Framework 4 Default Layout"> 
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/default_layout-small.png" alt="Less Framework 4 Default Layout" /> 
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/default_layout.png" title="Less Framework 4 Default Layout"> 
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/default_layout-small.png" alt="Less Framework 4 Default Layout" /> 
 	</a> 
 </div>
 
 ## Tablet Layout
 
 <div class="inline illustration"> 
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/tablet_layout.png" title="Less Framework 4 Tablet Layout"> 
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/tablet_layout-small.png" alt="Less Framework 4 Tablet Layout" /> 
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/tablet_layout.png" title="Less Framework 4 Tablet Layout"> 
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/tablet_layout-small.png" alt="Less Framework 4 Tablet Layout" /> 
 	</a> 
 </div>
 
 ### iPad
 
 <div class="inline illustration"> 
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/tablet_layout_ipad.png" title="Less Framework 4 Tablet Layout on an iPad"> 
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/tablet_layout_ipad-small.png" alt="Less Framework 4 Tablet Layout on an iPad" /> 
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/tablet_layout_ipad.png" title="Less Framework 4 Tablet Layout on an iPad"> 
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/tablet_layout_ipad-small.png" alt="Less Framework 4 Tablet Layout on an iPad" /> 
 	</a> 
 </div>
 
 ## Mobile Layout
 
 <div class="inline illustration"> 
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/mobile_layout.png" title="Less Framework 4 Mobile Layout"> 
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/mobile_layout-small.png" alt="Less Framework 4 Mobile Layout" /> 
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/mobile_layout.png" title="Less Framework 4 Mobile Layout"> 
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/mobile_layout-small.png" alt="Less Framework 4 Mobile Layout" /> 
 	</a> 
 </div>
 
 ### iPhone
 
 <div class="inline illustration"> 
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/mobile_layout_iphone.png" title="Less Framework 4 Mobile Layout on an iPhone"> 
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/mobile_layout_iphone-small.png" alt="Less Framework 4 Mobile Layout on an iPhone" /> 
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/mobile_layout_iphone.png" title="Less Framework 4 Mobile Layout on an iPhone"> 
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/mobile_layout_iphone-small.png" alt="Less Framework 4 Mobile Layout on an iPhone" /> 
 	</a> 
 </div>
 
 ## Wide Mobile Layout
 
 <div class="inline illustration"> 
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/wide_mobile_layout.png" title="Less Framework 4 Wide Mobile Layout"> 
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/wide_mobile_layout-small.png" alt="Less Framework 4 Wide Mobile Layout" /> 
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/wide_mobile_layout.png" title="Less Framework 4 Wide Mobile Layout"> 
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/wide_mobile_layout-small.png" alt="Less Framework 4 Wide Mobile Layout" /> 
 	</a> 
 </div>
 
 ### iPhone
 
 <div class="inline illustration"> 
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/wide_mobile_layout_iphone.png" title="Less Framework 4 Wide Mobile Layout on an iPhone"> 
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-27-new-website-design/wide_mobile_layout_iphone-small.png" alt="Less Framework 4 Wide Mobile Layout on an iPhone" /> 
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/wide_mobile_layout_iphone.png" title="Less Framework 4 Wide Mobile Layout on an iPhone"> 
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-27-new-website-design/wide_mobile_layout_iphone-small.png" alt="Less Framework 4 Wide Mobile Layout on an iPhone" /> 
 	</a> 
 </div>

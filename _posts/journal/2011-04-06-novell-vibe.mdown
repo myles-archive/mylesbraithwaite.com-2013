@@ -15,8 +15,8 @@ Just got invited to [Novell Vibe](https://vibe.novell.com) by [Tom](http://tomlo
 But why make me have multiple accounts per email address, that means I have to have to have at least five different accounts.
 
 <div class="inline illustration">
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-06-novell-vibe/novell-vibe-large.png" title="Novell Vibe">
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-04-06-novell-vibe/novell-vibe-large.png" alt="Novell Vibe">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-06-novell-vibe/novell-vibe-large.png" title="Novell Vibe">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-04-06-novell-vibe/novell-vibe-large.png" alt="Novell Vibe">
 	</a>
 </div>
 
