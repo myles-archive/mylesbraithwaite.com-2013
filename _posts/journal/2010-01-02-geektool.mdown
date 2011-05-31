@@ -12,7 +12,7 @@ I recently installed [Geektool](http://projects.tynsoe.org/en/geektool/) on my M
 
 ### Sunrise & Sunset
 
-![Sunrise & Sunset](/media/uploads/posts/2010-01-02-geektool/01-sunrise-and-sunset.png)
+![Sunrise & Sunset](/media/uploads/journal/2010-01-02-geektool/01-sunrise-and-sunset.png)
 
 I am getting the sunrise & sunset data from [weather underground](http://wund.com/) [mobile website](http://m.wund.com).
 
@@ -26,7 +26,7 @@ I am getting the sunrise & sunset data from [weather underground](http://wund.co
 
 ### IP Addresses
 
-![IP Addresses](/media/uploads/posts/2010-01-02-geektool/02-ip-addresses.png)
+![IP Addresses](/media/uploads/journal/2010-01-02-geektool/02-ip-addresses.png)
 
 {% highlight bash %}
 #!/bin/sh
@@ -59,7 +59,7 @@ fi
 
 ### Weather Image
 
-![Weather Image](/media/uploads/posts/2010-01-02-geektool/03-weather-image.png)
+![Weather Image](/media/uploads/journal/2010-01-02-geektool/03-weather-image.png)
 
 {% highlight bash %}
 #!/bin/sh
@@ -79,7 +79,7 @@ fi
 
 ### Weather Forecast
 
-![Weather Forecast](/media/uploads/posts/2010-01-02-geektool/04-weather-forecast.png)
+![Weather Forecast](/media/uploads/journal/2010-01-02-geektool/04-weather-forecast.png)
 
 I am using [Yahoo Weather](http://ca.weather.yahoo.com/) to get the weather image.
 
