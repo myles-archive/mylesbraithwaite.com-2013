@@ -14,8 +14,8 @@ It looks like about 93% of Wikipedia's articles end up leading to the article ab
 This was also featured on a [xkcd](http://xkcd.com/) comic [Extended Mind](http://xkcd.com/903/):
 
 <div class="illustration inline">
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-05-27-all-wikipedia-articles-lead-to-philosophy/extended_mind-large.png" title="xkcd comic Extended Mind">
-		<img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-05-27-all-wikipedia-articles-lead-to-philosophy/extended_mind-small.png" alt="xkcd comic Extended Mind">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/linked/2011-05-27-all-wikipedia-articles-lead-to-philosophy/extended_mind-large.png" title="xkcd comic Extended Mind">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/linked/2011-05-27-all-wikipedia-articles-lead-to-philosophy/extended_mind-small.png" alt="xkcd comic Extended Mind">
 	</a>
 </div>
 

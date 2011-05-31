@@ -16,5 +16,5 @@ The [Opportunity](http://en.wikipedia.org/wiki/Opportunity_rover "Wikipedia arti
 > Opportunity and its twin, Spirit, which passed its seventh anniversary on Mars this week, both have made important discoveries about wet environments on ancient Mars that may have been favourable for supporting microbial life.
 
 <div class="inline illustration">
-	<a href="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-01-04-rover-will-spend-7th-birthday-at-stadium-size-crater/santa-maria-crater.jpg" title="Mars Orbiter Sees Rover Opportunity at Crater Edge"><img src="http://cdn.mylesbraithwaite.com/media/uploads/posts/2011-01-04-rover-will-spend-7th-birthday-at-stadium-size-crater/santa-maria-crater-small.jpg" alt="Mars Orbiter Sees Rover Opportunity at Crater Edge"></a>
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/linked/2011-01-04-rover-will-spend-7th-birthday-at-stadium-size-crater/santa-maria-crater.jpg" title="Mars Orbiter Sees Rover Opportunity at Crater Edge"><img src="http://cdn.mylesbraithwaite.com/media/uploads/linked/2011-01-04-rover-will-spend-7th-birthday-at-stadium-size-crater/santa-maria-crater-small.jpg" alt="Mars Orbiter Sees Rover Opportunity at Crater Edge"></a>
 </div>
