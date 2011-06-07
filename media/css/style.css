@@ -108,7 +108,7 @@ header#top h1 a:hover { color: #009295; }
 header#top nav { display: inline; }
 header#top nav a { font-weight: lighter; margin-right: 0.5em; }
 
-div#main { padding: 2em 1em; background-color: #FFF; }
+div#main { padding: 2em 1em; background-color: #FFF; -webkit-border-top-left-radius: 1em; -webkit-border-bottom-right-radius: 1em; -moz-border-radius-topleft: 1em; -moz-border-radius-bottomright: 1em; border-top-left-radius: 1em; border-bottom-right-radius: 1em; }
 div#main p, div#main ul, div#main ol, div#main dl, div#main pre, div#main img, div#main iframe, div#main embed, div#main object { margin-bottom: 1em; }
 div#main ul, div#main ol { margin-left: 2em; }
 div#main dl {  }
