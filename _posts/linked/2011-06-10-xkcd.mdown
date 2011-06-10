@@ -1,0 +1,19 @@
+---
+title: xkcd - Permanence
+layout: link
+category: linked
+tags:
+- xkcd
+- Web Comic
+- Linux
+date: 2011-06-10T10:32
+link: http://xkcd.com/910/
+---
+
+I think anyone that uses Linux has the same conundrum when setting up a new server. Unless you one of those people who uses web1, db1, app1...
+
+<div class="illustration inline">
+    <a href="http://cdn.mylesbraithwaite.com/media/uploads/linked/2011-06-10-xkcd/permanence-large.png" title="xkcd - Permanence">
+	<img src="http://cdn.mylesbraithwaite.com/media/uploads/linked/2011-06-10-xkcd/permanence-small.png" alt="xkcd - Permanence">
+    </a>
+</div>
