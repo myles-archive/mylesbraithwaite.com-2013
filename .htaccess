@@ -65,7 +65,17 @@ Redirect /favicon.ico http://cdn.mylesbraithwaite.com/media/img/favicon.ico
 Redirect /apple-touch-icon.png  http://cdn.mylesbraithwaite.com/media/img/apple-touch-icon.png
 Redirect /apple-touch-icon-precomposed.png http://cdn.mylesbraithwaite.com/media/img/apple-touch-icon.png
 
-# Redirects
+# Social Redirects.
+Redirect /tumblr http://tumblr.mylesbraithwaite.com/?utm_source=homepage&utm_medium=web&utm_campaign=redirect
+Redirect /life http://life.mylesbraithwaite.com/?utm_source=homepage&utm_medium=web&utm_campaign=redirect
+Redirect /everyday http://everyday.mylesbraithwaite.com/?utm_source=homepage&utm_medium=web&utm_campaign=redirect
+Redirect /twitter http://twitter.com/mylesb
+Redirect /facebook http://www.facebook.com/mylesbraithwaite
+Redirect /fb http://www.facebook.com/mylesbraithwaite
+Redirect /flickr http://www.flickr.com/photos/mylesbraithwaite/
+Redirect /linkedin http://www.linkedin.com/in/mylesbraithwaite
+
+# Redirects for the old links.
 Redirect /feeds/blog-posts/ /feeds/journal/atom.xml
 Redirect /feeds/blog-posts /feeds/journal/atom.xml
 Redirect /feeds/tumblelog/ /feeds/atom.xml
