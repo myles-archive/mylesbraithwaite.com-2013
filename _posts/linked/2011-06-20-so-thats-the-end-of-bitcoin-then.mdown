@@ -1,0 +1,8 @@
+---
+title: So, That's the End of Bitcoin Then
+layout: link
+category: linked
+tags: [  ]
+date: 2011-06-20T13:38
+link: http://blogs.forbes.com/timworstall/2011/06/20/so-thats-the-end-of-bitcoin-then/
+---
