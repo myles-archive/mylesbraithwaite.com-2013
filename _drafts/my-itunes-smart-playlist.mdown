@@ -1,0 +1,62 @@
+---
+title: My iTunes Smart Playlists
+layout: post
+category: journal
+tags:
+- iTunes
+- Music
+- Playlists
+date: 2011-09-29T09:06
+---
+
+Thanks to [Geof F. Morris](http://gfmorris.com/2011/01/06/my-itunes-smart-playlists-c-2011/ "My iTunes Smart Playlists, c. 2011") and [Gina Trapani](http://lifehacker.com/355743/top-10-itunes-smart-playlists "Top 10 iTunes Smart Playlists") for the insperation.
+
+## Winter Holidays Music
+
+<div class="illustration inline">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/001-christmas-music.png" title="Winter Holidays Music Smart Playlist">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/001-christmas-music-small.png" alt="Winter Holidays Music Smart Playlist">
+	</a>
+</div>
+
+I don't have a lot of Winter Holidays Music (about 17 songs) but  for some reason in December someone always wants to hear songs about the Winter Holidays.
+
+## Great but Forgotten
+
+<div class="illustration inline">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/002-great-but-forgotten-small.png" title="Great but Forgotten Smart Playlist">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/002-great-but-forgotten-small.png" alt="Great but Forgotten Smart Playlist">
+	</a>
+</div>
+
+These are songs that I have played a lot but haven't played in 90 days.
+
+## Added in the Last Month but Haven't Played
+
+<div class="illustration inline">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/003-added-in-the-last-month-but-havent-played.png" title="Added in the Last Month but Haven't Played Smart Playlist">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/003-added-in-the-last-month-but-havent-played-small.png" alt="Added in the Last Month but Haven't Played Smart Playlist">
+	</a>
+</div>
+
+This one is pretty self explaitory.
+
+## Heavy Rotation
+
+<div class="illustration inline">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/004-heavy-roation.png" title="Heavy Rotation Smart Playlist">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/004-heavy-roation-small.png" alt="Heavy Rotation Smart Playlist">
+	</a>
+</div>
+
+These are songs that I have played a lot.
+
+## I Never Skip
+
+<div class="illustration inline">
+	<a href="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/005-i-never-skip.png" title="I Never Skip Smart Playlist">
+		<img src="http://cdn.mylesbraithwaite.com/media/uploads/journal/2011-09-29-my-itunes-smart-playlist/005-i-never-skip-small.png" alt="I Never Skip Smart Playlist">
+	</a>
+</div>
+
+These are songs that I have played more than 25 times and have never skipped. If you use _iTunes DJ_ or another top playlist this is a good playlist to have.

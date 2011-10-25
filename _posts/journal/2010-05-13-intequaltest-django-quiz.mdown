@@ -2,7 +2,7 @@
 layout: post
 title: What is the Django Template Tag intequaltest and an update on Django Quiz?
 tags: [Django, Django Quiz, Python, Project]
-date: 2010-05-13T13-15-26
+date: 2010-05-13T13:15:26
 category: journal
 ---
 

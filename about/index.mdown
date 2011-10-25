@@ -28,3 +28,8 @@ I am trying to mirror with site across the internet on many different servers an
 * [mylesbraithwaite.com.nyud.net](http://mylesbraithwaite.com.nyud.net/) - Hosted on [Coral Content Distribution Network](http://www.coralcdn.org/).
 * [myles.github.com](http://myles.github.com/) - Hosted on [GitHub](http://github.com/)
 
+Social Networks
+---------------
+
+* <a href="https://plus.google.com/101051575949997777035" rel="me">Google+</a>
+* <a href="https://twitter.com/mylesb" rel="me">Twitter</a>
