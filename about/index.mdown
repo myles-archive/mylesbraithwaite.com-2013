@@ -31,5 +31,5 @@ I am trying to mirror with site across the internet on many different servers an
 Social Networks
 ---------------
 
-* <a href="https://plus.google.com/101051575949997777035" rel="me">Google+</a>
-* <a href="https://twitter.com/mylesb" rel="me">Twitter</a>
+* <a href="https://plus.google.com/101051575949997777035?rel=author" rel="me external author">Google+</a>
+* <a href="https://twitter.com/mylesb" rel="me external author">Twitter</a>
