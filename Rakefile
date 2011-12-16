@@ -8,9 +8,13 @@ task :server do
     sh 'ln -s ../../media/uploads _site/media/'
 end
 
+task :clean do
+	CLEAN.include('_site/**')
+	rmtree CLEAN
+end
+
 desc 'Build site with Jekyll'
-task :build do
-  sh 'rm -fr _site/*'
+task :build => :clean do
   jekyll('--no-future --no-lsi')
 end
 
