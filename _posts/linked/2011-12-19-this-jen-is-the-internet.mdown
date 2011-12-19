@@ -1,0 +1,14 @@
+---
+title: This, Jen is the Internet
+layout: link
+category: linked
+tags:
+- Internet
+- The I.T. Crowd
+date: 2011-12-19T16:35
+link: http://www.youtube.com/watch?v=sDA1HUmuuJo
+---
+
+<div class="illustration inline">
+	<iframe src="http://www.youtube.com/embed/sDA1HUmuuJo" frameborder="0" allowfullscreen></iframe>
+</div>
