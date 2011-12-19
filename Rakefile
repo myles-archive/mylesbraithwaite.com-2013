@@ -1,3 +1,5 @@
+require 'rake/clean'
+
 task :default => :server
 
 desc 'Star server with --auto'

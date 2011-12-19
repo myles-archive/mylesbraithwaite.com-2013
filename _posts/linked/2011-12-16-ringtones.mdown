@@ -9,7 +9,7 @@ date: 2011-12-16T13:59
 link: http://mashable.com/2011/12/16/ringtones-decline/
 ---
 
-[Mashable](http://mashable.com/) has an interesting Infographic about ringtones. This little tidbit surprised me:
+[Mashable](http://mashable.com/) has an interesting info-graphic about ringtones. This little tidbit surprised me:
 
 <div class="illustration inline">
     <a href="http://cdn.mylesbraithwaite.com/media/uploads/2011-12-16-ringtones/ringtones-infographic.jpeg" title="Ringtones Infographic">
