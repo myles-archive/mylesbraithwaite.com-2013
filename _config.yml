@@ -1,7 +1,7 @@
 pygments: true
 markdown: kramdown
 permalink: /:categories/:year/:month/:title/
-pagination: 5
+paginate: 10
 
 exclude: [
     '.gems',

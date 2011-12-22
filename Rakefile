@@ -4,10 +4,10 @@ task :default => :server
 
 desc 'Star server with --auto'
 task :server do
-    jekyll('--server --auto --no-lsi')
+	# sh 'mkdir _site/media/'
+    # sh 'ln -s ../../media/uploads _site/media/'
     
-    sh 'mkdir _site/media/'
-    sh 'ln -s ../../media/uploads _site/media/'
+    jekyll('--server --auto --no-lsi')
 end
 
 task :clean do

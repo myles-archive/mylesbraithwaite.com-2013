@@ -93,3 +93,5 @@ Redirect /snippets/17/ /journal/2007/10/secret-key/
 Redirect /blog/ /journal/
 Redirect /bookmarks/ /linked/
 
+Redirect /page1/ /
+
