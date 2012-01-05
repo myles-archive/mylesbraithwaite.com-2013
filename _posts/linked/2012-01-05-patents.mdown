@@ -1,0 +1,19 @@
+---
+title: The Problem with Patents (Infographic)
+layout: link
+category: linked
+tags:
+- Infographic
+- Patents
+- United States of America
+date: 2012-01-05T09:34
+link: http://frugaldad.com/patents/
+---
+
+Jason from [Frugal Dad](http://frugaldad.com/) made this interesting infographic about the United States of America's patent system.
+
+<div class="illustration inline">
+    <a href="http://cdn.mylesbraithwaite.com/media/uploads/linked/2012-01-05-patents/patents.jpg" title="The Problem with Patents">
+	<img src="http://cdn.mylesbraithwaite.com/media/uploads/linked/2012-01-05-patents/patents-small.jpg" alt="The Problem with Patents">
+    </a>
+</div>
