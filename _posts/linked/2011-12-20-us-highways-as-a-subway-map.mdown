@@ -2,7 +2,9 @@
 title: U.S. Highways as a Subway Map
 layout: link
 category: linked
-tags: [  ]
+tags:
+- Map
+- Design
 date: 2011-12-20T13:44
 link: http://www.cambooth.net/archives/801
 ---
