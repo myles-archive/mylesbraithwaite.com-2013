@@ -1,0 +1,17 @@
+---
+title: Silk Road an Underground Website Where You Can Buy Drugs with Bitcoins
+layout: link
+category: linked
+tags:
+- Bitcoin
+- Drugs
+- Underground
+date: 2011-06-02T10:12
+link: http://gawker.com/5805928/the-underground-website-where-you-can-buy-any-drug-imaginable
+---
+
+An interesting article about how the illegal drugs has moved to the Internet. Using technologies like [Bitcoin](http://www.bitcoin.org/ "Bitcoin a P2P Virtual Currency") and [TOR](https://www.torproject.org/ "Tor Project") you can have an almost anonymous transaction of illegal items. But as Jeff Garzik (a core developer of the Bitcoin project) says:
+
+> He explains that because all Bitcoin transactions are recorded in a public log, though the identities of all the parties are anonymous, law enforcement could use sophisticated network analysis techniques to parse the transaction flow and track down individual Bitcoin users.
+> 
+> "Attempting major illicit transactions with bitcoin, given existing statistical analysis techniques deployed in the field by law enforcement, is pretty damned dumb," he says.

@@ -1,0 +1,9 @@
+---
+layout: link
+title: Habitable Hotspots on Mars? Volcano Vents May Be Signs
+category: linked
+tags: [Mars, Space, Life, Volcano]
+link: http://www.space.com/scienceastronomy/mars-volcano-vents-habitability-101031.html
+---
+
+> When hot water flows through rock, it dissolves minerals, enriching the water with silica, or silicon oxide. When this water cools off and is exposed to air, a material called hydrated silica crystallizes, which is what the investigators unexpectedly detected in the deposits near Nili Patera.

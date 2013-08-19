@@ -1,0 +1,9 @@
+---
+layout: link
+title: OLPC gets $5.6 million from Marvell to build Android tablet
+category: linked
+tags: [OLPC, Android, Tablet, Marvell]
+link: http://arstechnica.com/open-source/news/2010/10/olpc-gets-56-million-from-marvell-to-build-android-tablet.ars
+---
+
+> The One Laptop Per Child (OLPC) organization has received a $5.6 million grant from hardware component maker Marvell to fund the development of an Android-powered mobile tablet based on a Marvell reference design. The product, which is expected to be ready for a public demonstration at CES next year, is intended for the developed world.

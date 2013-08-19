@@ -1,0 +1,15 @@
+---
+title: Sarah Palin Emails
+layout: link
+category: linked
+tags:
+- Email
+- Bandwidth
+- Alaska
+date: 2011-06-10T10:09
+link: http://www.huffingtonpost.com/2011/06/10/sarah-palin-documents-emails_n_874669.html
+---
+
+> The voluminous nature of the release, the isolation of Juneau and the limited bandwidth in the city of 30,000 people has forced media outlets to come up with creative ways to transmit the information. The Washington Post is looking for "100 organized and diligent readers" to work with reporters to "analyze, contextualize, and research the e-mails." The New York Times is employing a similar system.
+
+The Internet has become such a part of our lives it's strange to see people not being able to use it because of a lack of bandwidth.
